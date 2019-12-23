@@ -24,7 +24,7 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 ### University of Tokyo, Japan
 
-- 2019.4 – 2021.3 (expected) : M.S. in Chemical System Engineering
+- 2019.4 - 2021.3 (expected) : M.S. in Chemical System Engineering
 
 ## Skills
 
@@ -63,7 +63,7 @@ Recently, I'm interested in AST(abstract syntax tree) and have created the babel
 
 ### Machine Learning and Data Analysis
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, data analysis and, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
 
 ## Works
 
@@ -119,7 +119,7 @@ Skills : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Bebel
 
 ### Wantedly, Inc 
 
-Aug 2017, 1 week (summer intern)
+Aug 2017, 1 week (summer internship)
 
 Added a new feature in the admin dashboard.
 

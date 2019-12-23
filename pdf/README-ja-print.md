@@ -19,7 +19,7 @@
 2015.4 - 2019.3 : 学士, 先進理工学部応用化学科  
 
 ### 東京大学
-2019.4 – 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻
+2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻
 
 <div style="page-break-before:always"></div>
 
@@ -122,7 +122,7 @@ Jan 2018 - May 2019
 
 ### Wantedly, Inc 
 
-Aug 2017, 1週間 (summer intern)
+Aug 2017, 1週間 (summer internship)
 
 管理者用のダッシュボードに新機能の追加を行いました。
 
@@ -135,8 +135,6 @@ Mar 2016 - Dec 2017
 WordPressを使用して、不動産用のWebアプリケーションの開発を行いました。
 
 使用した技術 : WordPress, jQuery
-
-<div style="page-break-before:always"></div>
 
 ## ハッカソン
 

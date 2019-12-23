@@ -18,15 +18,21 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 ## Educations
 
+<hr />
+
 ### Waseda University, Japan
 
 - 2015.4 - 2019.3 : B.E. in Applied Chemistry
 
 ### University of Tokyo, Japan
 
-- 2019.4 – 2021.3 (expected) : M.S. in Chemical System Engineering
+- 2019.4 - 2021.3 (expected) : M.S. in Chemical System Engineering
+
+<div style="page-break-before:always"></div>
 
 ## Skills
+
+<hr />
 
 ### Language
 
@@ -35,8 +41,7 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 ### Quantum chemical simulation (chemistry)
 
-My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation.  
-So, I get used to using the following libraries.
+My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation.So, I get used to using the following libraries.
 
 - Gaussian, VASP, Quantum Espresso
 
@@ -63,9 +68,13 @@ Recently, I'm interested in AST(abstract syntax tree) and have created the babel
 
 ### Machine Learning and Data Analysis
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, data analysis and deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
+
+<div style="page-break-before:always"></div>
 
 ## Works
+
+<hr />
 
 ### Goofi Mobile
 
@@ -83,6 +92,8 @@ Mathias Bynens introduced this plugin at ChromeDevSummit 2019.
 
 ## OSS
 
+<hr />
+
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
 I sent many PRs to Good First Issues.  
@@ -97,8 +108,11 @@ I integrated PWA in this app and offline access enabled.
 
 I implemented graph convolutional neural network model for inorganic crystal.
 
+<div style="page-break-before:always"></div>
 
 ## Experiences
+
+<hr />
 
 ### Preferred Networks, Inc
 
@@ -119,7 +133,7 @@ Skills : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Bebel
 
 ### Wantedly, Inc 
 
-Aug 2017, 1 week (summer intern)
+Aug 2017, 1 week (summer internship)
 
 Added a new feature in the admin dashboard.
 
@@ -134,6 +148,8 @@ Created a web site for searching real estate.
 Skills : WordPress, jQuery
 
 ## Hackathon
+
+<hr />
 
 - Recruit, Inc. Speed hackathon, 2019 Feb : Joined *1
 
