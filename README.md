@@ -104,7 +104,7 @@ I implemented graph convolutional neural network model for inorganic crystal.
 
 Aug 2019 - Sep 2019 (summer internship)
 
-Implemented two graph convolutional neural network models ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294), [CGCNN](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301)).  
+Implemented graph convolutional neural network models ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)).  
 The PR was merged to [chainer-chemistry](https://github.com/chainer/chainer-chemistry).
 
 Skills : Python, Chainer, Docker, k8s

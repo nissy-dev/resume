@@ -95,7 +95,7 @@ js-primerのサイトをPWAに対応させました。
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
-無機結晶系を対象とした2つのgraph convolutional neural networkのモデルを実装しました。  
+無機結晶系を対象としたgraph convolutional neural networkのモデルを実装しました。  
 これによって、今までライブラリが対象としていた有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました。
 
 <div style="page-break-before:always"></div>
@@ -108,7 +108,7 @@ js-primerのサイトをPWAに対応させました。
 
 Aug 2019 - Sep 2019 (summer internship)
 
-2つのgraph convolutional neural networkのモデル([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294), [CGCNN](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301))を実装し、chainer chemistryに関する無機結晶系の対応を行いました。  
+graph convolutional neural networkのモデル([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)）を実装し、chainer chemistryに関する無機結晶系の対応を行いました。
 
 使用した技術 : Python, Chainer, Docker, k8s
 
