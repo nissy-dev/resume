@@ -60,12 +60,12 @@ So, I get used to using the following libraries.
 
 ### Front-End Development
 
-I have +2 years experiences about developing applications based on React and Typescript. I have knowledges of typical developing workflow, GitHub issue, CI, and deployment. I also have experience of applications using not the latest libraries (ex : jQuery or Flowtype).
+I have +2 years experiences about developing applications based on React and Typescript. I have knowledges of typical developing workflow, GitHub issue, CI, and deployment. I also have experience of applications using not the latest libraries (ex : jQuery or Flowtype).  
 Recently, I'm interested in AST(abstract syntax tree) and have created the babel plugin ([link](https://github.com/nd-02110114/babel-plugin-object-to-json-pars)).
 
 ### Machine Learning and Data Analysis
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional networks to designing  inorganic crystals. I have knowledges of machine learning, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
 
 ## Works
 
@@ -93,7 +93,7 @@ My tasks were cleaning legacy codes, strengthening type definitions and so on.
 ### js-primer (online book for JS beginners) : [PRs](https://github.com/asciidwango/js-primer/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
 I integrated PWA in this app and offline access enabled.
-[blog](https://efcl.info/2018/05/25/js-primer-offline/)
+[Blog](https://efcl.info/2018/05/25/js-primer-offline/)
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
@@ -104,7 +104,7 @@ I implemented graph convolutional neural network model for inorganic crystal.
 
 ### Preferred Networks, Inc
 
-Aug 2019 ~ Sep 2019 (summer internship)
+Aug 2019 - Sep 2019 (summer internship)
 
 Implemented two graph convolutional neural network models ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294), [CGCNN](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301)).  
 The PR was merged to [chainer-chemistry](https://github.com/chainer/chainer-chemistry).
@@ -113,7 +113,7 @@ Skills : Python, Chainer, Docker, k8s
 
 ### CureApp, Inc 
 
-Jan 2018 ~ May 2019
+Jan 2018 - May 2019
 
 Created web sites for visualizing the data stored in the mobile app.
 
@@ -129,7 +129,7 @@ Skills : React
 
 ### TOWN, Inc 
 
-Mar 2016 ~ Dec 2017
+Mar 2016 - Dec 2017
 
 Created a web site for searching real estate.
 
@@ -137,6 +137,6 @@ Skills : WordPress, jQuery
 
 ## Hackathon
 
-1. Recruit, Inc. Speed hackathon 2019 Feb : Joined
+1. Recruit, Inc. Speed hackathon, 2019 Feb : Joined
 
 [1]: The content of this hackathon is improving lighthouse score of a given web site. https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
