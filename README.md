@@ -9,12 +9,12 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 **Contents**
 
-* [Educations](##Educations)
-* [Skills](##Skills)
-* [Works](##Works)
-* [OSS](##OSS)
-* [Experiences](##Experiences)
-* [Hackathon](##Hackathon)
+* [Educations](#Educations)
+* [Skills](#Skills)
+* [Works](#Works)
+* [OSS](#OSS)
+* [Experiences](#Experiences)
+* [Hackathon](#Hackathon)
 
 ## Educations
 
