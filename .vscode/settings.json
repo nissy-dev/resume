@@ -1,0 +1,9 @@
+{
+  "markdown-pdf.displayHeaderFooter": false,
+  // github-markdown.cssにすべて任せるので、デフォルトのスタイルを無効化
+  "markdown-pdf.includeDefaultStyles": false,
+  // 入手したCSSのパスを指定
+  "markdown-pdf.styles": [
+    "/Users/nishikawadaiki/code/github.com/nd-02110114/resume/pdf/github-markdown.css"
+  ],
+}

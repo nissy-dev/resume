@@ -1,5 +1,7 @@
 # 職務経歴書
 
+<hr />
+
 **内容**
 
 * [学歴](##学歴)
@@ -11,13 +13,19 @@
 
 ## 学歴
 
+<hr />
+
 ### 早稲田大学
 2015.4 - 2019.3 : 学士, 先進理工学部応用化学科  
 
 ### 東京大学
 2019.4 – 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻
 
+<div style="page-break-before:always"></div>
+
 ## 技術
+
+<hr />
 
 ### 言語
 - 日本語 : ネイティブ
@@ -25,8 +33,7 @@
 
 ### 量子化学シミュレーション (化学)
 
-学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。  
-そのため以下のライブラリの使用には慣れています。
+学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。そのため以下のライブラリの使用には慣れています。
 
 - Gaussian, VASP, Quantum Espresso
 
@@ -48,21 +55,23 @@
 
 ### フロントエンド開発
 
-2年以上のWebアプリケーションの開発経験があります。(基本的にはReactとTypescriptがベースとなったWebアプリケーション) CIやデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。また、最新のツールを使用しないjQueryなどを使用したアプリケーションの開発経験も持っています。  
-最近はJSのAST(抽象構文木)に興味があり、babel pluginも自作しました。([link](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
+2年以上のWebアプリケーションの開発経験があります。(基本的にはReactとTypescriptがベースとなったWebアプリケーション) CIやデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。また、最新のツールを使用しないjQueryなどを使用したアプリケーションの開発経験も持っています。最近はJSのAST(抽象構文木)に興味があり、babel pluginも自作しました。([link](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
 
 ### 機械学習・データ解析
 
 修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法であるgraph convolutional neural networksを無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。また、企業やKaggleなどでのテーブルデータの解析経験もあります。
 
+<div style="page-break-before:always"></div>
+
 ## 制作物
+
+<hr />
 
 ### Goofi Mobile
 
 リンク : https://github.com/nd-02110114/goofi-mobile
 
-Good First Issueを検索する[Webアプリ](https://goofi.now.sh/)を見て、同様の機能を持ったモバイルアプリを作成しました。  
-主に、Expo(React Native), Apollo Client, Atomic Design, GraphQLなどの新しい知識の吸収を目的として作成しました。
+Good First Issueを検索する[Webアプリ](https://goofi.now.sh/)を見て、同様の機能を持ったモバイルアプリを作成しました。主に、Expo(React Native), Apollo Client, Atomic Design, GraphQLなどの新しい知識の吸収を目的として作成しました。
 
 ### Babel plugin object to json parse
 
@@ -72,6 +81,8 @@ Good First Issueを検索する[Webアプリ](https://goofi.now.sh/)を見て、
 2019年のChromeDevSummitにて、V8のコミッターであるMathias Bynensに紹介されました。
 
 ## OSS
+
+<hr />
 
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
@@ -87,7 +98,11 @@ js-primerのサイトをPWAに対応させました。
 無機結晶系を対象とした2つのgraph convolutional neural networkのモデルを実装しました。  
 これによって、今までライブラリが対象としていた有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました。
 
+<div style="page-break-before:always"></div>
+
 ## 職務経歴
+
+<hr />
 
 ### Preferred Networks, Inc
 
@@ -121,7 +136,11 @@ WordPressを使用して、不動産用のWebアプリケーションの開発�
 
 使用した技術 : WordPress, jQuery
 
+<div style="page-break-before:always"></div>
+
 ## ハッカソン
+
+<hr />
 
 - Recruit, Inc. スピードハッカソン, 2019 Feb : 参加 *1
 
