@@ -139,4 +139,5 @@ Skills : WordPress, jQuery
 
 1. Recruit, Inc. Speed hackathon, 2019 Feb : Joined
 
-[1]: The content of this hackathon is improving lighthouse score of a given web site. https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
+[1]: The content of this hackathon is improving lighthouse score of a given web site.  
+https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068

@@ -25,7 +25,8 @@
 
 ### 量子化学シミュレーション (化学)
 
-学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。そのため、以下のライブラリの使用には慣れています。
+学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。  
+そのため以下のライブラリの使用には慣れています。
 
 - Gaussian, VASP, Quantum Espresso
 
@@ -47,12 +48,12 @@
 
 ### フロントエンド開発
 
-2年以上のWebアプリケーションの開発経験があります。(基本的には、ReactとTypescriptがベースとなったWebアプリケーション) CIやデプロイなども含めた基本的な複数人数の開発フローの知識も持っています。また、最新のツールを使用しない、jQueryなどを使用したアプリケーションの開発経験も持っています。  
+2年以上のWebアプリケーションの開発経験があります。(基本的にはReactとTypescriptがベースとなったWebアプリケーション) CIやデプロイなども含めた基本的な複数人数の開発フローの知識も持っています。また、最新のツールを使用しないjQueryなどを使用したアプリケーションの開発経験も持っています。  
 最近はJSのAST(抽象構文木)に興味があり、babel pluginも自作しました。([link](https://github.com/nd-02110114/babel-plugin-object-to-json-pars))
 
 ### 機械学習・データ解析
 
-修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法であるgraph convolutional neural networksを無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習手法の知識、並びにベイズ理論を踏まえた深層生成モデルの知識に詳しいです。また、企業やKaggleなどでのテーブルデータの解析経験もあります。
+修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法であるgraph convolutional neural networksを無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。また、企業やKaggleなどでのテーブルデータの解析経験もあります。
 
 ## 制作物
 
@@ -68,9 +69,10 @@ Good First Issueを検索する[Webアプリ](https://goofi.now.sh/)を見て、
 リンク : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
 こちらの[V8 blog](https://v8.dev/blog/cost-of-javascript-2019#json)を見て、Object literalをJSON.parseに変換するbabel pluginを作成しました。  
-2019年のChromeDevSummitで、V8のコミッターであるMathias Bynensに紹介されました。
+2019年のChromeDevSummitにて、V8のコミッターであるMathias Bynensに紹介されました。
 
-### OSS
+## OSS
+
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
 レガシーコードや型周りの修正に関するGood First Issueに対して、いくつかPRを送りました。
@@ -83,7 +85,7 @@ js-primerのサイトをPWAに対応させました。
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
 無機結晶系を対象とした2つのgraph convolutional neural networkのモデルを実装しました。  
-これによって、今までライブラリが対象としていた有機分子系だけではなく、無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました。
+これによって、今までライブラリが対象としていた有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました。
 
 ## 職務経歴
 
@@ -123,4 +125,5 @@ WordPressを使用して、不動産用のWebアプリケーションの開発�
 
 1. Recruit, Inc. スピードハッカソン, 2019 Feb : 参加
 
-[1]: 与えられた静的サイトのLighthouseスコアを改善するハッカソン。 https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
+[1]: 与えられた静的サイトのLighthouseスコアを改善するハッカソン。  
+https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
