@@ -137,7 +137,7 @@ Jan 2018 - May 2019
 
 Created web sites for visualizing the data stored in the mobile app.
 
-Skills : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Bebel
+Skills : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Babel
 
 ### Wantedly, Inc
 

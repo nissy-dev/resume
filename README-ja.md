@@ -111,7 +111,7 @@ Jan 2018 - May 2019
 
 医療アプリ(mobile)を使用した際に蓄積されるデータを確認するための可視化アプリ(web)の開発を行いました。
 
-使用した技術 : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Bebel
+使用した技術 : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Babel
 
 ### Wantedly, Inc
 
