@@ -104,7 +104,9 @@ I implemented graph convolutional neural network model for inorganic crystal.
 
 Sep 2019 - Dec 2019
 
-Data Scientist. Analyzed sales data and implemented sales prediction models using a LightGBM.
+Data Scientist. Analyzed sales data and implemented sales prediction models.
+
+Skills : Python, LightGBM, Pytorch
 
 ### Preferred Networks, Inc
 
@@ -115,7 +117,7 @@ The PR was merged to [chainer-chemistry](https://github.com/chainer/chainer-chem
 
 Skills : Python, Chainer, Docker, k8s
 
-### CureApp, Inc 
+### CureApp, Inc
 
 Jan 2018 - May 2019
 
@@ -123,7 +125,7 @@ Created web sites for visualizing the data stored in the mobile app.
 
 Skills : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Bebel
 
-### Wantedly, Inc 
+### Wantedly, Inc
 
 Aug 2017, 1 week (summer internship)
 
@@ -131,7 +133,7 @@ Added a new feature in the admin dashboard.
 
 Skills : React
 
-### TOWN, Inc 
+### TOWN, Inc
 
 Mar 2016 - Dec 2017
 

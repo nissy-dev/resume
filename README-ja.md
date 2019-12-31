@@ -91,9 +91,9 @@ js-primerのサイトをPWAに対応させました。
 
 ### ELYZA, Inc
 
-Sep 2019 - Dec 2019
+データサイエンティストとして、ある会社の売上データの分析並びに売上予測モデルの改良を行いました。
 
-データサイエンティストとして、ある会社の売上データの分析並びに売上予測モデルの改良を行なった。
+使用した技術 : Python, LightGBM, Pytorch
 
 ### Preferred Networks, Inc
 
@@ -103,7 +103,7 @@ graph convolutional neural networkのモデル([MEGNet](https://pubs.acs.org/doi
 
 使用した技術 : Python, Chainer, Docker, k8s
 
-### CureApp, Inc 
+### CureApp, Inc
 
 Jan 2018 - May 2019
 
@@ -111,7 +111,7 @@ Jan 2018 - May 2019
 
 使用した技術 : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Bebel
 
-### Wantedly, Inc 
+### Wantedly, Inc
 
 Aug 2017, 1週間 (summer internship)
 
@@ -119,7 +119,7 @@ Aug 2017, 1週間 (summer internship)
 
 使用した技術 : React
 
-### TOWN, Inc 
+### TOWN, Inc
 
 Mar 2016 - Dec 2017
 
