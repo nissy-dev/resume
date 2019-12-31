@@ -149,7 +149,7 @@ Aug 2017, 1週間 (summer internship)
 
 Mar 2016 - Dec 2017
 
-WordPressを使用して、不動産用のWebアプリケーションの開発を行いました。
+WordPressを使用して、不動産に関するWebアプリケーションの開発を行いました。
 
 使用した技術 : WordPress, jQuery
 
