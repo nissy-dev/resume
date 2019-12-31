@@ -104,6 +104,12 @@ js-primerのサイトをPWAに対応させました。
 
 <hr />
 
+### ELYZA, Inc
+
+Sep 2019 - Dec 2019
+
+データサイエンティストとして、ある会社の売上データの分析並びに売上予測モデルの改良を行なった。
+
 ### Preferred Networks, Inc
 
 Aug 2019 - Sep 2019 (summer internship)

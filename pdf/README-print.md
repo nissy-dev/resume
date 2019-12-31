@@ -114,6 +114,12 @@ I implemented graph convolutional neural network model for inorganic crystal.
 
 <hr />
 
+### ELYZA, Inc
+
+Sep 2019 - Dec 2019
+
+Data Scientist. Analyzed sales data and implemented sales prediction models using a LightGBM.
+
 ### Preferred Networks, Inc
 
 Aug 2019 - Sep 2019 (summer internship)
