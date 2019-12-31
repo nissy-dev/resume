@@ -120,7 +120,7 @@ Sep 2019 - Dec 2019
 
 Data Scientist. Analyzed sales data and implemented sales prediction models.
 
-Skills : Python, LightGBM, Pytorch
+Skills : Python, LightGBM
 
 ### Preferred Networks, Inc
 

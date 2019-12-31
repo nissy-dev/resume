@@ -95,7 +95,7 @@ Sep 2019 - Dec 2019
 
 データサイエンティストとして、ある会社の売上データの分析並びに売上予測モデルの改良を行いました。
 
-使用した技術 : Python, LightGBM, Pytorch
+使用した技術 : Python, LightGBM
 
 ### Preferred Networks, Inc
 
