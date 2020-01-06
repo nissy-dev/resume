@@ -4,21 +4,28 @@
 
 **内容**
 
-* [学歴](#学歴)
+* [基本情報](#基本情報)
 * [技術](#技術)
 * [制作物](#制作物)
 * [OSS](#OSS)
 * [ハッカソン](#ハッカソン)
 * [職務経歴](#職務経歴)
 
-## 学歴
+## 基本情報
 
 <hr />
 
-### 早稲田大学
-2015.4 - 2019.3 : 学士, 先進理工学部応用化学科  
+### 自己紹介
+- 西川 大貴
+- 修士1年
+- メール : nd.12021218@gmail.com
+- Github : [nd-02110114](https://github.com/nd-02110114)
+- ブログ : [はてなブログ](https://nissy-nd.hatenablog.com/)
 
-### 東京大学
+### 学歴
+#### 早稲田大学
+2015.4 - 2019.3 : 学士, 先進理工学部応用化学科  
+#### 東京大学
 2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻
 
 <div style="page-break-before:always"></div>
@@ -33,7 +40,7 @@
 
 ### 量子化学シミュレーション (化学)
 
-学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。そのため以下のライブラリの使用には慣れています。
+&nbsp; &nbsp; 学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。そのため以下のライブラリの使用には慣れています。
 
 - Gaussian, VASP, Quantum Espresso
 
@@ -51,15 +58,14 @@
 - HTML
 - CSS
 - SQL
-- Ruby
 
 ### フロントエンド開発
 
-2年以上のWebアプリケーションの開発経験があります。(基本的にはReactとTypescriptがベースとなったWebアプリケーション) CIやデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。また、最新のツールを使用しないjQueryなどを使用したアプリケーションの開発経験も持っています。最近はJSのAST(抽象構文木)に興味があり、babel pluginも自作しました。([link](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
+&nbsp; &nbsp; 2年以上の Webアプリケーションの開発経験があります。 (基本的には React と Typescript がベースとなったWebアプリケーション) CI やデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。また、最新のツールを使用しない jQuery などを使用したアプリケーションの開発経験も持っています。最近は JS の AST (抽象構文木) に興味があり、babel plugin も自作しました。([babel plugin](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
 
 ### 機械学習・データ解析
 
-修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法であるgraph convolutional neural networksを無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。また、企業やKaggleなどでのテーブルデータの解析経験もあります。
+&nbsp; &nbsp; 修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法である Graph Convolutional Neural Network を無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。また、企業や Kaggle などでのテーブルデータの解析経験もあります。
 
 <div style="page-break-before:always"></div>
 
@@ -69,16 +75,15 @@
 
 ### Goofi Mobile
 
-リンク : https://github.com/nd-02110114/goofi-mobile
+リンク : [https://github.com/nd-02110114/goofi-mobile](https://github.com/nd-02110114/goofi-mobile)
 
-Good First Issueを検索する[Webアプリ](https://goofi.now.sh/)を見て、同様の機能を持ったモバイルアプリを作成しました。主に、Expo(React Native), Apollo Client, Atomic Design, GraphQLなどの新しい知識の吸収を目的として作成しました。
+Good First Issue を検索する[Webアプリ](https://goofi.now.sh/)を見て、同様の機能を持ったモバイルアプリを作成しました。主に、Expo (React Native), Apollo Client, Atomic Design, GraphQL などの新しい知識の吸収を目的として作成しました。
 
 ### Babel plugin object to json parse
 
-リンク : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
+リンク : [https://github.com/nd-02110114/babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)
 
-こちらの[V8 blog](https://v8.dev/blog/cost-of-javascript-2019#json)を見て、Object literalをJSON.parseに変換するbabel pluginを作成しました。  
-2019年のChromeDevSummitにて、V8のコミッターであるMathias Bynensに紹介されました。
+こちらの [V8 blog](https://v8.dev/blog/cost-of-javascript-2019#json) を見て、Object literal を JSON.parse に変換する babel plugin を作成しました。2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens に紹介されました。
 
 ## OSS
 
@@ -86,26 +91,25 @@ Good First Issueを検索する[Webアプリ](https://goofi.now.sh/)を見て、
 
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-レガシーコードや型周りの修正に関するGood First Issueに対して、いくつかPRを送りました。
+レガシーコードや型周りの修正に関する Good First Issue に対して、20近くのPRを送りました。
 
 ### js-primer (online book for JS beginners) : [PRs](https://github.com/asciidwango/js-primer/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-js-primerのサイトをPWAに対応させました。  
-これによって、オフラインでもjs-primerを閲覧できるようになります。[Blog](https://efcl.info/2018/05/25/js-primer-offline/)
+js-primer のサイトを PWA に対応させました。  
+これによって、オフラインでも js-primer を閲覧できるようになります。[Blog](https://efcl.info/2018/05/25/js-primer-offline/)
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
-無機結晶系を対象としたgraph convolutional neural networkのモデルを実装しました。  
+無機結晶系を対象とした Graph Convolutional Neural Network のモデルを実装しました。  
 これによって、今までライブラリが対象としていた有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました。
 
 ## ハッカソン
 
 <hr />
 
-- Recruit, Inc. スピードハッカソン, 2019 Feb : 参加 *1
+- Recruit, Co., Ltd. スピードハッカソン, 2019 Feb : 参加 *1
 
-*1 : 与えられた静的サイトのLighthouseスコアを改善するハッカソン  
-https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
+*1 : 与えられた静的サイトの Lighthouse スコアを改善するハッカソン, [https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon](https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon)
 
 <div style="page-break-before:always"></div>
 
@@ -125,7 +129,7 @@ Sep 2019 - Dec 2019
 
 Aug 2019 - Sep 2019 (summer internship)
 
-graph convolutional neural networkのモデル([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)）を実装し、chainer chemistryに関する無機結晶系の対応を行いました。
+Graph Convolutional Neural Network のモデル ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)) を実装し、Chainer Chemistry に関する無機結晶系の対応を行いました。
 
 使用した技術 : Python, Chainer, Docker, k8s
 
@@ -133,7 +137,7 @@ graph convolutional neural networkのモデル([MEGNet](https://pubs.acs.org/doi
 
 Jan 2018 - May 2019
 
-医療アプリ(mobile)を使用した際に蓄積されるデータを確認するための可視化アプリ(web)の開発を行いました。
+医療アプリ (mobile) を使用した際に蓄積されるデータを確認するための可視化アプリ (web) の開発を行いました。
 
 使用した技術 : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Babel
 
@@ -149,7 +153,7 @@ Aug 2017, 1週間 (summer internship)
 
 Mar 2016 - Dec 2017
 
-WordPressを使用して、不動産に関するWebアプリケーションの開発を行いました。
+WordPress を使用して、不動産に関するWebアプリケーションの開発を行いました。
 
 使用した技術 : WordPress, jQuery
 

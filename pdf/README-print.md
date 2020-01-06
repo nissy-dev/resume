@@ -3,7 +3,7 @@
 - Tokyo, Japan
 - nd.12021218@gmail.com
 
-GitHub : https://github.com/nd-02110114
+GitHub : [https://github.com/nd-02110114](https://github.com/nd-02110114)
 
 Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/README-ja.md)
 
@@ -59,16 +59,15 @@ My B.E. research interest was analysis of the electrochemical reaction by using 
 - HTML
 - CSS
 - SQL
-- Ruby
 
 ### Front-End Development
 
 I have +2 years experiences about developing applications based on React and Typescript. I have knowledges of typical developing workflow, GitHub issue, CI, and deployment. I also have experience of applications using not the latest libraries (ex : jQuery or Flowtype).  
-Recently, I'm interested in AST(abstract syntax tree) and have created the babel plugin ([link](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)).
+Recently, I'm interested in AST(abstract syntax tree) and have created the babel plugin ([babel plugin](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)).
 
 ### Machine Learning and Data Analysis
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, data analysis and deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, data analysis and deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to Kaggle and a company.
 
 <div style="page-break-before:always"></div>
 
@@ -78,14 +77,14 @@ My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/
 
 ### Goofi Mobile
 
-link : https://github.com/nd-02110114/goofi-mobile
+link : [https://github.com/nd-02110114/goofi-mobile](https://github.com/nd-02110114/goofi-mobile)
 
 Mobile app for searching good first issues in OSS.  
 I created this app to understand Expo(React Native), Apollo Client, Atomic Design and GraphQL.
 
 ### Babel plugin object to json parse
 
-link : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
+link : [https://github.com/nd-02110114/babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)
 
 This babel plugin converts object literal to JSON.parse and inspired by [V8 blog](https://v8.dev/blog/cost-of-javascript-2019#json).  
 Mathias Bynens introduced this plugin at ChromeDevSummit 2019.
@@ -159,7 +158,7 @@ Skills : WordPress, jQuery
 
 <hr />
 
-- Recruit, Inc. Speed hackathon, 2019 Feb : Joined *1
+- Recruit, Co., Ltd., Speed hackathon, 2019 Feb : Joined *1
 
 *1 : The content of this hackathon is improving lighthouse score of a given static web site.  
-https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
+[https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon](https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon)

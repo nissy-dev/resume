@@ -54,16 +54,15 @@ So, I get used to using the following libraries.
 - HTML
 - CSS
 - SQL
-- Ruby
 
 ### Front-End Development
 
 I have +2 years experiences about developing applications based on React and Typescript. I have knowledges of typical developing workflow, GitHub issue, CI, and deployment. I also have experience of applications using not the latest libraries (ex : jQuery or Flowtype).  
-Recently, I'm interested in AST(abstract syntax tree) and have created the babel plugin ([link](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)).
+Recently, I'm interested in AST(abstract syntax tree) and have created the babel plugin ([babel plugin](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)).
 
 ### Machine Learning and Data Analysis
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, data analysis and, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to kaggle and a company.
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing  inorganic crystals. I have knowledges of machine learning, data analysis and, deep generative models (bayesian knowledge). Also, I have experiences about tabular data analysis related to Kaggle and a company.
 
 ## Works
 
@@ -112,7 +111,7 @@ Skills : Python, LightGBM
 
 Aug 2019 - Sep 2019 (summer internship)
 
-Implemented graph convolutional neural network models ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)).  
+Implemented graph convolutional neural network model ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)).  
 The PR was merged to [chainer-chemistry](https://github.com/chainer/chainer-chemistry).
 
 Skills : Python, Chainer, Docker, k8s
@@ -143,7 +142,7 @@ Skills : WordPress, jQuery
 
 ## Hackathon
 
-- Recruit, Inc. Speed hackathon, 2019 Feb : Joined *1
+- Recruit, Co., Ltd. Speed hackathon, 2019 Feb : Joined *1
 
 *1 : The content of this hackathon is improving lighthouse score of a given static web site.  
-https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon, https://room.trunk.fm/engineer/13068
+https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon
