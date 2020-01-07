@@ -114,7 +114,7 @@ Aug 2019 - Sep 2019 (summer internship)
 Implemented graph convolutional neural network model ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)).  
 The PR was merged to [chainer-chemistry](https://github.com/chainer/chainer-chemistry).
 
-Skills : Python, Chainer, Docker, k8s
+Skills : Python, Chainer, Docker, Kubernetes
 
 ### CureApp, Inc
 

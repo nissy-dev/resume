@@ -136,7 +136,7 @@ Aug 2019 - Sep 2019 (summer internship)
 
 Graph Convolutional Neural Network のモデル ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)) を実装し、Chainer Chemistry に関する無機結晶系の対応を行いました。
 
-使用した技術 : Python, Chainer, Docker, k8s
+使用した技術 : Python, Chainer, Docker, Kubernetes
 
 ### CureApp, Inc
 
