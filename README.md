@@ -33,7 +33,7 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 - Japanese: native
 - English: intermediate ([CEFR](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions) : B1)
 
-### Quantum chemical simulation (chemistry)
+### Quantum chemical simulation
 
 My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation.  
 So, I get used to using the following libraries.
