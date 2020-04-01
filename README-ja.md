@@ -21,11 +21,11 @@
 
 ### 学歴
 
-#### 早稲田大学
-2015.4 - 2019.3 : 学士, 先進理工学部応用化学科  
-
 #### 東京大学
-2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻
+2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻 GPA 3.97 (現在)
+
+#### 早稲田大学
+2015.4 - 2019.3 : 学士, 先進理工学部応用化学科 GPA 3.00
 
 ### 強み
 - OSS活動を通じて得られた、大規模なプロジェクトや新しい開発環境への高い順応力
@@ -38,35 +38,36 @@
 - 日本語 : ネイティブ
 - 英語 : 日常会話レベル
 
-### 量子化学シミュレーション (化学)
+### プログラミング言語
+
+- JavaScript
+  - TypeScript, Flow, jQuery
+  - React, React Native, React Native for Web
+  - Redux, Redux Thunk
+  - Babel, Webpack
+  - Node.js
+- Python
+  - Pandas
+  - scikit-learn
+  - TensorFlow, PyTorch, Chainer
+- HTML
+- CSS
+- SQL
+
+### 量子化学シミュレーション
 
 学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。  
 そのため以下のライブラリの使用には慣れています。
 
 - Gaussian, VASP, Quantum Espresso
 
-### プログラミング言語
-
-- JavaScript
-  - TypeScript, Flowtype, jQuery
-  - React, React Native
-  - Babel, Webpack
-  - Node.js
-- Python
-  - Pandas
-  - scikit-learn
-  - Tensorflow, Pytorch, Chainer
-- HTML
-- CSS
-- SQL
-
 ### フロントエンド開発
 
-学部での専攻は化学系である傍ら、独学でプログラミングを学習し、複数社でのインターンを通じて2年以上の Webアプリケーションの開発経験があります。 (基本的には React と Typescript がベースとなったWebアプリケーション) CI やデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。また、最新のツールを使用しない jQuery などを使用したアプリケーションの開発経験も持っています。最近は JS の AST (抽象構文木) に興味があり、babel plugin も自作しました。([babel plugin](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
+学部での専攻は化学系である傍ら、独学でプログラミングを学習し、複数社でのインターンを通じて2年以上の Webアプリケーションの開発経験があります。特に、React と Typescript がベースとなったWebアプリケーションの開発経験が豊富です。 また、CI やデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。最近は JS の AST (抽象構文木) に興味があり、babel plugin も自作しました。([babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
 
 ### 機械学習・データ解析
 
-一方で、修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法である Graph Convolutional Neural Network を無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。データ解析については、30万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術を持っています。
+修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法である Graph Convolutional Neural Network を無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。データ解析については、30万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
 
 ## 制作物
 
@@ -108,7 +109,7 @@ Sep 2019 - Dec 2019
 
 データサイエンティストとして、ある会社の売上データの分析並びに売上予測モデルの改良を行いました。
 
-使用した技術 : Python, LightGBM
+使用した技術 : Python, Pandas, LightGBM
 
 ### Preferred Networks, Inc
 
@@ -124,7 +125,7 @@ Jan 2018 - May 2019
 
 医療アプリ(mobile)を使用した際に蓄積されるデータを確認するための可視化アプリ(web)の開発を行いました。
 
-使用した技術 : TypeScript, Flowtype, Node.js, React, React Native, Webpack, Babel
+使用した技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel
 
 ### Wantedly, Inc
 
