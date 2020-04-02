@@ -20,11 +20,11 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 ### University of Tokyo, Japan
 
-- 2019.4 - 2021.3 (expected) : M.S. in Chemical System Engineering  GPA 3.97 (until now)
+- 2019.4 - 2021.3 (expected) : M.S. in Chemical System Engineering, *GPA 3.97 (until now)*
 
 ### Waseda University, Japan
 
-- 2015.4 - 2019.3 : B.E. in Applied Chemistry GPA 3.00
+- 2015.4 - 2019.3 : B.E. in Applied Chemistry, *GPA 3.00*
 
 ## Skills
 
@@ -52,8 +52,7 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 ### Quantum chemical simulation
 
-My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation.  
-So, I get used to using the following libraries.
+My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation.So, I get used to using the following libraries.
 
 - Gaussian, VASP, Quantum Espresso
 
@@ -72,9 +71,9 @@ My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/
 Source code : https://github.com/nd-02110114/goofi-mobile
 
 - A simple mobile app to search for Good First Issues
-  - I referred to this [Web App] (https://goofi.now.sh/)
+  - I referred to this [Web App](https://goofi.now.sh/)
 - Interest in GraphQL and Apollo was the trigger for this app
-- Skill : *Expo(React Native), Apollo Client, Atomic Design, GraphQL*
+- Skill : **Expo(React Native), Apollo Client, Atomic Design, GraphQL**
 
 ### Babel plugin object to json parse
 
@@ -84,6 +83,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 - I saw [V8's blog](https://v8.dev/blog/cost-of-javascript-2019#json) and was inspired to create
 - Acquired better understanding of JavaScript's AST and programming language compilers
 - This plugin was introduced to V8 committer Mathias Bynens At ChromeDevSummit 2019
+  - [Tweet](https://www.youtube.com/watch?v=ff4fgQxPaO0), [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
 
@@ -108,14 +108,14 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 - Improved the accuracy of sales forecasting models for more than thousands of sundry products
 - Had much experience about cleansing and analysis of over 5 million records of time series data
 
-Skills : *Python, Pandas, LightGBM*
+Skills : **Python, Pandas, LightGBM**
 
 ### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
 - Implemented a model of Graph Convolutional Network for inorganic crystal (related to Chainer Chemistry)
 - Developed downloadable benchmark datasets for inorganic crystal (related to Chainer Chemistry)
 
-Skills : *Python, Chainer, Docker, Kubernetes*
+Skills : **Python, Chainer, Docker, Kubernetes**
 
 ### CureApp, Inc (Jan 2018 - May 2019)
 
@@ -123,19 +123,19 @@ Skills : *Python, Chainer, Docker, Kubernetes*
 - Developed a website for doctors to check the data of the app used by patients
 - Migrated internal library from Flow to TypeScript
 
-Skills : *TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack*
+Skills : **TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack**
 
 ### Wantedly, Inc (Aug 2017, 1 week, summer internship)
 
 - Added a new feature in the admin dashboard
 
-Skills : *React*
+Skills : **React**
 
 ### TOWN, Inc (Mar 2016 - Dec 2017)
 
 - Developed a website about real estate sales using WordPress.
 
-Skills : *WordPress, jQuery*
+Skills : **WordPress, jQuery**
 
 ## Hackathon
 
