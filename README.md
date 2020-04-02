@@ -69,76 +69,73 @@ My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/
 
 ### Goofi Mobile
 
-link : https://github.com/nd-02110114/goofi-mobile
+Source code : https://github.com/nd-02110114/goofi-mobile
 
-Mobile app for searching good first issues in OSS.  
-I created this app to understand Expo(React Native), Apollo Client, Atomic Design and GraphQL.
+- A simple mobile app to search for Good First Issues
+  - I referred to this [Web App] (https://goofi.now.sh/)
+- Interest in GraphQL and Apollo was the trigger for this app
+- Skill : *Expo(React Native), Apollo Client, Atomic Design, GraphQL*
 
 ### Babel plugin object to json parse
 
-link : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
+Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
-This babel plugin converts object literal to JSON.parse and inspired by [V8 blog](https://v8.dev/blog/cost-of-javascript-2019#json).  
-Mathias Bynens introduced this plugin at ChromeDevSummit 2019.
+- Babel plugin that rewrites Object Literal to JSON parse syntax
+- I saw [V8's blog](https://v8.dev/blog/cost-of-javascript-2019#json) and was inspired to create
+- Acquired better understanding of JavaScript's AST and programming language compilers
+- This plugin was introduced to V8 committer Mathias Bynens At ChromeDevSummit 2019
 
 ## OSS
 
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-I sent many PRs to Good First Issues.  
-My tasks were cleaning legacy codes, strengthening type definitions and so on.
+- Sent nearly 20 PRs to the Good First Issue on legacy code and fixes around types
+  - I started it because I wanted to contribute to the library that I used in my business
 
 ### js-primer (online book for JS beginners) : [PRs](https://github.com/asciidwango/js-primer/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-I integrated PWA in this app and it allow you to view the js-primer offline.
-[Blog](https://efcl.info/2018/05/25/js-primer-offline/)
+- js-primer could be viewed offline with PWA support
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
-I implemented graph convolutional neural network model for inorganic crystal. As a result, it is now possible to analyze not only organic molecular systems but also inorganic crystal systems, expanding the scope of the library's application.
+- Implemented a model of the Graph Convolutional Network for inorganic crystal systems 
+- Extending the scope of the library because it is now possible to analyze not only organic molecular systems but also inorganic crystal systems
 
 ## Experiences
 
-### ELYZA, Inc
+### ELYZA, Inc (Sep 2019 - Dec 2019)
 
-Sep 2019 - Dec 2019
+- Improved the accuracy of sales forecasting models for more than thousands of sundry products
+- Had much experience about cleansing and analysis of over 5 million records of time series data
 
-Data Scientist. Analyzed sales data and implemented sales prediction models.
+Skills : *Python, Pandas, LightGBM*
 
-Skills : Python, Pandas, LightGBM
+### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
-### Preferred Networks, Inc
+- Implemented a model of Graph Convolutional Network for inorganic crystal (related to Chainer Chemistry)
+- Developed downloadable benchmark datasets for inorganic crystal (related to Chainer Chemistry)
 
-Aug 2019 - Sep 2019 (summer internship)
+Skills : *Python, Chainer, Docker, Kubernetes*
 
-Implemented graph convolutional neural network model ([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294)).  
-The PR was merged to [chainer-chemistry](https://github.com/chainer/chainer-chemistry).
+### CureApp, Inc (Jan 2018 - May 2019)
 
-Skills : Python, Chainer, Docker, Kubernetes
+- Created an application to obtain and record blood pressure values from a sphygmomanometer using Bluetooth
+- Developed a website for doctors to check the data of the app used by patients
+- Migrated internal library from Flow to TypeScript
 
-### CureApp, Inc
+Skills : *TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack*
 
-Jan 2018 - May 2019
+### Wantedly, Inc (Aug 2017, 1 week, summer internship)
 
-Created web sites for visualizing the data stored in the mobile app.
+- Added a new feature in the admin dashboard
 
-Skills : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel
+Skills : *React*
 
-### Wantedly, Inc
+### TOWN, Inc (Mar 2016 - Dec 2017)
 
-Aug 2017, 1 week (summer internship)
+- Developed a website about real estate sales using WordPress.
 
-Added a new feature in the admin dashboard.
-
-Skills : React
-
-### TOWN, Inc
-
-Mar 2016 - Dec 2017
-
-Created a web site for searching real estate.
-
-Skills : WordPress, jQuery
+Skills : *WordPress, jQuery*
 
 ## Hackathon
 
