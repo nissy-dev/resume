@@ -66,7 +66,7 @@
 
 ### 機械学習・データ解析
 
-修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習手法である Graph Convolutional Neural Network を無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。データ解析については、30万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
+修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習モデルの Graph Convolutional Network を無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。データ解析については、500万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
 
 ## 制作物
 
@@ -75,37 +75,37 @@
 ソースコード : https://github.com/nd-02110114/goofi-mobile
 
 - Good First Issue を検索する簡易なモバイルアプリ
-  - こちらの[Webアプリ](https://goofi.now.sh/)を参考にした
-- GraphQLやApolloに興味があって作成
-  - REST APIにおけるプラットフォーム毎のデータを取得する困難さを改善したいと思っていた
+  - こちらの[Webアプリ](https://goofi.now.sh/)を参考にしました
+- GraphQLやApolloに興味があったのが作成のきっかけ
+  - REST APIにおけるプラットフォーム毎のデータを取得する困難さを改善したいという思いを持っていました
 - 技術 : Expo(React Native)/Apollo Client/Atomic Design/GraphQL
 
 ### Babel plugin object to json parse
 
 ソースコード : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
-- [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで作成
+- Object Literal を JSON parse 構文に書き換える Babel プラグイン
+- [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけ
 - JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まった
-- 2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens さんに紹介された
+- 2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens さんに紹介されました
   - [ツイート](https://www.youtube.com/watch?v=ff4fgQxPaO0), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
 
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-- レガシーコードや型周りの修正に関する Good First Issue に20近くのPRを送った
-  - 業務で使っているライブラリに貢献したい思いから始めた
+- レガシーコードや型周りの修正に関する Good First Issue に20近くのPRを送りました
+  - 業務で使っているライブラリに貢献したいという思いから始めました
 
 ### js-primer (online book for JS beginners) : [PRs](https://github.com/asciidwango/js-primer/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-
-- PWA に対応させることによって、js-primer をオフラインで閲覧できるようにした
-  - Web Scratch で azu さんに紹介された ([ブログのリンク](https://efcl.info/2018/05/25/js-primer-offline/))
+- PWA に対応させることによって、js-primer をオフラインで閲覧できるようにしました
+  - Web Scratch で azu さんに紹介されました ([ブログのリンク](https://efcl.info/2018/05/25/js-primer-offline/))
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
-- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装した
-- 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができた
+- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装しました
+- 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
 
 ## 職務経歴
 
@@ -118,14 +118,14 @@
 
 ### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
-- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装した
-- 有機分子系だけではなく無機結晶系を含めた解析が可能になり、Chainer Chemistry の適用範囲を拡張することができた
+- 無機結晶系を対象とした Graph Convolutional Network のモデルの実装 (Chainer Chemistry)
+- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の開発 (Chainer Chemistry)
 
 *技術 : Python, Chainer, Docker, Kubernetes*
 
 ### CureApp, Inc (Jan 2018 - May 2019)
 
-- Bluetoothを利用した血圧計から血圧値を取得・記録するアプリの作成
+- Bluetoothを利用した、血圧計から血圧値を取得・記録するアプリの作成
 - 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの開発
 - 社内ライブラリのFlowからTypeScriptへの移行
 
@@ -133,13 +133,13 @@
 
 ### Wantedly, Inc (Aug 2017, 1週間, summer internship)
 
-- 管理者用のダッシュボードへの新機能の追加を行った
+- 管理者用のダッシュボードへの新機能の追加
 
 *技術 : React*
 
 ### TOWN, Inc (Mar 2016 - Dec 2017)
 
-- WordPress を使用して、不動産売買に関するWebサイトの開発を行った
+- WordPress を使用した、不動産売買に関するWebサイトの開発
 
 *技術 : WordPress, jQuery*
 
