@@ -78,7 +78,7 @@
   - こちらの[Webアプリ](https://goofi.now.sh/)を参考にした
 - GraphQLやApolloに興味があって作成
   - REST APIにおけるプラットフォーム毎のデータを取得する困難さを改善したいと思っていた
-- スキル : Expo(React Native)/Apollo Client/Atomic Design/GraphQL
+- 技術 : Expo(React Native)/Apollo Client/Atomic Design/GraphQL
 
 ### Babel plugin object to json parse
 
@@ -114,14 +114,14 @@
 - 数千種類以上の雑貨商品に関する売り上げ予測モデルの精度改善
 - 500万レコード以上のデータのクレンジング・分析
 
-**技術 : Python, Pandas, LightGBM**
+*技術 : Python, Pandas, LightGBM*
 
 ### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
 - 無機結晶系を対象とした Graph Convolutional Network のモデルを実装した
 - 有機分子系だけではなく無機結晶系を含めた解析が可能になり、Chainer Chemistry の適用範囲を拡張することができた
 
-**技術 : Python, Chainer, Docker, Kubernetes**
+*技術 : Python, Chainer, Docker, Kubernetes*
 
 ### CureApp, Inc (Jan 2018 - May 2019)
 
@@ -129,19 +129,19 @@
 - 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの開発
 - 社内ライブラリのFlowからTypeScriptへの移行
 
-**技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel**
+*技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel*
 
 ### Wantedly, Inc (Aug 2017, 1週間, summer internship)
 
 - 管理者用のダッシュボードへの新機能の追加を行った
 
-**技術 : React**
+*技術 : React*
 
 ### TOWN, Inc (Mar 2016 - Dec 2017)
 
 - WordPress を使用して、不動産売買に関するWebサイトの開発を行った
 
-**技術 : WordPress, jQuery**
+*技術 : WordPress, jQuery*
 
 ## ハッカソン
 
