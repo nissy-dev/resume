@@ -23,11 +23,12 @@
 - ブログ : [はてなブログ](https://nissy-nd.hatenablog.com/)
 
 ### 学歴
+
 #### 東京大学
-2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻, GPA 3.97 (現在)
+2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻 GPA 3.97 (現在)
 
 #### 早稲田大学
-2015.4 - 2019.3 : 学士, 先進理工学部応用化学科, GPA 3.00
+2015.4 - 2019.3 : 学士, 先進理工学部応用化学科 GPA 3.00
 
 ### 強み
 - OSS活動を通じて得られた、大規模なプロジェクトや新しい開発環境への高い順応力
@@ -89,7 +90,7 @@
   - こちらの[Webアプリ](https://goofi.now.sh/)を参考にしました
 - GraphQLやApolloに興味があったのが作成のきっかけ
   - REST APIにおけるプラットフォーム毎のデータを取得する困難さを改善したいという思いを持っていました
-- 技術 : Expo(React Native)/Apollo Client/Atomic Design/GraphQL
+- 技術 : Expo(React Native), Apollo Client, Atomic Design, GraphQL
 
 ### Babel plugin object to json parse
 
@@ -98,7 +99,7 @@
 - Object Literal を JSON parse 構文に書き換える Babel プラグイン
 - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけ
 - JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まった
-- 2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens さんに紹介されました
+- V8 のコミッターである Mathias Bynens さんに紹介されました (2019年 ChromeDevSummit)
   - [ツイート](https://www.youtube.com/watch?v=ff4fgQxPaO0), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
@@ -120,14 +121,6 @@
 - 無機結晶系を対象とした Graph Convolutional Network のモデルを実装しました
 - 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
 
-## ハッカソン
-
-<hr />
-
-- Recruit, Co., Ltd. スピードハッカソン, 2019 Feb : 参加 *1
-
-*1 : 与えられた静的サイトの Lighthouse スコアを改善するハッカソン, [https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon](https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon)
-
 <div style="page-break-before:always"></div>
 
 ## 職務経歴
@@ -139,14 +132,14 @@
 - 数千種類以上の雑貨商品に関する売り上げ予測モデルの精度改善
 - 500万レコード以上のデータのクレンジング・分析
 
-*技術 : Python, Pandas, LightGBM*
+技術 : Python, Pandas, LightGBM
 
 ### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
-- 無機結晶系を対象とした Graph Convolutional Network のモデルの実装 (Chainer Chemistry)
-- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の開発 (Chainer Chemistry)
+- 無機結晶系を対象とした Graph Convolutional Network のモデルの実装
+- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の開発
 
-*技術 : Python, Chainer, Docker, Kubernetes*
+技術 : Python, Chainer, Docker, Kubernetes
 
 ### CureApp, Inc (Jan 2018 - May 2019)
 
@@ -154,16 +147,24 @@
 - 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの開発
 - 社内ライブラリのFlowからTypeScriptへの移行
 
-*技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel*
+技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
 
 ### Wantedly, Inc (Aug 2017, 1週間, summer internship)
 
 - 管理者用のダッシュボードへの新機能の追加
 
-*技術 : React*
+技術 : React
 
 ### TOWN, Inc (Mar 2016 - Dec 2017)
 
 - WordPress を使用した、不動産売買に関するWebサイトの開発
 
-*技術 : WordPress, jQuery*
+技術 : WordPress, jQuery
+
+## ハッカソン
+
+<hr />
+
+- Recruit, Co., Ltd. スピードハッカソン, 2019 Feb : 参加 *1
+
+*1 : 与えられた静的サイトの Lighthouse スコアを改善するハッカソン, [https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon](https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon)
