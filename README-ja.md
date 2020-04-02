@@ -22,10 +22,10 @@
 ### 学歴
 
 #### 東京大学
-2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻 GPA 3.97 (現在)
+2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻, GPA 3.97 (現在)
 
 #### 早稲田大学
-2015.4 - 2019.3 : 学士, 先進理工学部応用化学科 GPA 3.00
+2015.4 - 2019.3 : 学士, 先進理工学部応用化学科, GPA 3.00
 
 ### 強み
 - OSS活動を通じて得られた、大規模なプロジェクトや新しい開発環境への高い順応力
@@ -56,8 +56,7 @@
 
 ### 量子化学シミュレーション
 
-学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。  
-そのため以下のライブラリの使用には慣れています。
+学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。そのため以下の量子化学計算や第一原理計算のライブラリの使用には慣れています。
 
 - Gaussian, VASP, Quantum Espresso
 
@@ -73,75 +72,76 @@
 
 ### Goofi Mobile
 
-リンク : https://github.com/nd-02110114/goofi-mobile
+ソースコード : https://github.com/nd-02110114/goofi-mobile
 
-Good First Issue を検索する[Webアプリ](https://goofi.now.sh/)を見て、同様の機能を持ったモバイルアプリを作成しました。  
-主に、Expo (React Native), Apollo Client, Atomic Design, GraphQL などの新しい知識の吸収を目的として作成しました。
+- Good First Issue を検索する簡易なモバイルアプリ
+  - こちらの[Webアプリ](https://goofi.now.sh/)を参考にした
+- GraphQLやApolloに興味があって作成
+  - REST APIにおけるプラットフォーム毎のデータを取得する困難さを改善したいと思っていた
+- スキル : Expo(React Native)/Apollo Client/Atomic Design/GraphQL
 
 ### Babel plugin object to json parse
 
-リンク : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
+ソースコード : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
-こちらの [V8 blog](https://v8.dev/blog/cost-of-javascript-2019#json) を見て、Object literal を JSON.parse に変換する babel plugin を作成しました。  
-2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens に紹介されました。
+- [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで作成
+- JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まった
+- 2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens さんに紹介された
+  - [ツイート](https://www.youtube.com/watch?v=ff4fgQxPaO0), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
 
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-レガシーコードや型周りの修正に関する Good First Issue に対して、20近くのPRを送りました。
+- レガシーコードや型周りの修正に関する Good First Issue に20近くのPRを送った
+  - 業務で使っているライブラリに貢献したい思いから始めた
 
 ### js-primer (online book for JS beginners) : [PRs](https://github.com/asciidwango/js-primer/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
-js-primer のサイトを PWA に対応させました。  
-これによって、オフラインでも js-primer を閲覧できるようになります。[Blog](https://efcl.info/2018/05/25/js-primer-offline/)
+
+- PWA に対応させることによって、js-primer をオフラインで閲覧できるようにした
+  - Web Scratch で azu さんに紹介された ([ブログのリンク](https://efcl.info/2018/05/25/js-primer-offline/))
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
-無機結晶系を対象とした Graph Convolutional Neural Network のモデルを実装しました。  
-これによって、今までライブラリが対象としていた有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました。
+- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装した
+- 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができた
 
 ## 職務経歴
 
-### ELYZA, Inc
+### ELYZA, Inc (Sep 2019 - Dec 2019)
 
-Sep 2019 - Dec 2019
+- 数千種類以上の雑貨商品に関する売り上げ予測モデルの精度改善
+- 500万レコード以上のデータのクレンジング・分析
 
-データサイエンティストとして、ある会社の売上データの分析並びに売上予測モデルの改良を行いました。
+**技術 : Python, Pandas, LightGBM**
 
-使用した技術 : Python, Pandas, LightGBM
+### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
-### Preferred Networks, Inc
+- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装した
+- 有機分子系だけではなく無機結晶系を含めた解析が可能になり、Chainer Chemistry の適用範囲を拡張することができた
 
-Aug 2019 - Sep 2019 (summer internship)
+**技術 : Python, Chainer, Docker, Kubernetes**
 
-Graph Convolutional Neural Network のモデル([MEGNet](https://pubs.acs.org/doi/10.1021/acs.chemmater.9b01294))を実装し、Chainer Chemistry に関する無機結晶系の対応を行いました。
+### CureApp, Inc (Jan 2018 - May 2019)
 
-使用した技術 : Python, Chainer, Docker, Kubernetes
+- Bluetoothを利用した血圧計から血圧値を取得・記録するアプリの作成
+- 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの開発
+- 社内ライブラリのFlowからTypeScriptへの移行
 
-### CureApp, Inc
+**技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel**
 
-Jan 2018 - May 2019
+### Wantedly, Inc (Aug 2017, 1週間, summer internship)
 
-医療アプリ(mobile)を使用した際に蓄積されるデータを確認するための可視化アプリ(web)の開発を行いました。
+- 管理者用のダッシュボードへの新機能の追加を行った
 
-使用した技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Webpack, Babel
+**技術 : React**
 
-### Wantedly, Inc
+### TOWN, Inc (Mar 2016 - Dec 2017)
 
-Aug 2017, 1週間 (summer internship)
+- WordPress を使用して、不動産売買に関するWebサイトの開発を行った
 
-管理者用のダッシュボードに新機能の追加を行いました。
-
-使用した技術 : React
-
-### TOWN, Inc
-
-Mar 2016 - Dec 2017
-
-WordPress を使用して、不動産に関するWebアプリケーションの開発を行いました。
-
-使用した技術 : WordPress, jQuery
+**技術 : WordPress, jQuery**
 
 ## ハッカソン
 
