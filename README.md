@@ -62,7 +62,7 @@ While my major is chemistry, I am self-taught in programming and has more than t
 
 ### Machine Learning and Data Analysis
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional neural networks to designing new inorganic crystals. I am familiar with general machine learning and data analysis methods, as well as deep generative models based on Bayesian theory. Also, I have experiences about tabular data analysis related to Kaggle or a company.
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying graph convolutional networks to designing new inorganic crystals. I am familiar with general machine learning and data analysis methods, as well as deep generative models based on Bayesian theory. Also, I have experiences about tabular data analysis related to Kaggle or a company.
 
 ## Works
 
@@ -99,7 +99,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
 - Implemented a model of the Graph Convolutional Network for inorganic crystal systems 
-- Extending the scope of the library because it is now possible to analyze not only organic molecular systems but also inorganic crystal systems
+- Extended the scope of the library because it is now possible to analyze not only organic molecules but also inorganic crystals
 
 ## Experiences
 
@@ -112,8 +112,8 @@ Skills : **Python, Pandas, LightGBM**
 
 ### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
-- Implemented a model of Graph Convolutional Network for inorganic crystal (related to Chainer Chemistry)
-- Developed downloadable benchmark datasets for inorganic crystal (related to Chainer Chemistry)
+- Implemented a model of Graph Convolutional Network for inorganic crystals (related to Chainer Chemistry)
+- Developed downloadable benchmark datasets for inorganic crystals (related to Chainer Chemistry)
 
 Skills : **Python, Chainer, Docker, Kubernetes**
 
