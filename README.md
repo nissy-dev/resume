@@ -20,11 +20,11 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 
 ### University of Tokyo, Japan
 
-- 2019.4 - 2021.3 (expected) : M.S. in Chemical System Engineering, *GPA 3.97 (until now)*
+- 04/2019 - 03/2021 (expected) : M.S. in Chemical System Engineering, *GPA 3.97 (until now)*
 
 ### Waseda University, Japan
 
-- 2015.4 - 2019.3 : B.E. in Applied Chemistry, *GPA 3.00*
+- 04/2015 - 03/2019 : B.E. in Applied Chemistry, *GPA 3.00*
 
 ## Skills
 
@@ -83,7 +83,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 - [V8's blog](https://v8.dev/blog/cost-of-javascript-2019#json) was inspired to create
 - I acquired better understanding of JavaScript's AST and programming language compilers
 - This plugin was introduced to V8 committer Mathias Bynens At ChromeDevSummit 2019
-  - [Tweet](https://www.youtube.com/watch?v=ff4fgQxPaO0), [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0)
+  - [Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20), [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
 
@@ -105,21 +105,21 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
 ## Experiences
 
-### ELYZA, Inc (Sep 2019 - Dec 2019)
+### ELYZA, Inc (09/2019 - 12/2019)
 
 - Improved the accuracy of sales forecasting models for more than thousands of sundry products
 - Cleansed and analyzed over 5 million records of time series data
 
 Skills : **Python, Pandas, LightGBM**
 
-### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
+### Preferred Networks, Inc (08/2019 - 09/2019, summer internship)
 
 - Implemented a model of Graph Convolutional Network for inorganic crystals (related to Chainer Chemistry)
 - Implemented a utility function for benchmark datasets of inorganic crystals (related to Chainer Chemistry)
 
 Skills : **Python, Chainer, Docker, Kubernetes**
 
-### CureApp, Inc (Jan 2018 - May 2019)
+### CureApp, Inc (01/2018 - 05/2019)
 
 - Created a mobile app to obtain and record blood pressure values from a sphygmomanometer using Bluetooth
 - Created a website for doctors to check the data of the app used by patients
@@ -127,13 +127,13 @@ Skills : **Python, Chainer, Docker, Kubernetes**
 
 Skills : **TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack**
 
-### Wantedly, Inc (Aug 2017, 1 week, summer internship)
+### Wantedly, Inc (08/2017, 1週間, summer internship)
 
 - Created a new feature in the admin dashboard of Wantedly Visit
 
 Skills : **React**
 
-### TOWN, Inc (Mar 2016 - Dec 2017)
+### TOWN, Inc (03/2016 - 12/2017)
 
 - Developed a website about real estate sales using WordPress.
 
@@ -141,7 +141,7 @@ Skills : **WordPress, jQuery**
 
 ## Hackathon
 
-- Recruit, Co., Ltd. Speed hackathon, 2019 Feb : Joined *1
+- Recruit, Co., Ltd. Speed hackathon, 02/2019 : Joined *1
 
 *1 : The content of this hackathon is improving lighthouse score of a given static web site.  
 https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon

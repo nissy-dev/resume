@@ -25,10 +25,10 @@
 ### 学歴
 
 #### 東京大学
-2019.4 - 2021.3 (見込み) : 修士 工学系研究科 化学システム工学専攻 GPA 3.97 (現在)
+2019.04 - 2021.03 (見込み) : 修士 工学系研究科 化学システム工学専攻 GPA 3.97 (現在)
 
 #### 早稲田大学
-2015.4 - 2019.3 : 学士, 先進理工学部応用化学科 GPA 3.00
+2015.04 - 2019.03 : 学士, 先進理工学部応用化学科 GPA 3.00
 
 ### 強み
 - OSS活動を通じて得られた、大規模なプロジェクトや新しい開発環境への高い順応力
@@ -100,7 +100,7 @@
 - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけ
 - JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まった
 - V8 のコミッターである Mathias Bynens さんに紹介されました (2019年 ChromeDevSummit)
-  - [ツイート](https://www.youtube.com/watch?v=ff4fgQxPaO0), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
+  - [ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
 
@@ -127,21 +127,21 @@
 
 <hr />
 
-### ELYZA, Inc (Sep 2019 - Dec 2019)
+### ELYZA, Inc (09/2019 - 12/2019)
 
 - 数千種類以上の雑貨商品に関する売り上げ予測モデルの精度改善
 - 500万レコード以上のデータのクレンジング・分析
 
 技術 : Python, Pandas, LightGBM
 
-### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
+### Preferred Networks, Inc (08/2019 - 09/2019, summer internship)
 
 - 無機結晶系を対象とした Graph Convolutional Network のモデルの実装
 - 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
 
 技術 : Python, Chainer, Docker, Kubernetes
 
-### CureApp, Inc (Jan 2018 - May 2019)
+### CureApp, Inc (01/2018 - 05/2019)
 
 - Bluetoothを利用した、血圧計から血圧値を取得・記録するアプリの作成
 - 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの作成
@@ -149,13 +149,13 @@
 
 技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
 
-### Wantedly, Inc (Aug 2017, 1週間, summer internship)
+### Wantedly, Inc (08/2017, 1週間, summer internship)
 
 - 管理者用のダッシュボードへの新機能の作成
 
 技術 : React
 
-### TOWN, Inc (Mar 2016 - Dec 2017)
+### TOWN, Inc (03/2016 - 12/2017)
 
 - WordPress を使用した、不動産売買に関するWebサイトの開発
 
@@ -165,6 +165,6 @@
 
 <hr />
 
-- Recruit, Co., Ltd. スピードハッカソン, 2019 Feb : 参加 *1
+- Recruit, Co., Ltd. スピードハッカソン, 02/2019 : 参加 *1
 
 *1 : 与えられた静的サイトの Lighthouse スコアを改善するハッカソン, [https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon](https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon)
