@@ -82,7 +82,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 - Babel plugin that rewrites Object Literal to JSON parse syntax
 - [V8's blog](https://v8.dev/blog/cost-of-javascript-2019#json) was inspired to create
 - I acquired better understanding of JavaScript's AST and programming language compilers
-- This plugin was introduced to V8 committer Mathias Bynens At ChromeDevSummit 2019
+- This plugin was introduced to V8 committer Mathias Bynens at ChromeDevSummit 2019
   - [Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20), [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
 ## OSS
