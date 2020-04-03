@@ -127,7 +127,7 @@ Skills : **Python, Chainer, Docker, Kubernetes**
 
 Skills : **TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack**
 
-### Wantedly, Inc (08/2017, 1週間, summer internship)
+### Wantedly, Inc (08/2017, 1 week, summer internship)
 
 - Created a new feature in the admin dashboard of Wantedly Visit
 
