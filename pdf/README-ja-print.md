@@ -74,7 +74,7 @@
 
 ### 機械学習・データ解析
 
-&nbsp; &nbsp; 修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習モデルの Graph Convolutional Network を無機結晶の新規材料探索へ応用する方法について研究を行なっています。知識としては、一般的な機械学習・データ解析手法の知識、並びにベイズ理論を踏まえた深層生成モデルに詳しいです。データ解析については、500万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
+&nbsp; &nbsp; 修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習モデルの Graph Convolutional Network や VAE などの深層生成モデルを無機結晶の新規材料探索へ応用する方法について研究を行なっています。一方で、Kaggleなどのコンペティションに参加したことで、社会でも良く利用されている自然言語処理や画像処理の機械学習手法の基本的な知識を持っています。さらに、500万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
 
 <div style="page-break-before:always"></div>
 
@@ -119,7 +119,7 @@
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
 - 無機結晶系を対象とした Graph Convolutional Network のモデルを実装しました
-- 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
+  - 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
 
 <div style="page-break-before:always"></div>
 
@@ -137,21 +137,21 @@
 ### Preferred Networks, Inc (Aug 2019 - Sep 2019, summer internship)
 
 - 無機結晶系を対象とした Graph Convolutional Network のモデルの実装
-- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の開発
+- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
 
 技術 : Python, Chainer, Docker, Kubernetes
 
 ### CureApp, Inc (Jan 2018 - May 2019)
 
 - Bluetoothを利用した、血圧計から血圧値を取得・記録するアプリの作成
-- 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの開発
+- 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの作成
 - 社内ライブラリのFlowからTypeScriptへの移行
 
 技術 : TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
 
 ### Wantedly, Inc (Aug 2017, 1週間, summer internship)
 
-- 管理者用のダッシュボードへの新機能の追加
+- 管理者用のダッシュボードへの新機能の作成
 
 技術 : React
 
