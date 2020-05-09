@@ -100,7 +100,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
 ### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
 
-- Implemented a model of the Graph Convolutional Network for inorganic crystal systems 
+- Implemented the Graph Convolutional Networks for inorganic crystal systems 
   - Chainer Chemistry extended the scope of the library because it was possible to analyze not only organic molecules but also inorganic crystals
 
 ## Experiences
@@ -114,15 +114,15 @@ Skills : **Python, Pandas, LightGBM**
 
 ### Preferred Networks, Inc (08/2019 - 09/2019, summer internship)
 
-- Implemented a model of Graph Convolutional Network for inorganic crystals (related to Chainer Chemistry)
-- Implemented a utility function for benchmark datasets of inorganic crystals (related to Chainer Chemistry)
+- Implemented the Graph Convolutional Networks (MEGNet) for inorganic crystals (related to Chainer Chemistry)
+- Implemented the utility function for benchmark datasets of inorganic crystals (related to Chainer Chemistry)
 
 Skills : **Python, Chainer, Docker, Kubernetes**
 
 ### CureApp, Inc (01/2018 - 05/2019)
 
-- Created a mobile app to obtain and record blood pressure values from a sphygmomanometer using Bluetooth
-- Created a website for doctors to check the data of the app used by patients
+- Created the mobile app to obtain and record blood pressure values from a sphygmomanometer using Bluetooth
+- Created the website for doctors to check the data of the app used by patients
 - Migrated internal libraries from Flow to TypeScript
 
 Skills : **TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack**
