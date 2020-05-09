@@ -22,10 +22,10 @@
 ### 学歴
 
 #### 東京大学
-2019.04 - 2021.03 (見込み) : 修士 工学系研究科 化学システム工学専攻 *GPA 3.97 (現在)*
+2019.04 - 2021.03 (見込み) : 修士 工学系研究科 化学システム工学専攻
 
 #### 早稲田大学
-2015.04 - 2019.03 : 学士 先進理工学部応用化学科 *GPA 3.00*
+2015.04 - 2019.03 : 学士 先進理工学部応用化学科
 
 ### 強み
 - OSS活動を通じて得られた、大規模なプロジェクトや新しい開発環境への高い順応力
@@ -62,11 +62,11 @@
 
 ### フロントエンド開発
 
-学部での専攻は化学系である傍ら、独学でプログラミングを学習し、複数社でのインターンを通じて2年以上の Webアプリケーションの開発経験があります。特に、React と Typescript がベースとなったWebアプリケーションの開発経験が豊富です。 また、CI やデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。最近は JS の AST (抽象構文木) に興味があり、babel plugin も自作しました。([babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
+学部での専攻は化学系である傍ら、独学でプログラミングを学習し、複数社でのインターンを通じて2年以上の Web アプリケーションの開発経験があります。特に、React と Typescript がベースとなった Web アプリケーションの開発経験が豊富です。 また、CI やデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。最近は JS の AST (抽象構文木) に興味があり、babel plugin も自作しました。([babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
 
 ### 機械学習・データ解析
 
-修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習モデルの Graph Convolutional Network や VAE などの深層生成モデルを無機結晶の新規材料探索へ応用する方法について研究を行なっています。一方で、Kaggleなどのコンペティションに参加したことで、社会でも良く利用されている自然言語処理や画像処理の機械学習手法の基本的な知識を持っています。さらに、500万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
+修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習モデルの Graph Convolutional Networks や VAE などの深層生成モデルを無機結晶の新規材料探索へ応用する方法について研究を行なっています。一方で、Kaggleなどのコンペティションに参加したことで、社会でも良く利用されている自然言語処理や画像処理の機械学習手法の基本的な知識を持っています。さらに、500万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
 
 ## 制作物
 
@@ -77,7 +77,7 @@
 - Good First Issue を検索する簡易なモバイルアプリ
   - こちらの[Webアプリ](https://goofi.now.sh/)を参考にしました
 - GraphQLやApolloに興味があったのが作成のきっかけ
-  - REST APIにおけるプラットフォーム毎のデータを取得する困難さを改善したいという思いを持っていました
+  - REST APIにおけるエンドポイント管理の煩雑さに課題を感じていました
 - 技術 : Expo(React Native), Apollo Client, Atomic Design, GraphQL
 
 ### Babel plugin object to json parse
@@ -86,7 +86,7 @@
 
 - Object Literal を JSON parse 構文に書き換える Babel プラグイン
 - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけ
-- JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まった
+- JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まりました
 - 2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens さんに紹介されました
   - [ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
 
@@ -118,7 +118,7 @@
 
 ### Preferred Networks, Inc (08/2019 - 09/2019, summer internship)
 
-- 無機結晶系を対象とした Graph Convolutional Network のモデルの実装 (Chainer Chemistry関連)
+- 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装 (Chainer Chemistry関連)
 - 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装 (Chainer Chemistry関連)
 
 技術 : *Python, Chainer, Docker, Kubernetes*
