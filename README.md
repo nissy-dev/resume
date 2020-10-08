@@ -117,7 +117,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 - Developed integrations with Deep Graph Library or PyTorch Geometric for DeepChem
 - Improved the documents and infrastructures for DeepChem
 
-Final report: [https://forum.deepchem.io/t/summary-of-2020-gsoc/249](https://forum.deepchem.io/t/summary-of-2020-gsoc/249)
+Final report: [https://forum.deepchem.io/t/summary-of-2020-gsoc/249](https://forum.deepchem.io/t/summary-of-2020-gsoc/249)  
 Skills : **Python, PyTorch, JAX, Graph Neural Network, Docker**
 
 ### ELYZA, Inc (09/2019 - 12/2019)
