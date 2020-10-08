@@ -85,7 +85,7 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
 ## OSS
 
-### DeepChem : [PR](https://github.com/deepchem/deepchem/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
+### DeepChem : [PRs](https://github.com/deepchem/deepchem/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
 - The following four tasks were the main activities related to the GSoC's work
   - Developed integrations with Deep Graph Library or PyTorch Geometric
