@@ -47,8 +47,7 @@
   - Babel, Webpack
   - Node.js
 - Python
-  - Pandas
-  - scikit-learn
+  - Pandas, scikit-learn
   - TensorFlow, PyTorch, Chainer
 - HTML
 - CSS
@@ -92,6 +91,19 @@
 
 ## OSS
 
+### DeepChem : [PR](https://github.com/deepchem/deepchem/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
+
+- GSoCの作業に関連して、以下の4つのタスクをメインに活動を行いました
+  - Deep Graph Library と PyTorch Geometric に関するインテグレーションの実装
+  - ドキュメントとレガシーコードの改善
+  - インフラ (Docker, PyPi などのパッケージのリリースの自動化) の改善
+  - 他のメンテナーからのPRのレビュー
+
+### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
+
+- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装しました
+  - 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
+
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
 - レガシーコードや型周りの修正に関する Good First Issue に20近くのPRを送りました
@@ -102,12 +114,17 @@
 - PWA に対応させることによって、js-primer をオフラインで閲覧できるようにしました
   - Web Scratch で azu さんに紹介されました ([ブログのリンク](https://efcl.info/2018/05/25/js-primer-offline/))
 
-### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
-
-- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装しました
-  - 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
-
 ## 職務経歴
+
+### 2020 Google Summer of Code (参加組織: DeepChem, OpenChemistry) (06/2020 - 08/2020)
+
+- JAX を利用した化学向けのモデルの実装テスト (リポジトリ：[JAXChem](https://github.com/deepchem/jaxchem))
+- Deep Graph Library と PyTorch Geometric に関するインテグレーションの実装
+- ドキュメントとインフラ (Docker, PyPi などのパッケージのリリースの自動化) の改善
+
+最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
+
+技術 : *Python, PyTorch, JAX, Graph Neural Network, Docker*
 
 ### ELYZA, Inc (09/2019 - 12/2019)
 
@@ -118,8 +135,8 @@
 
 ### Preferred Networks, Inc (08/2019 - 09/2019, summer internship)
 
-- 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装 (Chainer Chemistry関連)
-- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装 (Chainer Chemistry関連)
+- 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装 (Chainer Chemistry 関連)
+- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装 (Chainer Chemistry 関連)
 
 技術 : *Python, Chainer, Docker, Kubernetes*
 

@@ -42,10 +42,8 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
   - Babel, Webpack
   - Node.js
 - Python
-  - Pandas
-  - scikit-learn
+  - Pandas, scikit-learn
   - TensorFlow, PyTorch, Chainer
-- PHP
 - HTML
 - CSS
 - SQL
@@ -87,6 +85,19 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 
 ## OSS
 
+### DeepChem : [PR](https://github.com/deepchem/deepchem/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
+
+- The following four tasks were the main activities related to the GSoC's work
+  - Developed integrations with Deep Graph Library or PyTorch Geometric
+  - Improved the documents and legacy codes
+  - Improved infrastructures (Automated package releases for Docker, PyPi, etc.)
+  - Reviewed PRs
+
+### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
+
+- Implemented the Graph Convolutional Networks for inorganic crystal systems 
+  - Chainer Chemistry extended the scope of the library because it was possible to analyze not only organic molecules but also inorganic crystals
+
 ### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
 
 - Sent nearly 20 PRs to the Good First Issue on legacy code and fixes around types
@@ -98,12 +109,16 @@ Source code : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
 - Sent the PR about Progressive Web App (PWA)
   - js-primer could be viewed offline with PWA support
 
-### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
-
-- Implemented the Graph Convolutional Networks for inorganic crystal systems 
-  - Chainer Chemistry extended the scope of the library because it was possible to analyze not only organic molecules but also inorganic crystals
-
 ## Experiences
+
+### 2020 Google Summer of Code (Org: DeepChem, OpenChemistry) (06/2020 - 08/2020)
+
+- Built the experimental [JAXChem project](https://github.com/deepchem/jaxchem)
+- Developed integrations with Deep Graph Library or PyTorch Geometric for DeepChem
+- Improved the documents and infrastructures for DeepChem
+
+Final report: [https://forum.deepchem.io/t/summary-of-2020-gsoc/249](https://forum.deepchem.io/t/summary-of-2020-gsoc/249)
+Skills : **Python, PyTorch, JAX, Graph Neural Network, Docker**
 
 ### ELYZA, Inc (09/2019 - 12/2019)
 
