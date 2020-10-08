@@ -48,19 +48,19 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 - CSS
 - SQL
 
-### Quantum chemical simulation
+### Machine Learning and Data Analysis
 
-My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation. So, I get used to using the following libraries.
-
-- Gaussian, VASP, Quantum Espresso
+My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying Graph Convolutional Network or deep generative models based on Bayesian theory to designing new inorganic crystals. On the other hand, I have basic knowledge of machine learning methods such as NLP and CV, which are often used in the society, by participating in the Kaggle. In addition, I have experience analyzing time series data with about 5 million records as an internship and I have the basic skills to handle table data and time series data.
 
 ### Front-End Development
 
 While my major is chemistry, I am self-taught in programming and has more than two years of web application development experience through internships at several companies. In particular, I have extensive experience in developing web applications based on React and Typescript. I also have a basic knowledge of multi-person development flows (like Git Flow), including CI and deployment. Recently, I've been interested in AST (abstract syntax tree) of JS and I made a babel plugin by myself ([babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse)).
 
-### Machine Learning and Data Analysis
+### Quantum chemical simulation
 
-My M.S. research field is [Materials Informatics](https://en.wikipedia.org/wiki/Materials_informatics). Specifically, I'm interested in applying Graph Convolutional Network or deep generative models based on Bayesian theory to designing new inorganic crystals. On the other hand, I have basic knowledge of machine learning methods such as NLP and CV, which are often used in the society, by participating in the Kaggle. In addition, I have experience analyzing time series data with about 5 million records as an internship and I have the basic skills to handle table data and time series data.
+My B.E. research interest was analysis of the electrochemical reaction by using a quantum chemical simulation. So, I get used to using the following libraries.
+
+- Gaussian, VASP, Quantum Espresso
 
 ## Works
 
