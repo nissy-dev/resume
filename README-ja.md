@@ -22,6 +22,8 @@
 
 ## スキル・技術スタック
 
+TODO
+
 <!--
 
 - TypeScript・React を利用したフロントエンド開発・設計
@@ -33,11 +35,7 @@
 - Next.js を用いた
 - PyTorch や JAX などを利用した深層学習モデルの実装
 
--->
-
 ### 言語・フレームワークなど
-
-<!--
 
 業務で利用した経験があるもの
 
@@ -46,6 +44,17 @@
 -->
 
 ## 職務経歴
+
+### Cybozu (04/2021 - )
+
+kintone のフロントエンド刷新プロジェクトに所属。
+
+- React を利用したフロントエンドの設計
+- React・TypeScript・styled-components を使った UI の実装
+- Testing Library を用いたテストの実装
+- 約 5 人程度のチームでのスクラム開発
+- 会社ブログでの発信
+  - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
@@ -59,14 +68,14 @@
 
 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
-技術 : _Python, PyTorch, JAX, Graph Neural Network, Docker_
+技術 : Python, PyTorch, JAX, Graph Neural Network, Docker
 
 ### ELYZA (09/2019 - 12/2019)
 
 - 500 万レコード以上のデータのクレンジングや分析
 - 数千種類以上の雑貨商品に関する売上数予測モデルの精度改善
 
-技術 : _Python, Pandas, LightGBM_
+技術 : Python, Pandas, LightGBM
 
 ### Preferred Networks (08/2019 - 09/2019, summer internship)
 
@@ -75,7 +84,7 @@
 - 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装
 - 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
 
-技術 : _Python, Chainer, Docker, Kubernetes_
+技術 : Python, Chainer, Docker, Kubernetes
 
 ### CureApp (01/2018 - 05/2019)
 
@@ -83,19 +92,19 @@
 - 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
 - 社内ライブラリの Flow から TypeScript への移行
 
-技術 : _TypeScript, Flow, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack_
+技術 : TypeScript, Flow, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
 
 ### Wantedly (08/2017, 1 週間, summer internship)
 
 - 管理者用のダッシュボードへの新機能の作成
 
-技術 : _React_
+技術 : React
 
 ### TOWN (03/2016 - 12/2017)
 
 - 不動産売買に関する Web サイトの開発
 
-技術 : _WordPress, jQuery_
+技術 : WordPress, jQuery
 
 ## 業務外活動
 
@@ -107,7 +116,13 @@
   - react-native-web 用の SWC plugin を開発
   - 詳細は Zenn に[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を投稿した
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - TODO
+  - [dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
+  - [react-icons](https://github.com/react-icons/react-icons) を参考に、個人のプロフィールサイトで利用するために作成
+  - SVG をパースして [RSX](https://dioxuslabs.com/reference/guide/rsx_in_depth.html) と呼ばれる構文に変換している
+- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
+  - Object Literal を JSON parse 構文に書き換える Babel プラグイン
+  - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで、AST やコンパイラーの理解が深まった
+  - 2019 年の ChromeDevSummit にて、V8 のコミッターに紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
 
 #### その他
 
