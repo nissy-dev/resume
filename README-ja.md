@@ -3,7 +3,6 @@
 **内容**
 
 - [基本情報](#基本情報)
-- [スキル・技術スタック](#スキル・技術スタック)
 - [職務経歴](#職務経歴)
 - [業務外活動](#業務外活動)
 
@@ -20,39 +19,16 @@
 | Leetcode    | https://leetcode.com/nissy-dev              |
 | SpeakerDeck | https://speakerdeck.com/nissydev            |
 
-## スキル・技術スタック
-
-TODO
-
-<!--
-
-- TypeScript・React を利用したフロントエンド開発・設計
-  - hooks や
-- フロントエンドにおけるテスト設計
-- 約 5 人程度の小規模チームにおけるスクラム開発
-  - 職能を超えてコミュニケーションし、プロジェクトを円滑に進めることができます
-- 大規模フロントエンドにおけるリファクタリングや脱レガシーの
-- Next.js を用いた
-- PyTorch や JAX などを利用した深層学習モデルの実装
-
-### 言語・フレームワークなど
-
-業務で利用した経験があるもの
-
-趣味や個人開発で利用した経験があるもの
-
--->
-
 ## 職務経歴
 
 ### Cybozu (04/2021 - )
 
-kintone のフロントエンド刷新プロジェクトに所属。
+kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
 
-- React を利用したフロントエンドの設計
-- React・TypeScript・styled-components を使った UI の実装
-- Testing Library を用いたテストの実装
 - 約 5 人程度のチームでのスクラム開発
+- TypeScript・React を利用したフロントエンドの設計・実装
+- Storybook・Testing Library を用いたフロントエンドのテスト設計・実装
+- アクセシビリティを意識した UI の実装
 - 会社ブログでの発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
 

@@ -1,11 +1,10 @@
 # resume
 
-Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/README-ja.md)
+Japanese version is [here](/README-ja.md)
 
 **Contents**
 
 - [Basic](#Basic)
-- [Skills](#Skills)
 - [Experience](#Experience)
 - [OSS](#OSS)
 - [Education](#Education)
@@ -19,20 +18,16 @@ Japanese version is [here](https://github.com/nd-02110114/resume/blob/master/REA
 | GitHub  | [＠nissy-dev](https://github.com/nissy-dev) |
 | Twitter | [@nissy_dev](https://twitter.com/nissy_dev) |
 
-## Skills
-
-TODO
-
 ## Experience
 
-<!-- ### Cybozu (04/2021 - )
+### Cybozu (04/2021 - )
 
-kintone のフロントエンド刷新プロジェクトに所属。
+I belong to the project that migrate from [Closure Tools ](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
 
-- React を利用したフロントエンドの設計
-- React・TypeScript・styled-components を使った UI の実装
-- Testing Library を用いたテストの実装
-- 約 5 人程度のチームでのスクラム開発 -->
+- Scrum development in a team of about 5 people
+- Determined front-end architecture and test policy with team members
+- Implemented accessible UI components using React・TypeScript・CSS in JS
+- Implemented tests using Storybook・Testing Library
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
@@ -79,11 +74,12 @@ Skills : TypeScript, Flow, React, React Native, React Native for Web, Redux, Red
   - SWC plugin that alias react-native to react-native-web
   - Inspired from [babel-plugin-react-native-web](https://github.com/necolas/react-native-web/tree/master/packages/babel-plugin-react-native-web)
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - [react-icons](<[react-icons](https://github.com/react-icons/react-icons)>)-like Free icon library for [dioxus](https://dioxuslabs.com/)
+  - Free icon library for [dioxus](https://dioxuslabs.com/)
+  - Inspired from [react-icons](https://github.com/react-icons/react-icons)
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Babel plugin that converts Object Literal to JSON parse syntax
-  - Acquired better understanding of AST and compilers
   - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
+  - Acquired better understanding of AST and compilers
 
 #### Other Projects
 
