@@ -2,7 +2,7 @@
 
 Japanese version is [here](/README-ja.md)
 
-**Contents**
+## Contents
 
 - [Basic](#Basic)
 - [Experience](#Experience)
