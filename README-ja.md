@@ -1,168 +1,126 @@
 # 職務経歴書
 
-**内容**
+## 内容
 
-* [基本情報](#基本情報)
-* [技術](#技術)
-* [制作物](#制作物)
-* [OSS](#OSS)
-* [職務経歴](#職務経歴)
-* [ハッカソン](#ハッカソン)
-
+- [基本情報](#基本情報)
+- [職務経歴](#職務経歴)
+- [業務外活動](#業務外活動)
 
 ## 基本情報
-### 自己紹介
 
-- 西川 大貴
-- 修士1年
-- メール : nd.12021218@gmail.com
-- Github : [nd-02110114](https://github.com/nd-02110114)
-- ブログ : [はてなブログ](https://nissy-nd.hatenablog.com/)
-
-### 学歴
-
-#### 東京大学
-2019.04 - 2021.03 (見込み) : 修士 工学系研究科 化学システム工学専攻
-
-#### 早稲田大学
-2015.04 - 2019.03 : 学士 先進理工学部応用化学科
-
-### 強み
-- OSS活動を通じて得られた、大規模なプロジェクトや新しい開発環境への高い順応力
-- 機械学習とフロントエンドの両方の知識を活かすことができる技術力
-- 新しい技術に対する探究心
-
-## 技術
-
-### 言語
-- 日本語 : ネイティブ
-- 英語 : 日常会話レベル
-
-### プログラミング言語
-
-- JavaScript
-  - TypeScript, Flow, jQuery
-  - React, React Native, React Native for Web
-  - Redux, Redux Thunk
-  - Babel, Webpack
-  - Node.js
-- Python
-  - Pandas, scikit-learn
-  - TensorFlow, PyTorch, Chainer
-- HTML
-- CSS
-- SQL
-
-### 機械学習・データ解析
-
-修士の研究テーマはマテリアルズインフォマティクスに関連しており、深層学習モデルの Graph Convolutional Networks や VAE などの深層生成モデルを無機結晶の新規材料探索へ応用する方法について研究を行なっています。一方で、Kaggleなどのコンペティションに参加したことで、社会でも良く利用されている自然言語処理や画像処理の機械学習手法の基本的な知識を持っています。さらに、500万レコード程度ある時系列データの解析をインターンで行なった経験があり、基本的なテーブルデータや時系列データを扱う技術も持っています。
-
-### フロントエンド開発
-
-学部での専攻は化学系である傍ら、独学でプログラミングを学習し、複数社でのインターンを通じて2年以上の Web アプリケーションの開発経験があります。特に、React と Typescript がベースとなった Web アプリケーションの開発経験が豊富です。 また、CI やデプロイなども含めた基本的な複数人数での開発フローの知識も持っています。最近は JS の AST (抽象構文木) に興味があり、babel plugin も自作しました。([babel-plugin-object-to-json-parse](https://github.com/nd-02110114/babel-plugin-object-to-json-parse))
-
-### 量子化学シミュレーション
-
-学部時代の研究では、量子化学シミュレーションを利用した電気化学系の解析を行なっていました。そのため以下の量子化学計算や第一原理計算のライブラリの使用には慣れています。
-
-- Gaussian, VASP, Quantum Espresso
-
-## 制作物
-
-### Goofi Mobile
-
-ソースコード : https://github.com/nd-02110114/goofi-mobile
-
-- Good First Issue を検索する簡易なモバイルアプリ
-  - こちらの[Webアプリ](https://goofi.now.sh/)を参考にしました
-- GraphQLやApolloに興味があったのが作成のきっかけ
-  - REST APIにおけるエンドポイント管理の煩雑さに課題を感じていました
-- 技術 : Expo(React Native), Apollo Client, Atomic Design, GraphQL
-
-### Babel plugin object to json parse
-
-ソースコード : https://github.com/nd-02110114/babel-plugin-object-to-json-parse
-
-- Object Literal を JSON parse 構文に書き換える Babel プラグイン
-- [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけ
-- JavaScriptのASTやプログラミング言語のコンパイラーの理解が深まりました
-- 2019年の ChromeDevSummit にて、V8 のコミッターである Mathias Bynens さんに紹介されました
-  - [ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0)
-
-## OSS
-
-### DeepChem : [PR](https://github.com/deepchem/deepchem/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
-
-- GSoCの作業に関連して、以下の4つのタスクをメインに活動を行いました
-  - Deep Graph Library と PyTorch Geometric に関するインテグレーションの実装
-  - ドキュメントとレガシーコードの改善
-  - インフラ (Docker, PyPi などのパッケージのリリースの自動化) の改善
-  - 他のメンテナーからのPRのレビュー
-
-### Chainer Chemistry : [PR](https://github.com/chainer/chainer-chemistry/pull/405)
-
-- 無機結晶系を対象とした Graph Convolutional Network のモデルを実装しました
-  - 有機分子系だけではなく無機結晶系を含めた解析が可能になり、ライブラリの適用範囲を拡張することができました
-
-### React Native : [PRs](https://github.com/facebook/react-native/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
-
-- レガシーコードや型周りの修正に関する Good First Issue に20近くのPRを送りました
-  - 業務で使っているライブラリに貢献したいという思いから始めました
-
-### js-primer (online book for JS beginners) : [PRs](https://github.com/asciidwango/js-primer/pulls?q=is%3Apr+author%3And-02110114+is%3Aclosed)
-
-- PWA に対応させることによって、js-primer をオフラインで閲覧できるようにしました
-  - Web Scratch で azu さんに紹介されました ([ブログのリンク](https://efcl.info/2018/05/25/js-primer-offline/))
+| key         | value                                       |
+| ----------- | ------------------------------------------- |
+| 氏名        | 西川 大貴 (Daiki Nishikawa)                 |
+| 居住地      | 東京都                                      |
+| GitHub      | [＠nissy-dev](https://github.com/nissy-dev) |
+| Twitter     | [@nissy_dev](https://twitter.com/nissy_dev) |
+| Zenn        | [@nissy_dev](https://zenn.dev/nissy_dev)    |
+| Blog        | https://blog.nissy.dev                      |
+| Leetcode    | https://leetcode.com/nissy-dev              |
+| SpeakerDeck | https://speakerdeck.com/nissydev            |
 
 ## 職務経歴
 
-### 2020 Google Summer of Code (参加組織: DeepChem, OpenChemistry) (06/2020 - 08/2020)
+### Cybozu (04/2021 - )
 
-- JAX を利用した化学向けのモデルの実装テスト (リポジトリ：[JAXChem](https://github.com/deepchem/jaxchem))
-- Deep Graph Library と PyTorch Geometric に関するインテグレーションの実装
-- ドキュメントとインフラ (Docker, PyPi などのパッケージのリリースの自動化) の改善
+kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
+
+- 約 5 人程度のチームでのスクラム開発
+- TypeScript・React を利用したフロントエンドの設計・実装
+- Storybook・Testing Library を用いたフロントエンドのテスト設計・実装
+- アクセシビリティを意識した UI の実装
+- 会社ブログでの発信
+  - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
+
+### Google Summer of Code (06/2020 - 08/2020)
+
+参加プロジェクト：[DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
+
+- JAX を利用した化学向けの深層学習フレームワークの PoC の実施 ([JAXChem](https://github.com/deepchem/jaxchem))
+- [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) でのモデリング機能の実装
+- API ドキュメントやチュートリアルの改善
+- Travis CI から GitHub Actions への移行
+- PyPI・conda-forge へのリリースの自動化
 
 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
-技術 : *Python, PyTorch, JAX, Graph Neural Network, Docker*
+技術 : Python, PyTorch, JAX, Graph Neural Network, Docker
 
-### ELYZA, Inc (09/2019 - 12/2019)
+### ELYZA (09/2019 - 12/2019)
 
-- 数千種類以上の雑貨商品に関する売り上げ予測モデルの精度改善
-- 500万レコード以上のデータのクレンジング・分析
+- 500 万レコード以上のデータのクレンジングや分析
+- 数千種類以上の雑貨商品に関する売上数予測モデルの精度改善
 
-技術 : *Python, Pandas, LightGBM*
+技術 : Python, Pandas, LightGBM
 
-### Preferred Networks, Inc (08/2019 - 09/2019, summer internship)
+### Preferred Networks (08/2019 - 09/2019, summer internship)
 
-- 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装 (Chainer Chemistry 関連)
-- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装 (Chainer Chemistry 関連)
+[Chainer Chemistry](https://github.com/chainer/chainer-chemistry) へのコントリビューションを主に行いました。
 
-技術 : *Python, Chainer, Docker, Kubernetes*
+- 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装
+- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
 
-### CureApp, Inc (01/2018 - 05/2019)
+技術 : Python, Chainer, Docker, Kubernetes
 
-- Bluetoothを利用した、血圧計から血圧値を取得・記録するアプリの作成
-- 患者が利用するアプリのデータを医療従事者が確認するためのWebサイトの作成
-- 社内ライブラリのFlowからTypeScriptへの移行
+### CureApp (01/2018 - 05/2019)
 
-技術 : *TypeScript, Flow, Node.js, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack*
+- Bluetooth を利用して血圧計から血圧値を取得・記録するアプリの開発
+- 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
+- 社内ライブラリの Flow から TypeScript への移行
 
-### Wantedly, Inc (08/2017, 1週間, summer internship)
+技術 : TypeScript, Flow, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
+
+### Wantedly (08/2017, 1 週間, summer internship)
 
 - 管理者用のダッシュボードへの新機能の作成
 
-技術 : *React*
+技術 : React
 
-### TOWN, Inc (03/2016 - 12/2017)
+### TOWN (03/2016 - 12/2017)
 
-- WordPress を使用した、不動産売買に関するWebサイトの開発
+- 不動産売買に関する Web サイトの開発
 
-技術 : *WordPress, jQuery*
+技術 : WordPress, jQuery
 
-## ハッカソン
+## 業務外活動
 
-- Recruit, Co., Ltd. スピードハッカソン, 02/2019 : 参加 *1
+### OSS 活動
 
-*1 : 与えられた静的サイトの Lighthouse スコアを改善するハッカソン  
-https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon
+#### 個人の制作物
+
+- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
+  - react-native-web 用の SWC plugin を開発
+  - 詳細は Zenn に[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を投稿した
+- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
+  - [dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
+  - [react-icons](https://github.com/react-icons/react-icons) を参考に、個人のプロフィールサイトで利用するために作成
+  - SVG をパースして [RSX](https://dioxuslabs.com/reference/guide/rsx_in_depth.html) と呼ばれる構文に変換している
+- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
+  - Object Literal を JSON parse 構文に書き換える Babel プラグイン
+  - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで、AST やコンパイラーの理解が深まった
+  - 2019 年の ChromeDevSummit にて、V8 のコミッターに紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
+
+#### その他
+
+OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
+
+- DeepChem への 3 ヶ月以上にわたってのコントリビュート
+  - 詳細は職務経歴を参考のこと
+- Good First Issue を中心としたコントリビュート
+  - React Native ([PRs](https://github.com/facebook/react-native/pulls/nissy-dev)) や Node.js ([PRs](https://github.com/nodejs/node/pulls/nissy-dev)) が中心
+- [Javascript Primer](https://jsprimer.net/) の PWA 対応
+  - azu さんが書いているブログで紹介された ([リンク](https://efcl.info/2018/05/25/js-primer-offline/))
+
+### 執筆活動
+
+- [詳解 マテリアルズインフォマティクス 有機・無機化学のための深層学習](https://www.kindaikagaku.co.jp/book_list/detail/9784764960237/)
+  - 無機化学の内容を執筆 (全体の 2 割程度)
+
+### ハッカソン
+
+- Web Speed Hackathon 2021 mini (12/2021)
+  - 与えられた Web アプリの Lighthouse スコアを改善するハッカソン
+  - ブログ：https://developers.cyberagent.co.jp/blog/archives/32747/
+- Recruit 社開催のスピードハッカソン (02/2019)
+  - 与えられた静的サイトの Lighthouse スコアを改善するハッカソン
+  - ブログ：https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon
