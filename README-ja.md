@@ -26,61 +26,48 @@
 kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
 
 - 約 5 人程度のチームでのスクラム開発
-- TypeScript・React を利用したフロントエンドの設計・実装
-- Storybook・Testing Library を用いたフロントエンドのテスト設計・実装
-- アクセシビリティを意識した UI の実装
+- React Hooks や React Redux をベースとしたフロントエンドの設計
+- React と styled components を利用したアクセシブルな UI コンポーネント の実装
+- [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) や QA メンバーを意識したテスト戦略の設計
+- Storybook・Testing Library を利用したフロントエンドのテストの実装
 - 会社ブログでの発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
+  - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
 参加プロジェクト：[DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
 
-- JAX を利用した化学向けの深層学習フレームワークの PoC の実施 ([JAXChem](https://github.com/deepchem/jaxchem))
+- JAX を利用した化学向けの Graph Neural Network の実装([JAXChem](https://github.com/deepchem/jaxchem))
 - [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) でのモデリング機能の実装
 - API ドキュメントやチュートリアルの改善
 - Travis CI から GitHub Actions への移行
-- PyPI・conda-forge へのリリースの自動化
+- DockerHub、PyPI、conda-forge へのリリース自動化
 
 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
-技術 : Python, PyTorch, JAX, Graph Neural Network, Docker
-
 ### ELYZA (09/2019 - 12/2019)
 
-- 500 万レコード以上のデータのクレンジングや分析
+- Pandas を使った 500 万レコード以上のデータのクレンジングや分析
 - 数千種類以上の雑貨商品に関する売上数予測モデルの精度改善
-
-技術 : Python, Pandas, LightGBM
+  - LightGBM や NN を使った予測モデルの実装
 
 ### Preferred Networks (08/2019 - 09/2019, summer internship)
 
 [Chainer Chemistry](https://github.com/chainer/chainer-chemistry) へのコントリビューションを主に行いました。
 
-- 無機結晶系を対象とした Graph Convolutional Networks のモデルの実装
+- 無機結晶系を対象とした Graph Neural Networks のモデルの実装
 - 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
-
-技術 : Python, Chainer, Docker, Kubernetes
 
 ### CureApp (01/2018 - 05/2019)
 
-- Bluetooth を利用して血圧計から血圧値を取得・記録するアプリの開発
+- 血圧計から血圧値を取得・記録するアプリの開発
+  - React Native を利用したモバイルアプリの開発
+  - BLE を利用したデバイス間でのデータ通信の実装
 - 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
+  - React Native Web を利用した Single Page Application の開発
+  - Redux を利用した状態管理や Redux Thunk を利用したユースケースの実装
 - 社内ライブラリの Flow から TypeScript への移行
-
-技術 : TypeScript, Flow, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
-
-### Wantedly (08/2017, 1 週間, summer internship)
-
-- 管理者用のダッシュボードへの新機能の作成
-
-技術 : React
-
-### TOWN (03/2016 - 12/2017)
-
-- 不動産売買に関する Web サイトの開発
-
-技術 : WordPress, jQuery
 
 ## 業務外活動
 
@@ -98,7 +85,7 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Object Literal を JSON parse 構文に書き換える Babel プラグイン
   - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで、AST やコンパイラーの理解が深まった
-  - 2019 年の ChromeDevSummit にて、V8 のコミッターに紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20), [動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
+  - 2019 年の ChromeDevSummit にて、V8 のコミッターに紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20)・[動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
 
 #### その他
 

@@ -22,49 +22,47 @@ Japanese version is [here](/README-ja.md)
 
 ### Cybozu (04/2021 - )
 
-I belong to the project that migrate from [Closure Tools ](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
+I belong to the project that migrate from [Closure Tools](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
 
-- Scrum development in a team of about 5 people
-- Determined front-end architecture and test policy with team members
-- Implemented accessible UI components using React・TypeScript・CSS in JS
-- Implemented tests using Storybook・Testing Library
+- Experienced scrum development in a team of about 5 members for 6+ months
+- Designed frontend architecture based on React (Hooks) or React Redux
+- Implemented accessible UI components using React and styled components
+- Designed test strategies considering [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) and QA members
+- Implemented tests using Storybook and Testing Library
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
 Organization: [DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
 
-- Conducted a PoC for a deep learning framework for chemistry using JAX ([JAXChem](https://github.com/deepchem/jaxchem))
+- Implemented graph neural networks for chemistry using JAX ([JAXChem](https://github.com/deepchem/jaxchem))
 - Implemented modeling APIs for [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
 - Improve API documentation and tutorials
 - Migration from Travis CI to GitHub Actions
-- Automated releases process to PyPI and conda-forge
+- Automated releases process to DockerHub, PyPI and conda-forge
 
-Final report: [https://forum.deepchem.io/t/summary-of-2020-gsoc/249](https://forum.deepchem.io/t/summary-of-2020-gsoc/249)
-
-Skills : Python, PyTorch, JAX, Graph Neural Network, Docker
+Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
 ### ELYZA (09/2019 - 12/2019)
 
-- Improved an accuracy of the sales forecasting model for [MUJI](https://www.muji.com/) products
-- Cleansed and analyzed over 5 million records of time series data
-
-Skills : Python, Pandas, LightGBM
+- Improved accuracy of sales forecasting models
+  - Implemented models using LightGBM or neural networks
+- Cleansed and analyzed over 5 million records of time series data using Pandas
 
 ### Preferred Networks (08/2019 - 09/2019, summer internship)
 
 - Contributed to [Chainer Chemistry](https://github.com/chainer/chainer-chemistry)
-- Implemented the Graph Convolutional Networks for inorganic crystals
-- Implemented the utility function for benchmark datasets of inorganic crystals
+- Implemented graph neural networks for predicting properties of inorganic crystals ([MEGNet](https://github.com/materialsvirtuallab/megnet)) using Chainer
+- Implemented utility functions for benchmark datasets of inorganic crystals
 
-Skills : Python, Chainer, Docker, Kubernetes
+### CureApp (01/2018 - 05/2019)
 
-### CureApp (01/2018 - 05/2019, part)
-
-- Developed a mobile app to record blood pressure values from a sphygmomanometer using Bluetooth
-- Developed a single page application for doctors to check the data of the app used by patients
+- Developed a mobile app to retrieve and record blood pressure from a blood pressure monitor
+  - Developed a mobile app using React Native
+  - Implemented data communication between devices using BLE
+- Developed a website for doctors to check data stored in a mobile app used by patients
+  - Developed a single page application using React Native Web
+  - Implemented state management using Redux and use cases using Redux Thunk
 - Migrated internal libraries from Flow to TypeScript
-
-Skills : TypeScript, Flow, React, React Native, React Native for Web, Redux, Redux Thunk, Babel, Webpack
 
 ## OSS
 
@@ -79,7 +77,6 @@ Skills : TypeScript, Flow, React, React Native, React Native for Web, Redux, Red
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Babel plugin that converts Object Literal to JSON parse syntax
   - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
-  - Acquired better understanding of AST and compilers
 
 #### Other Projects
 
