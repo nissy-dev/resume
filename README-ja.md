@@ -1,8 +1,11 @@
 # 職務経歴書
 
+[ [English](/README.md) | 日本語 ]
+
 ## 内容
 
 - [基本情報](#基本情報)
+- [スキル](#スキル)
 - [職務経歴](#職務経歴)
 - [業務外活動](#業務外活動)
 
@@ -19,6 +22,27 @@
 | Leetcode    | https://leetcode.com/nissy-dev              |
 | SpeakerDeck | https://speakerdeck.com/nissydev            |
 
+## スキル
+
+### フロントエンド
+
+- 約 5 人程度のチームでのスクラム開発への参加
+- TypeScript と React を利用したフロントエンドの設計および実装
+- QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
+- CSS in JS を利用したスタイリングやアクセシビリティを意識した UI の実装
+- レガシープロダクトのフレームワークやライブラリの移行
+- GitHub Actions などを利用した CI/CD の整備
+- 豊富な OSS 活動経験を活かした、業務で利用している OSS などへのコントリビュート
+
+### 機械学習
+
+業務経験はほとんどありませんが、OSS 開発や研究などの経験から次のスキルを保有しています。
+
+- PyTorch や JAX などの深層学習フレームワークを使ったモデリング
+- 論文や Kaggle などで紹介されている最新の手法のキャッチアップおよび実装
+- 各種データ (テーブル、自然言語、画像) に対する基本的なクレンジングや分析
+- 化学・材料分野への機械学習の応用
+
 ## 職務経歴
 
 ### Cybozu (04/2021 - )
@@ -27,7 +51,7 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 
 - 約 5 人程度のチームでのスクラム開発
 - React Hooks や React Redux をベースとしたフロントエンドの設計
-- React と styled components を利用したアクセシブルな UI コンポーネント の実装
+- React と styled components を利用したアクセシブルな UI の実装
 - [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) や QA メンバーを意識したテスト戦略の設計
 - Storybook・Testing Library を利用したフロントエンドのテストの実装
 - 会社ブログでの発信
@@ -56,7 +80,7 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 
 [Chainer Chemistry](https://github.com/chainer/chainer-chemistry) へのコントリビューションを主に行いました。
 
-- 無機結晶系を対象とした Graph Neural Networks のモデルの実装
+- 無機結晶系を対象とした Graph Neural Networks のモデル ([MEGNet](https://github.com/materialsvirtuallab/megnet)) の実装
 - 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
 
 ### CureApp (01/2018 - 05/2019)
@@ -74,6 +98,8 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 ### OSS 活動
 
 #### 個人の制作物
+
+最近は Rust に興味があり、個人で開発したものを OSS として公開しています。
 
 - [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
   - react-native-web 用の SWC plugin を開発

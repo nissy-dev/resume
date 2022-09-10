@@ -1,10 +1,11 @@
 # resume
 
-Japanese version is [here](/README-ja.md)
+[ English | [日本語](/README-ja.md) ]
 
 ## Contents
 
 - [Basic](#Basic)
+- [Skills](#Skills)
 - [Experience](#Experience)
 - [OSS](#OSS)
 - [Education](#Education)
@@ -18,6 +19,27 @@ Japanese version is [here](/README-ja.md)
 | GitHub  | [＠nissy-dev](https://github.com/nissy-dev) |
 | Twitter | [@nissy_dev](https://twitter.com/nissy_dev) |
 
+## Skills
+
+### Frontend
+
+- Participate in scrum development with a team of about 5 members
+- Design frontend architecture based on React and TypeScript
+- Implement accessible UI using React and CSS in JS
+- Design and implement frontend tests in collaborating with QA members
+- Migrate legacy frameworks and libraries
+- Setup CI/CD using GitHub Actions, etc
+- Contribute to OSS used in the business
+
+### Machine Learning
+
+Although I have little business experience, I have the following skills based on my experience in OSS development and research.
+
+- Implement deep learning models using frameworks like PyTorch or JAX
+- Keep up with and implement the latest methods introduced in papers or Kaggle.
+- Cleanse and analyze various data like tables, natural language and images.
+- Integrate machine learning into chemistry and material science
+
 ## Experience
 
 ### Cybozu (04/2021 - )
@@ -26,7 +48,7 @@ I belong to the project that migrate from [Closure Tools](https://developers.goo
 
 - Experienced scrum development in a team of about 5 members for 6+ months
 - Designed frontend architecture based on React (Hooks) or React Redux
-- Implemented accessible UI components using React and styled components
+- Implemented accessible UI using React and styled components
 - Designed test strategies considering [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) and QA members
 - Implemented tests using Storybook and Testing Library
 
