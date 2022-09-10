@@ -25,7 +25,7 @@
 
 - Participate in scrum development with a team of about 5 members
 - Design frontend architecture based on React and TypeScript
-- Implement accessible UI using React and CSS in JS
+- Implement accessible UI components using React and CSS in JS
 - Design and implement frontend tests in collaborating with QA members
 - Migrate legacy frameworks and libraries
 - Setup CI/CD using GitHub Actions, etc
@@ -96,6 +96,15 @@ Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
   - Free icon library for [dioxus](https://dioxuslabs.com/)
   - Inspired from [react-icons](https://github.com/react-icons/react-icons)
+- [blog.nissy.dev](https://github.com/nissy-dev/blog)
+  - Personal blog made by Next.js and deployed on Vercel
+  - Implemented blog search using Algolia, dark mode support, automatic OGP generation, etc
+  - Confirmed bundle size and used code splitting technique for performance
+- [nissy.dev](https://github.com/nissy-dev/nissy.dev)
+  - Profile sites deployed on Cloudflare Workers
+  - Implemented worker using [denoflare](https://github.com/skymethod/denoflare)
+  - SSR the HTML of the profile site using [dioxus](https://dioxuslabs.com/)
+  - The SSR process is written in Rust, so it is compiled into WASM to run from the Worker.
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Babel plugin that converts Object Literal to JSON parse syntax
   - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))

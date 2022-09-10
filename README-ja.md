@@ -29,7 +29,8 @@
 - 約 5 人程度のチームでのスクラム開発への参加
 - TypeScript と React を利用したフロントエンドの設計および実装
 - QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
-- CSS in JS を利用したスタイリングやアクセシビリティを意識した UI の実装
+- CSS in JS ライブラリ を利用したコンポーネントのスタイリング
+- HTML のセマンティクスやアクセシビリティを意識した UI の実装
 - レガシープロダクトのフレームワークやライブラリの移行
 - GitHub Actions などを利用した CI/CD の整備
 - 豊富な OSS 活動経験を活かした、業務で利用している OSS などへのコントリビュート
@@ -50,10 +51,12 @@
 kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
 
 - 約 5 人程度のチームでのスクラム開発
-- React Hooks や React Redux をベースとしたフロントエンドの設計
-- React と styled components を利用したアクセシブルな UI の実装
-- [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) や QA メンバーを意識したテスト戦略の設計
-- Storybook・Testing Library を利用したフロントエンドのテストの実装
+- React Hooks や React Redux をベースとしたフロントエンドの設計・実装
+- styled components を利用したコンポーネントのスタイリング (デザインは Figma で共有)
+- HTML のセマンティクスやアクセシビリティを意識した UI の実装
+- Testing Trophy や QA メンバーを意識したテスト戦略の設計
+- Testing Library を利用したフロントエンドのテストの実装
+- Interactive stories などの Storybook の多様な機能を活用した開発 ([Chromatic](https://www.chromatic.com/)の利用経験もあり)
 - 会社ブログでの発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
@@ -108,6 +111,15 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
   - [dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
   - [react-icons](https://github.com/react-icons/react-icons) を参考に、個人のプロフィールサイトで利用するために作成
   - SVG をパースして [RSX](https://dioxuslabs.com/reference/guide/rsx_in_depth.html) と呼ばれる構文に変換している
+- [blog.nissy.dev](https://github.com/nissy-dev/blog)
+  - Next.js を利用して作成し、Vercel にデプロイした個人ブログ
+  - Algolia を利用したブログ内検索、ダークモード対応、OGP の自動生成なども実装した
+  - パフォーマンスのために、ライブラリの JS サイズや Code Splitting を意識している
+- [nissy.dev](https://github.com/nissy-dev/nissy.dev)
+  - Cloudflare Workers にデプロイしたプロフィールサイト
+  - Worker は [denoflare](https://github.com/skymethod/denoflare) を利用して実装
+  - [dioxus](https://dioxuslabs.com/) を利用してプロフィールサイトの HTML を SSR している
+  - SSR の処理は Rust で記述されているので、Worker から実行するために WASM にコンパイルする
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Object Literal を JSON parse 構文に書き換える Babel プラグイン
   - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで、AST やコンパイラーの理解が深まった
