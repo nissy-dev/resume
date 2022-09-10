@@ -1,0 +1,20 @@
+name: Reminder to update resume
+
+on:
+  schedule:
+    - cron: "0 0 1 */3 *"
+
+jobs:
+  create-issue:
+    name:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: create-issue
+        run: |
+          gh issue create \
+            -a nissy-dev \
+            -b "四半期が経過しました！忘れないうちに、この期間に取り組んだことを職務経歴書に反映してください。" \
+            -t "職務経歴書の更新 【$(date '+%Y/%m/%d')】"
