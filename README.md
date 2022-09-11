@@ -101,12 +101,12 @@ Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - Implemented blog search using Algolia, dark mode support, automatic OGP generation, etc
   - Confirmed bundle size and used code splitting technique for performance
 - [nissy.dev](https://github.com/nissy-dev/nissy.dev)
-  - Profile sites deployed on Cloudflare Workers
+  - Profile site deployed on Cloudflare Workers
   - Implemented worker using [denoflare](https://github.com/skymethod/denoflare)
-  - SSR the HTML of the profile site using [dioxus](https://dioxuslabs.com/)
+  - Server side rendering (SSR) the HTML using [dioxus](https://dioxuslabs.com/)
   - The SSR process is written in Rust, so it is compiled into WASM to run from the Worker.
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
-  - Babel plugin that converts Object Literal to JSON parse syntax
+  - Babel plugin that converts object Literal to JSON parse syntax
   - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
 
 #### Other Projects
