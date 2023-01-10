@@ -26,13 +26,14 @@
 
 ### フロントエンド
 
-- 約 5 人程度のチームでのスクラム開発への参加
+- 約 5 人程度のチームでのスクラム開発
 - TypeScript と React を利用したフロントエンドの設計および実装
 - QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
 - CSS in JS ライブラリ を利用したコンポーネントのスタイリング
 - HTML のセマンティクスやアクセシビリティを意識した UI の実装
 - レガシープロダクトのフレームワークやライブラリの移行
 - GitHub Actions などを利用した CI/CD の整備
+- Web フロントエンドのパフォーマンスの啓蒙や改善
 - 豊富な OSS 活動経験を活かした、業務で利用している OSS などへのコントリビュート
 
 ### 機械学習
@@ -56,10 +57,14 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 - HTML のセマンティクスやアクセシビリティを意識した UI の実装
 - Testing Trophy や QA メンバーを意識したテスト戦略の設計
 - Testing Library を利用したフロントエンドのテストの実装
-- Interactive stories などの Storybook の多様な機能を活用した開発 ([Chromatic](https://www.chromatic.com/)の利用経験もあり)
-- 会社ブログでの発信
+- Interactive stories などの Storybook の多様な機能を活用した開発
+- Micro Frontends の手法を使ったコンポーネント単位でのレガシーフレームワークの刷新
+- Web フロントエンドのパフォーマンス最適化
+- 社外発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
+  - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
+  - [JS Conf 2022 Sponsor LT](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
@@ -116,10 +121,9 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
   - Algolia を利用したブログ内検索、ダークモード対応、OGP の自動生成なども実装した
   - パフォーマンスのために、ライブラリの JS サイズや Code Splitting を意識している
 - [nissy.dev](https://github.com/nissy-dev/nissy.dev)
-  - Cloudflare Workers にデプロイしたプロフィールサイト
-  - Worker は [denoflare](https://github.com/skymethod/denoflare) を利用して実装
+  - Vercel Edge Functions にデプロイしたプロフィールサイト
   - [dioxus](https://dioxuslabs.com/) を利用してプロフィールサイトの HTML を SSR している
-  - SSR の処理は Rust で記述されているので、Worker から実行するために WASM にコンパイルする
+  - SSR の処理は Rust で記述されているので、JS から実行するために WASM にコンパイルする
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Object Literal を JSON parse 構文に書き換える Babel プラグイン
   - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで、AST やコンパイラーの理解が深まった

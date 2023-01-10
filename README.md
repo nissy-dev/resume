@@ -29,6 +29,7 @@
 - Design and implement frontend tests in collaborating with QA members
 - Migrate legacy frameworks and libraries
 - Setup CI/CD using GitHub Actions, etc
+- Monitor and improve web performance
 - Contribute to OSS used in the business
 
 ### Machine Learning
@@ -46,11 +47,13 @@ Although I have little business experience, I have the following skills based on
 
 I belong to the project that migrate from [Closure Tools](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
 
-- Experienced scrum development in a team of about 5 members for 6+ months
+- Experienced scrum development in a team of about 5 members
 - Designed frontend architecture based on React (Hooks) or React Redux
 - Implemented accessible UI using React and styled components
 - Designed test strategies considering [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) and QA members
 - Implemented tests using Storybook and Testing Library
+- Replaced legacy frameworks per component using Micro Frontends
+- Improved web frontend performance
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
@@ -101,10 +104,9 @@ Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - Implemented blog search using Algolia, dark mode support, automatic OGP generation, etc
   - Confirmed bundle size and used code splitting technique for performance
 - [nissy.dev](https://github.com/nissy-dev/nissy.dev)
-  - Profile site deployed on Cloudflare Workers
-  - Implemented worker using [denoflare](https://github.com/skymethod/denoflare)
+  - Profile sites deployed on Vercel Edge Functions
   - Server side rendering (SSR) the HTML using [dioxus](https://dioxuslabs.com/)
-  - The SSR process is written in Rust, so it is compiled into WASM to run from the Worker.
+  - The SSR process is written in Rust, so it is compiled into WASM
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Babel plugin that converts object Literal to JSON parse syntax
   - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
