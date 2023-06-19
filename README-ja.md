@@ -26,7 +26,7 @@
 
 ### フロントエンド
 
-- 約 5 人程度のチームでのスクラム開発
+- 少人数チームでのスクラム開発における技術的なリード
 - TypeScript と React を利用したフロントエンドの設計および実装
 - QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
 - CSS in JS ライブラリ を利用したコンポーネントのスタイリング
@@ -51,15 +51,15 @@
 
 kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
 
-- 約 5 人程度のチームでのスクラム開発
+- 約 5 人程度のチームでテックリードとしてスクラム開発をリード
 - React Hooks や React Redux をベースとしたフロントエンドの設計・実装
-- styled components を利用したコンポーネントのスタイリング (デザインは Figma で共有)
+- Styled Components を利用したコンポーネントのスタイリング
 - HTML のセマンティクスやアクセシビリティを意識した UI の実装
 - Testing Trophy や QA メンバーを意識したテスト戦略の設計
 - Testing Library を利用したフロントエンドのテストの実装
-- Interactive stories などの Storybook の多様な機能を活用した開発
+- Chromatic を活用した Virtual Regression Test の実装
 - Micro Frontends の手法を使ったコンポーネント単位でのレガシーフレームワークの刷新
-- Web フロントエンドのパフォーマンス最適化
+- Web フロントエンドのパフォーマンスの最適化
 - 社外発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
@@ -105,40 +105,37 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 
 ### OSS 活動
 
-#### 個人の制作物
-
-最近は Rust に興味があり、個人で開発したものを OSS として公開しています。
-
-- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
-  - react-native-web 用の SWC plugin を開発
-  - 詳細は Zenn に[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を投稿した
-- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - [dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
-  - [react-icons](https://github.com/react-icons/react-icons) を参考に、個人のプロフィールサイトで利用するために作成
-  - SVG をパースして [RSX](https://dioxuslabs.com/reference/guide/rsx_in_depth.html) と呼ばれる構文に変換している
-- [blog.nissy.dev](https://github.com/nissy-dev/blog)
-  - Next.js を利用して作成し、Vercel にデプロイした個人ブログ
-  - Algolia を利用したブログ内検索、ダークモード対応、OGP の自動生成なども実装した
-  - パフォーマンスのために、ライブラリの JS サイズや Code Splitting を意識している
-- [nissy.dev](https://github.com/nissy-dev/nissy.dev)
-  - Vercel Edge Functions にデプロイしたプロフィールサイト
-  - [dioxus](https://dioxuslabs.com/) を利用してプロフィールサイトの HTML を SSR している
-  - SSR の処理は Rust で記述されているので、JS から実行するために WASM にコンパイルする
-- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
-  - Object Literal を JSON parse 構文に書き換える Babel プラグイン
-  - [V8 のブログ](https://v8.dev/blog/cost-of-javascript-2019#json) を見たのが作成のきっかけで、AST やコンパイラーの理解が深まった
-  - 2019 年の ChromeDevSummit にて、V8 のコミッターに紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20)・[動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
-
-#### その他
+OSS にコントリビュートするのはエンジニアを始めた頃から好きで、現在は JavaScript のリンターやトランスパイラーなどに関するツールをメインにコントリビュートしています。
 
 OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 
-- DeepChem への 3 ヶ月以上にわたってのコントリビュート
+- [Rome](https://github.com/rome/tools) の core contributor としての活動
+  - TypeScript の新しい構文に関するパーサーやフォーマッターの実装
+  - リンターの false positive の修正
+- [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上にわたってのコントリビュート
   - 詳細は職務経歴を参考のこと
-- Good First Issue を中心としたコントリビュート
-  - React Native ([PRs](https://github.com/facebook/react-native/pulls/nissy-dev)) や Node.js ([PRs](https://github.com/nodejs/node/pulls/nissy-dev)) が中心
+- React Native への Good First Issue を中心としたコントリビュート
+  - React の `createReactClass` 関数からクラス構文への書き換えなど：[PRs](https://github.com/facebook/react-native/pulls/nissy-dev)
 - [Javascript Primer](https://jsprimer.net/) の PWA 対応
   - azu さんが書いているブログで紹介された ([リンク](https://efcl.info/2018/05/25/js-primer-offline/))
+
+### 個人の制作物
+
+- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
+  - SWC plugin の実装の練習として作成した (詳細は、[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと)
+- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
+  - [dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
+  - [react-icons](https://github.com/react-icons/react-icons) を参考に、個人のプロフィールサイトで利用するために作成した
+- [blog.nissy.dev](https://github.com/nissy-dev/blog)
+  - Next.js を利用して作成し、Vercel にデプロイした個人ブログ
+  - Algolia を利用したブログ内検索、ダークモード対応、OGP の自動生成などを実装した
+- [nissy.dev](https://github.com/nissy-dev/nissy.dev)
+  - Vercel Edge Functions にデプロイしたプロフィールサイト
+  - [dioxus](https://dioxuslabs.com/) を利用してプロフィールサイトの HTML を SSR している
+- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
+  - Object Literal を JSON parse 構文に書き換える Babel プラグイン
+  - このプラグインの作成をきっかけに AST やコンパイラーに興味を持つようになった
+  - 2019 年の ChromeDevSummit にて、V8 のコミッターにも紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20)・[動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
 
 ### 執筆活動
 

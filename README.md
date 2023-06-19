@@ -23,7 +23,7 @@
 
 ### Frontend
 
-- Participate in scrum development with a team of about 5 members
+- Lead scrum development as a tech lead with a team of about 5 members
 - Design frontend architecture based on React and TypeScript
 - Implement accessible UI components using React and CSS in JS
 - Design and implement frontend tests in collaborating with QA members
@@ -39,7 +39,7 @@ Although I have little business experience, I have the following skills based on
 - Implement deep learning models using frameworks like PyTorch or JAX
 - Keep up with and implement the latest methods introduced in papers or Kaggle.
 - Cleanse and analyze various data like tables, natural language and images.
-- Integrate machine learning into chemistry and material science
+- Applied machine learning into chemistry and material science
 
 ## Experience
 
@@ -47,7 +47,7 @@ Although I have little business experience, I have the following skills based on
 
 I belong to the project that migrate from [Closure Tools](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
 
-- Experienced scrum development in a team of about 5 members
+- Led scrum development technically in a team of about 5 members
 - Designed frontend architecture based on React (Hooks) or React Redux
 - Implemented accessible UI using React and styled components
 - Designed test strategies considering [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) and QA members
@@ -89,35 +89,34 @@ Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - Implemented state management using Redux and use cases using Redux Thunk
 - Migrated internal libraries from Flow to TypeScript
 
-## OSS
+## OSS Contribution
 
-#### My Projects
-
-- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
-  - SWC plugin that alias react-native to react-native-web
-  - Inspired from [babel-plugin-react-native-web](https://github.com/necolas/react-native-web/tree/master/packages/babel-plugin-react-native-web)
-- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - Free icon library for [dioxus](https://dioxuslabs.com/)
-  - Inspired from [react-icons](https://github.com/react-icons/react-icons)
-- [blog.nissy.dev](https://github.com/nissy-dev/blog)
-  - Personal blog made by Next.js and deployed on Vercel
-  - Implemented blog search using Algolia, dark mode support, automatic OGP generation, etc
-  - Confirmed bundle size and used code splitting technique for performance
-- [nissy.dev](https://github.com/nissy-dev/nissy.dev)
-  - Profile sites deployed on Vercel Edge Functions
-  - Server side rendering (SSR) the HTML using [dioxus](https://dioxuslabs.com/)
-  - The SSR process is written in Rust, so it is compiled into WASM
-- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
-  - Babel plugin that converts object Literal to JSON parse syntax
-  - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
-
-#### Other Projects
+I have been passionate about contributing to OSS since I started my career as an engineer. Currently, I mainly contribute to tools related to JavaScript linters and transpilers.
 
 OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 
-- Contribute to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
-- Contribute to many good first issues on React Native ([PRs](https://github.com/facebook/react-native/pulls/nissy-dev)) or Node.js ([PRs](https://github.com/nodejs/node/pulls/nissy-dev))
-- Implemented PWA features for [Javascript Primer](https://github.com/asciidwango/js-primer) using [Workbox](https://github.com/GoogleChrome/workbox)
+- Contributions as a core contributor to [Rome](https://github.com/rome/tools)
+  - Implementation of parsers and formatters for new syntax in TypeScript
+  - Fixing false positives in linters
+- Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
+  - Please refer to Experience section for more details
+- Contributions focusing on Good First Issues in React Native
+  - The migration from React's createReactClass function to class syntax, etc: [PRs](https://github.com/facebook/react-native/pulls/nissy-dev)
+
+## Personal Projects
+
+- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
+  - SWC plugin that alias react-native to react-native-web (same as [babel-plugin-react-native-web](https://github.com/necolas/react-native-web/tree/master/packages/babel-plugin-react-native-web))
+  - Created as an exercise to implement a SWC plugin
+- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
+  - Free icon library for [dioxus](https://dioxuslabs.com/)
+  - Created for [personal profile site](https://nissy.dev), taking inspiration from [react-icons](https://github.com/react-icons/react-icons)
+- [blog.nissy.dev](https://github.com/nissy-dev/blog)
+  - Personal blog made by Next.js and deployed on Vercel
+  - Implemented blog search using Algolia, dark mode support, automatic OGP generation, etc
+- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
+  - Babel plugin that converts object Literal to JSON parse syntax
+  - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
 
 ## Education
 
