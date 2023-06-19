@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-issue:
-    name:
+    name: create issue
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
