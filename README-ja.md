@@ -47,7 +47,15 @@
 
 ## 職務経歴
 
-### Cybozu (04/2021 - )
+### Cybozu (09/2023 - )
+
+Office の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000)に所属。
+
+- Next.js App Router を使った画面単位でのレガシーフレームワークの刷新
+- React Aria、CSS Modules を利用した UI の実装
+- Playwright を利用したフロントエンドのテストの実装
+
+### Cybozu (04/2021 - 09/2023)
 
 kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
 
@@ -57,14 +65,15 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 - HTML のセマンティクスやアクセシビリティを意識した UI の実装
 - Testing Trophy や QA メンバーを意識したテスト戦略の設計
 - Testing Library を利用したフロントエンドのテストの実装
-- Chromatic を活用した Virtual Regression Test の実装
-- Micro Frontends の手法を使ったコンポーネント単位でのレガシーフレームワークの刷新
-- Web フロントエンドのパフォーマンスの最適化
+- Chromatic を活用した Virtual Regression Test の整備
+- Micro Frontends の手法を利用したコンポーネント単位でのレガシーフレームワークの刷新
+- Web フロントエンドのパフォーマンス最適化
 - 社外発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
   - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
   - [JS Conf 2022 Sponsor LT](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
+  - [React 化した共通ヘッダーを kintone の全ページに適用しました！](https://blog.cybozu.io/entry/2023/08/29/101907)
 
 ### Google Summer of Code (06/2020 - 08/2020)
 
@@ -109,15 +118,23 @@ OSS にコントリビュートするのはエンジニアを始めた頃から�
 
 OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 
-- [Rome](https://github.com/rome/tools) の core contributor としての活動
-  - TypeScript の新しい構文に関するパーサーやフォーマッターの実装
-  - リンターの false positive の修正
+- [Biome](https://github.com/biomejs/biome) の core contributor としての活動
+  - JavaScript / TypeScript の新しい構文に関するパーサーやフォーマッターの実装
+  - 新しい lint ルールの実装や既存の lint ルールの false positive の修正
 - [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上にわたってのコントリビュート
   - 詳細は職務経歴を参考のこと
 - React Native への Good First Issue を中心としたコントリビュート
   - React の `createReactClass` 関数からクラス構文への書き換えなど：[PRs](https://github.com/facebook/react-native/pulls/nissy-dev)
 - [Javascript Primer](https://jsprimer.net/) の PWA 対応
   - azu さんが書いているブログで紹介された ([リンク](https://efcl.info/2018/05/25/js-primer-offline/))
+
+### 登壇
+
+- [次世代 Web カンファレンス 2023](https://nextwebconf.connpass.com/event/300174/) の Tooling セッション
+- [Deep dive into Biome](https://speakerdeck.com/nissydev/deep-dive-into-biome-in-jsconf-2023)
+  - [JSConf JP 2023](https://jsconf.jp/2023/talk/daiki-nishikawa-1/) での発表資料
+- [Biome: The community successor of Rome!](https://speakerdeck.com/nissydev/biome-the-community-successor-of-rome)
+  - [Nihonbashi.js #7](https://nihonbashi-js.connpass.com/event/293774/) での発表資料
 
 ### 個人の制作物
 

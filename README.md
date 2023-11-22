@@ -43,7 +43,15 @@ Although I have little business experience, I have the following skills based on
 
 ## Experience
 
-### Cybozu (04/2021 - )
+### Cybozu (09/2023 - )
+
+I belong to the project that migrate from the internal framework to Next.js for [Cybozu Office](https://office.cybozu.co.jp/).
+
+- Replace the legacy framework using Next.js App Router
+- Implemented accessible UI using React Aria and CSS Modules
+- Implemented tests using Playwright
+
+### Cybozu (04/2021 - 09/2023)
 
 I belong to the project that migrate from [Closure Tools](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
 
@@ -95,13 +103,17 @@ I have been passionate about contributing to OSS since I started my career as an
 
 OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 
-- Contributions as a core contributor to [Rome](https://github.com/rome/tools)
-  - Implementation of parsers and formatters for new syntax in TypeScript
-  - Fixing false positives in linters
+- Contributions as a core contributor to [Biome](https://github.com/biomejs/biome)
+  - Implementation of parsers and formatters for new syntax in JavaScript and TypeScript
+  - Adding new rules and fixing false positives in linters
 - Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
   - Please refer to Experience section for more details
 - Contributions focusing on Good First Issues in React Native
   - The migration from React's createReactClass function to class syntax, etc: [PRs](https://github.com/facebook/react-native/pulls/nissy-dev)
+
+## Talks
+
+- [Deep dive into Biome](https://speakerdeck.com/nissydev/deep-dive-into-biome-in-jsconf-2023) at [JSConf JP 2023](https://jsconf.jp/2023/talk/daiki-nishikawa-1/)
 
 ## Personal Projects
 
