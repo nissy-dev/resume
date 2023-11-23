@@ -47,7 +47,7 @@
 
 ## 職務経歴
 
-### Cybozu (09/2023 - )
+### Cybozu (09/2023 - ) フロントエンドエンジニア
 
 Office の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000)に所属。
 
@@ -55,19 +55,20 @@ Office の[フロントエンド刷新プロジェクト](https://blog.cybozu.io
 - React Aria、CSS Modules を利用した UI の実装
 - Playwright を利用したフロントエンドのテストの実装
 
-### Cybozu (04/2021 - 09/2023)
+### Cybozu (04/2021 - 09/2023) フロントエンドエンジニア
 
 kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
 
 - 約 5 人程度のチームでテックリードとしてスクラム開発をリード
-- React Hooks や React Redux をベースとしたフロントエンドの設計・実装
-- Styled Components を利用したコンポーネントのスタイリング
-- HTML のセマンティクスやアクセシビリティを意識した UI の実装
-- Testing Trophy や QA メンバーを意識したテスト戦略の設計
-- Testing Library を利用したフロントエンドのテストの実装
-- Chromatic を活用した Virtual Regression Test の整備
+  - チームのロードマップや日々のタスクの整備なども行った
 - Micro Frontends の手法を利用したコンポーネント単位でのレガシーフレームワークの刷新
+  - 結果として、予定より半年程度早く共通ヘッダー部分の刷新を全画面に適用した
+- Testing Trophy や QA メンバーを意識したテスト戦略の設計及びテストの実装
+  - Testing Library を利用したフロントエンドのテストの実装
+  - VRT を使ったスタイルのデグレを防止する仕組みの整備
 - Web フロントエンドのパフォーマンス最適化
+  - デザインシステムとして利用している社内の UI ライブラリについて、tree shaking が効くように修正
+  - 結果として、あるプロジェクトでは 50% 以上バンドルサイズが削減した
 - 社外発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
@@ -87,20 +88,20 @@ kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.i
 
 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
-### ELYZA (09/2019 - 12/2019)
+### ELYZA (09/2019 - 12/2019) アルバイト
 
 - Pandas を使った 500 万レコード以上のデータのクレンジングや分析
 - 数千種類以上の雑貨商品に関する売上数予測モデルの精度改善
   - LightGBM や NN を使った予測モデルの実装
 
-### Preferred Networks (08/2019 - 09/2019, summer internship)
+### Preferred Networks (08/2019 - 09/2019) サマーインターン
 
 [Chainer Chemistry](https://github.com/chainer/chainer-chemistry) へのコントリビューションを主に行いました。
 
 - 無機結晶系を対象とした Graph Neural Networks のモデル ([MEGNet](https://github.com/materialsvirtuallab/megnet)) の実装
 - 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
 
-### CureApp (01/2018 - 05/2019)
+### CureApp (01/2018 - 05/2019) アルバイト
 
 - 血圧計から血圧値を取得・記録するアプリの開発
   - React Native を利用したモバイルアプリの開発
