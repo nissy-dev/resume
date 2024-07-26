@@ -12,13 +12,13 @@
 
 ## 基本情報
 
-| key         | value                                       |
-| ----------- | ------------------------------------------- |
-| 氏名        | 西川 大貴 (Daiki Nishikawa)                 |
-| 居住地      | 東京都                                      |
-| GitHub      | [＠nissy-dev](https://github.com/nissy-dev) |
-| Zenn        | [@nissy_dev](https://zenn.dev/nissy_dev)    |
-| SpeakerDeck | https://speakerdeck.com/nissydev            |
+| key         | value                            |
+| ----------- | -------------------------------- |
+| 氏名        | 西川 大貴 (Daiki Nishikawa)      |
+| 居住地      | 東京都                           |
+| GitHub      | https://github.com/nissy-dev     |
+| Zenn        | https://zenn.dev/nissy_dev       |
+| SpeakerDeck | https://speakerdeck.com/nissydev |
 
 ## スキル
 
@@ -29,7 +29,7 @@
 - QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
 - レガシープロダクトのフレームワークやライブラリの移行
 - GitHub Actions などを利用した CI/CD の整備
-- Web フロントエンドのオブザーバビリティの啓蒙や改善
+- Web フロントエンドのオブザーバビリティ啓蒙やパフォーマンス改善
 - 豊富な OSS 活動の経験を活かした、業務で利用している OSS などへのコントリビュート
 
 ### 機械学習
@@ -99,11 +99,9 @@
 ### CureApp (2018/01 - 2019/05) アルバイト
 
 - 血圧計から血圧値を取得・記録するアプリの開発
-  - React Native を利用したモバイルアプリの開発
-  - BLE を利用したデバイス間でのデータ通信の実装
+  - React Native における Bluetooth を利用した機能開発
 - 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
-  - React Native Web を利用した Single Page Application の開発
-  - Redux を利用した状態管理や Redux Thunk を利用した非同期処理の実装
+  - React Native for Web を利用した SPA の開発
 - 社内ライブラリの Flow から TypeScript への移行
   - 既存の babel plugin を拡張したツールを実装し、自動変換での移行を行った
 
@@ -118,7 +116,7 @@
 
 ### OSS 活動
 
-OSS にコントリビュートするのはエンジニアを始めた頃から好きで、現在は JavaScript のリンターやトランスパイラーなどに関するツールをメインにコントリビュートしています。
+OSS にコントリビュートするのはエンジニアを始めた頃から好きで、フロントエンドを中心に様々な OSS にコントリビュートしています。
 
 OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 
@@ -144,9 +142,11 @@ OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3
   - 練習として作成した babel-plugin-react-native-web の SWC 版の実装
   - 詳細は[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - [react-icons](https://github.com/react-icons/react-icons) を参考にして作成した、[dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
+  - [react-icons](https://github.com/react-icons/react-icons) を参考に作成した [dioxus](https://dioxuslabs.com/) で利用できる icon ライブラリ
+  - 現在は dioxus-community へリポジトリを移譲している
 - [blog.nissy.dev](https://github.com/nissy-dev/blog)
   - Next.js (App Router) を利用して作成した個人ブログ
+  - i18n 対応、dark mode 対応などはライブラリを利用せずに実装している
 
 ### 執筆活動
 
