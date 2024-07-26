@@ -16,10 +16,7 @@
 | 氏名        | 西川 大貴 (Daiki Nishikawa)                 |
 | 居住地      | 東京都                                      |
 | GitHub      | [＠nissy-dev](https://github.com/nissy-dev) |
-| Twitter     | [@nissy_dev](https://twitter.com/nissy_dev) |
 | Zenn        | [@nissy_dev](https://zenn.dev/nissy_dev)    |
-| Blog        | https://blog.nissy.dev                      |
-| Leetcode    | https://leetcode.com/nissy-dev              |
 | SpeakerDeck | https://speakerdeck.com/nissydev            |
 
 ## スキル
@@ -27,89 +24,94 @@
 ### フロントエンド
 
 - 少人数チームでのスクラム開発における技術的なリード
-- TypeScript と React を利用したフロントエンドの設計および実装
+- TypeScript と React (Next.js) を利用したフロントエンドの設計および実装
 - QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
-- CSS in JS、CSS Modules を利用したコンポーネントのスタイリング
-- HTML のセマンティクスやアクセシビリティを意識した UI の実装
 - レガシープロダクトのフレームワークやライブラリの移行
 - GitHub Actions などを利用した CI/CD の整備
-- Web フロントエンドのパフォーマンスの啓蒙や改善
-- 豊富な OSS 活動経験を活かした、業務で利用している OSS などへのコントリビュート
+- Web フロントエンドのオブザーバビリティの啓蒙や改善
+- 豊富な OSS 活動の経験を活かした、業務で利用している OSS などへのコントリビュート
 
 ### 機械学習
 
-業務経験はほとんどありませんが、OSS 開発や研究などの経験から次のスキルを保有しています。
+実務経験はありませんが、OSS 開発や研究などの経験から次のスキルを保有しています。
 
 - PyTorch や JAX などの深層学習フレームワークを使ったモデリング
 - 論文や Kaggle などで紹介されている最新の手法のキャッチアップおよび実装
-- 各種データ (テーブル、自然言語、画像) に対する基本的なクレンジングや分析
 - 化学・材料分野への機械学習の応用
 
 ## 職務経歴
 
-### Cybozu (09/2023 - ) フロントエンドエンジニア
+### Cybozu (2021/04 - 2024/07) フロントエンドエンジニア
 
-Office の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000)に所属。
+#### [サイボウズ Office のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000) (2023/09 - 2024/06)
 
-- Next.js App Router を使った画面単位でのレガシーフレームワークの刷新
-- React Aria、CSS Modules を利用した UI の実装
-- Playwright を利用したフロントエンドのテストの実装
+- Next.js (App Router) を使ったページ単位でのレガシーフレームワークの刷新
+  - React Aria や CSS Modules を利用した UI の実装をメインで行った
+- CI/CD のパフォーマンス改善やデプロイ自動化の推進
+  - 12 分以上かかっていた CI の実行時間を 5 分以上削減した
+  - テストケースが増えても実行時間が増加しないような仕組みを整備した
+- Web フロントエンドの監視基盤の検討
+  - 刷新を円滑に進めるにあたって、不具合対応のコストが障害にならないようにするための活動
+  - [Grafana Faro](https://grafana.com/oss/faro/) を利用した Real User Monitoring の導入を検討した
+- 社外発信
+  - [Next.js 製アプリケーションの CI の実行時間削減や安定性向上のために取り組んだこと](https://blog.cybozu.io/entry/2024/04/08/100000)
+  - [アクセシビリティの改善のために React Aria を活用しています](https://blog.cybozu.io/entry/2024/05/22/090000)
 
-### Cybozu (04/2021 - 09/2023) フロントエンドエンジニア
-
-kintone の[フロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154)に所属。
+#### [kintone のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154) (2021/04 - 2023/08)
 
 - 約 5 人程度のチームでテックリードとしてスクラム開発をリード
-  - チームのロードマップや日々のタスクの整備なども行った
-- Micro Frontends の手法を利用したコンポーネント単位でのレガシーフレームワークの刷新
-  - 結果として、予定より半年程度早く共通ヘッダー部分の刷新を全画面に適用した
+  - チームのロードマップ作成や日々のタスク整備などを主導した
+- Micro Frontend の手法を利用したコンポーネント単位でのレガシーフレームワークの刷新
+  - Micro Frontend の技術選定を主導し、予定より早い刷新を実現した
 - Testing Trophy や QA メンバーを意識したテスト戦略の設計及びテストの実装
-  - Testing Library を利用したフロントエンドのテストの実装
-  - VRT を使ったスタイルのデグレを防止する仕組みの整備
+  - Testing Library や VRT などの実行コストを抑えたテストを重視した
+  - QA メンバーが自動試験の実装に参加するためのスキル移譲・プロセス整備を推進した
 - Web フロントエンドのパフォーマンス最適化
-  - デザインシステムとして利用している社内の UI ライブラリについて、tree shaking が効くように修正
-  - 結果として、あるプロジェクトでは 50% 以上バンドルサイズが削減した
+  - 社内の UI ライブラリが正しく tree shaking されるように修正した
+  - あるプロジェクトでは 50% 以上のバンドルサイズの削減に貢献した
 - 社外発信
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
   - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
-  - [JS Conf 2022 Sponsor LT](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
+  - [フロントエンド刷新活動の紹介 (JS Conf 2022 Sponsor LT)](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
   - [React 化した共通ヘッダーを kintone の全ページに適用しました！](https://blog.cybozu.io/entry/2023/08/29/101907)
 
-### Google Summer of Code (06/2020 - 08/2020)
+### Google Summer of Code (2020/06 - 2020/08)
 
-参加プロジェクト：[DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
+参加プロジェクト：[DeepChem](https://github.com/deepchem/deepchem)
 
-- JAX を利用した化学向けの Graph Neural Network の実装([JAXChem](https://github.com/deepchem/jaxchem))
-- [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) でのモデリング機能の実装
+- JAX を利用した化学分野向けの Graph Neural Network フレームワークの PoC 実装 (成果物: [JAXChem](https://github.com/deepchem/jaxchem))
+- [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) を利用した機能強化
 - API ドキュメントやチュートリアルの改善
 - Travis CI から GitHub Actions への移行
-- DockerHub、PyPI、conda-forge へのリリース自動化
+- DockerHub、PyPI、conda-forge でのリリース自動化
 
 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
-### ELYZA (09/2019 - 12/2019) アルバイト
-
-- Pandas を使った 500 万レコード以上のデータのクレンジングや分析
-- 数千種類以上の雑貨商品に関する売上数予測モデルの精度改善
-  - LightGBM や NN を使った予測モデルの実装
-
-### Preferred Networks (08/2019 - 09/2019) サマーインターン
+### Preferred Networks (2019/08 - 2019/09) サマーインターン
 
 [Chainer Chemistry](https://github.com/chainer/chainer-chemistry) へのコントリビューションを主に行いました。
 
-- 無機結晶系を対象とした Graph Neural Networks のモデル ([MEGNet](https://github.com/materialsvirtuallab/megnet)) の実装
-- 無機結晶系を対象としたベンチマークデータセットのダウンロード機能の実装
+- 無機結晶系を対象とした Graph Neural Network のモデル ([MEGNet](https://github.com/materialsvirtuallab/megnet)) の追加
+- 無機結晶系を対象としたベンチマークデータセットに関する機能の追加
 
-### CureApp (01/2018 - 05/2019) アルバイト
+### CureApp (2018/01 - 2019/05) アルバイト
 
 - 血圧計から血圧値を取得・記録するアプリの開発
   - React Native を利用したモバイルアプリの開発
   - BLE を利用したデバイス間でのデータ通信の実装
 - 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
   - React Native Web を利用した Single Page Application の開発
-  - Redux を利用した状態管理や Redux Thunk を利用したユースケースの実装
+  - Redux を利用した状態管理や Redux Thunk を利用した非同期処理の実装
 - 社内ライブラリの Flow から TypeScript への移行
+  - 既存の babel plugin を拡張したツールを実装し、自動変換での移行を行った
+
+## 副業経験
+
+### Ubie (2024/01 - )
+
+- BFF サーバーの Kotlin から Node.js への刷新プロジェクトに所属
+- NestJS と Prisma を利用した GraphQL や REST API の実装を行った
 
 ## 業務外活動
 
@@ -124,10 +126,8 @@ OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3
   - 新しい lint ルールの実装や既存の lint ルールの false positive の修正
 - [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上にわたってのコントリビュート
   - 詳細は職務経歴を参考のこと
-- React Native への Good First Issue を中心としたコントリビュート
-  - React の `createReactClass` 関数からクラス構文への書き換えなど：[PRs](https://github.com/facebook/react-native/pulls/nissy-dev)
 - [Javascript Primer](https://jsprimer.net/) の PWA 対応
-  - azu さんが書いているブログで紹介された ([リンク](https://efcl.info/2018/05/25/js-primer-offline/))
+  - [js-primer(JavaScript 入門本)がオフラインで読めるようになりました](https://efcl.info/2018/05/25/js-primer-offline/)
 
 ### 登壇
 
@@ -140,31 +140,14 @@ OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3
 ### 個人の制作物
 
 - [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
-  - SWC plugin の実装の練習として作成した (詳細は、[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと)
+  - 練習として作成した babel-plugin-react-native-web の SWC 版の実装
+  - 詳細は[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - [dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
-  - [react-icons](https://github.com/react-icons/react-icons) を参考に、個人のプロフィールサイトで利用するために作成した
+  - [react-icons](https://github.com/react-icons/react-icons) を参考にして作成した、[dioxus](https://dioxuslabs.com/) で利用できる free icon ライブラリ
 - [blog.nissy.dev](https://github.com/nissy-dev/blog)
-  - Next.js を利用して作成し、Vercel にデプロイした個人ブログ
-  - Algolia を利用したブログ内検索、ダークモード対応、OGP の自動生成などを実装した
-- [nissy.dev](https://github.com/nissy-dev/nissy.dev)
-  - Vercel Edge Functions にデプロイしたプロフィールサイト
-  - [dioxus](https://dioxuslabs.com/) を利用してプロフィールサイトの HTML を SSR している
-- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
-  - Object Literal を JSON parse 構文に書き換える Babel プラグイン
-  - このプラグインの作成をきっかけに AST やコンパイラーに興味を持つようになった
-  - 2019 年の ChromeDevSummit にて、V8 のコミッターにも紹介された ([ツイート](https://twitter.com/mathias/status/1198266203413897216?s=20)・[動画](https://www.youtube.com/watch?v=ff4fgQxPaO0))
+  - Next.js (App Router) を利用して作成した個人ブログ
 
 ### 執筆活動
 
 - [詳解 マテリアルズインフォマティクス 有機・無機化学のための深層学習](https://www.kindaikagaku.co.jp/book_list/detail/9784764960237/)
   - 無機化学の内容を執筆 (全体の 2 割程度)
-
-### ハッカソン
-
-- Web Speed Hackathon 2021 mini (12/2021)
-  - 与えられた Web アプリの Lighthouse スコアを改善するハッカソン
-  - ブログ：https://developers.cyberagent.co.jp/blog/archives/32747/
-- Recruit 社開催のスピードハッカソン (02/2019)
-  - 与えられた静的サイトの Lighthouse スコアを改善するハッカソン
-  - ブログ：https://recruit-tech.co.jp/blog/2019/01/08/recruit_speedhackathon
