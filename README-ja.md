@@ -74,7 +74,6 @@
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
   - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
-  - [フロントエンド刷新活動の紹介 (JS Conf 2022 Sponsor LT)](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
   - [React 化した共通ヘッダーを kintone の全ページに適用しました！](https://blog.cybozu.io/entry/2023/08/29/101907)
 
 ### Google Summer of Code (2020/06 - 2020/08)
@@ -135,6 +134,8 @@
   - [JSConf JP 2023](https://jsconf.jp/2023/talk/daiki-nishikawa-1/) での発表資料
 - [Biome: The community successor of Rome!](https://speakerdeck.com/nissydev/biome-the-community-successor-of-rome)
   - [Nihonbashi.js #7](https://nihonbashi-js.connpass.com/event/293774/) での発表資料
+- [フロントエンド刷新活動の紹介](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
+  - [JSConf JP 2023](https://jsconf.jp/2022/talk/cybozu-js-conf-jp-2022-sponsor-lt/) でのスポンサー LT での発表資料
 
 ### 個人の制作物
 
