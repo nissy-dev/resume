@@ -125,7 +125,7 @@
   - 詳細は職務経歴を参考のこと
 - [Javascript Primer](https://jsprimer.net/) の PWA 対応
   - [ページオーナーのブログでも紹介されました](https://efcl.info/2018/05/25/js-primer-offline/)
-- 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験あり
+- 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験があります
 
 ### 登壇
 
@@ -135,7 +135,7 @@
 - [Biome: The community successor of Rome!](https://speakerdeck.com/nissydev/biome-the-community-successor-of-rome)
   - [Nihonbashi.js #7](https://nihonbashi-js.connpass.com/event/293774/) での発表資料
 - [フロントエンド刷新活動の紹介](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
-  - [JSConf JP 2023](https://jsconf.jp/2022/talk/cybozu-js-conf-jp-2022-sponsor-lt/) でのスポンサー LT での発表資料
+  - [JSConf JP 2022](https://jsconf.jp/2022/talk/cybozu-js-conf-jp-2022-sponsor-lt/) でのスポンサー LT での発表資料
 
 ### 個人の制作物
 
