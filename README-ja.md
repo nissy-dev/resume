@@ -47,7 +47,7 @@
 #### [サイボウズ Office のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000) (2023/09 - 2024/06)
 
 - Next.js (App Router) を使ったページ単位でのレガシーフレームワークの刷新
-  - React Aria や CSS Modules を利用した UI の実装をメインで行った
+  - React Aria や CSS Modules を利用した UI の実装を行った
 - CI/CD のパフォーマンス改善やデプロイ自動化の推進
   - 12 分以上かかっていた CI の実行時間を 5 分以上削減した
   - テストケースが増えても実行時間が増加しないような仕組みを整備した
@@ -116,17 +116,17 @@
 
 ### OSS 活動
 
-OSS にコントリビュートするのはエンジニアを始めた頃から好きで、フロントエンドを中心に様々な OSS にコントリビュートしています。
+フロントエンドを中心に様々な OSS にコントリビュートしています。
 
-OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
-
+- [作成した PR の一覧](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 - [Biome](https://github.com/biomejs/biome) の core contributor としての活動
   - JavaScript / TypeScript の新しい構文に関するパーサーやフォーマッターの実装
   - 新しい lint ルールの実装や既存の lint ルールの false positive の修正
-- [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上にわたってのコントリビュート
+- [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上のコントリビュート
   - 詳細は職務経歴を参考のこと
 - [Javascript Primer](https://jsprimer.net/) の PWA 対応
-  - [js-primer(JavaScript 入門本)がオフラインで読めるようになりました](https://efcl.info/2018/05/25/js-primer-offline/)
+  - [ページオーナーのブログでも紹介されました](https://efcl.info/2018/05/25/js-primer-offline/)
+- 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験あり
 
 ### 登壇
 
