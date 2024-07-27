@@ -51,8 +51,8 @@
 - CI/CD のパフォーマンス改善やデプロイ自動化の推進
   - 12 分以上かかっていた CI の実行時間を 5 分以上削減した
   - テストケースが増えても実行時間が増加しないような仕組みを整備した
-- Web フロントエンドの監視基盤の検討
-  - 刷新を円滑に進めるにあたって、不具合対応のコストが障害にならないようにするための活動
+- Web フロントエンドの監視基盤の整備
+  - 刷新した画面の不具合対応のコストを削減するために活動した
   - [Grafana Faro](https://grafana.com/oss/faro/) を利用した Real User Monitoring の導入を検討した
 - 社外発信
   - [Next.js 製アプリケーションの CI の実行時間削減や安定性向上のために取り組んだこと](https://blog.cybozu.io/entry/2024/04/08/100000)
@@ -63,10 +63,10 @@
 - 約 5 人程度のチームでテックリードとしてスクラム開発をリード
   - チームのロードマップ作成や日々のタスク整備などを主導した
 - Micro Frontend の手法を利用したコンポーネント単位でのレガシーフレームワークの刷新
-  - Micro Frontend の技術選定を主導し、予定より早い刷新を実現した
+  - 技術選定を主導し、予定より早い刷新を実現した
 - Testing Trophy や QA メンバーを意識したテスト戦略の設計及びテストの実装
-  - Testing Library や VRT などの実行コストを抑えたテストを重視した
-  - QA メンバーが自動試験の実装に参加するためのスキル移譲・プロセス整備を推進した
+  - Integration Test や VRT などの実行コストの低いテストを活用する方針を重視した
+  - QA メンバーもテスト実装のプロセスに参加しやすくなるようなオンボーディングを整備した
 - Web フロントエンドのパフォーマンス最適化
   - 社内の UI ライブラリが正しく tree shaking されるように修正した
   - あるプロジェクトでは 50% 以上のバンドルサイズの削減に貢献した
@@ -99,7 +99,7 @@
 ### CureApp (2018/01 - 2019/05) アルバイト
 
 - 血圧計から血圧値を取得・記録するアプリの開発
-  - React Native における Bluetooth を利用した機能開発
+  - React Native と Bluetooth を利用した機能開発
 - 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
   - React Native for Web を利用した SPA の開発
 - 社内ライブラリの Flow から TypeScript への移行
@@ -109,8 +109,8 @@
 
 ### Ubie (2024/01 - ) バックエンドエンジニア
 
-- BFF サーバーの Kotlin から Node.js への刷新プロジェクトに所属
-- NestJS と Prisma を利用した GraphQL や REST API の実装を行った
+- BFF サーバーの Kotlin から Node.js への刷新プロジェクトに参加している
+- NestJS と Prisma を利用した GraphQL や REST API の実装を行っている
 
 ## 業務外活動
 
@@ -140,7 +140,7 @@ OSS 活動のリンク: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3
 
 - [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
   - 練習として作成した babel-plugin-react-native-web の SWC 版の実装
-  - 詳細は[ブログ](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと
+  - 詳細は[zenn に書いた記事](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
   - [react-icons](https://github.com/react-icons/react-icons) を参考に作成した [dioxus](https://dioxuslabs.com/) で利用できる icon ライブラリ
   - 現在は dioxus-community へリポジトリを移譲している
