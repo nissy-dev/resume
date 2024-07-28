@@ -82,7 +82,7 @@
 
 - JAX を利用した化学分野向けの Graph Neural Network フレームワークの PoC 実装 (成果物: [JAXChem](https://github.com/deepchem/jaxchem))
 - [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) を利用した機能強化
-- API ドキュメントやチュートリアルの改善
+- Type Hints の追加やAPI ドキュメント・チュートリアルの改善
 - Travis CI から GitHub Actions への移行
 - DockerHub、PyPI、conda-forge でのリリース自動化
 
