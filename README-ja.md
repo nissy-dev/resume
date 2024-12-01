@@ -124,7 +124,7 @@
 - [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上のコントリビュート
   - 詳細は職務経歴を参考のこと
 - [Javascript Primer](https://jsprimer.net/) の PWA 対応
-  - [ページオーナーのブログでも紹介されました](https://efcl.info/2018/05/25/js-primer-offline/)
+  - [コントリビュートがブログでも紹介されました](https://efcl.info/2018/05/25/js-primer-offline/)
 - 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験があります
 
 ### 登壇
@@ -139,15 +139,13 @@
 
 ### 個人の制作物
 
-- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
-  - 練習として作成した babel-plugin-react-native-web の SWC 版の実装
-  - 詳細は[zenn に書いた記事](https://zenn.dev/nissy_dev/articles/create-swc-plugin)を参考のこと
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
   - [react-icons](https://github.com/react-icons/react-icons) を参考に作成した [dioxus](https://dioxuslabs.com/) で利用できる icon ライブラリ
-  - 現在は dioxus-community へリポジトリを移譲している
+  - [現在は dioxus-community へリポジトリを移譲している](https://github.com/dioxus-community/dioxus-free-icons/issues/27)
 - [blog.nissy.dev](https://github.com/nissy-dev/blog)
   - Next.js (App Router) を利用して作成した個人ブログ
-  - i18n 対応、dark mode 対応などはライブラリを利用せずに実装している
+  - [Cloudflare D1 を使った全文検索機能](https://zenn.dev/cybozu_frontend/articles/cloudflare-d1-fts)
+  - [dark mode 対応をフルスクラッチで実装](https://github.com/nissy-dev/blog/blob/main/packages/frontend/src/theme/theme.tsx)
 
 ### 執筆活動
 
