@@ -22,32 +22,35 @@
 
 ## スキル
 
-### フロントエンド
+基本的にはフロントエンドに関連するスキルの方が得意です。
 
 - 少人数チームでのスクラム開発における技術的なリード
-- TypeScript と React (Next.js) を利用したフロントエンドの設計および実装
-- QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
 - レガシープロダクトのフレームワークやライブラリの移行
-- GitHub Actions などを利用した CI/CD の整備
-- Web フロントエンドのパフォーマンス改善やオブザーバビリティ啓蒙
-- 豊富な OSS 活動の経験を活かした、業務で利用している OSS などへのコントリビュート
-
-### 機械学習
-
-実務経験はありませんが、OSS 開発や研究などの経験から次のスキルを保有しています。
-
-- PyTorch や JAX などの深層学習フレームワークを使ったモデリング
-- 論文や Kaggle などで紹介されている最新の手法のキャッチアップおよび実装
-- 化学・材料分野への機械学習の応用
+- GitHub Actions などを利用した CI/CD の整備・改善、開発プロセスの自動化
+- 業務で利用している OSS へのコントリビュート
+- k8s へのアプリケーションのデプロイ
+- フロントエンド
+  - TypeScript と React (Next.js) を利用したフロントエンドの設計および実装
+  - QA メンバーを巻き込みながらのフロントエンドのテスト設計および実装
+  - Web フロントエンドのパフォーマンス改善やオブザーバビリティ啓蒙
+- バックエンド
+  - NestJS を利用した GraphQL サーバーの実装
+  - Go を利用した gRPC サーバーの実装
+  - Node.js ベースのモジュラモノリスの実践
 
 ## 職務経歴
 
-### Cybozu (2021/04 - 2024/07) フロントエンドエンジニア
+### Cybozu (2021/04 - )
+
+#### サイボウズ Office と Mailwise の [新しいオンプレ基盤 (通称 Neco)](https://blog.cybozu.io/entry/ever-lasting-neco) への移行 (2024/07 - )
+
+- 移行の際に必要となるテナント管理 (作成、更新、削除など) サービスの実装と運用
+  - Go と MySQL を利用した gRPC サーバーと job queue の実装を行なった
 
 #### [サイボウズ Office のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000) (2023/09 - 2024/06)
 
 - Next.js (App Router) を使ったページ単位でのレガシーフレームワークの刷新
-  - React Aria や CSS Modules を利用した UI の実装を行った
+  - React Aria や CSS Modules を利用した UI の実装を行なった
 - CI/CD のパフォーマンス改善やデプロイ自動化の推進
   - 12 分以上かかっていた CI の実行時間を 5 分以上削減した
   - テストケースが増えても実行時間が増加しないような仕組みを整備した
@@ -82,7 +85,7 @@
 
 - JAX を利用した化学分野向けの Graph Neural Network フレームワークの PoC 実装 (成果物: [JAXChem](https://github.com/deepchem/jaxchem))
 - [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) を利用した機能強化
-- Type Hints の追加やAPI ドキュメント・チュートリアルの改善
+- Type Hints の追加や API ドキュメント・チュートリアルの改善
 - Travis CI から GitHub Actions への移行
 - DockerHub、PyPI、conda-forge でのリリース自動化
 
@@ -108,8 +111,9 @@
 
 ### Ubie (2024/01 - ) バックエンドエンジニア
 
-- BFF サーバーの Kotlin から Node.js への刷新プロジェクトに参加している
-- NestJS と Prisma を利用した GraphQL や REST API の実装を行っている
+- BFF サーバーの Kotlin から Node.js への刷新
+- NestJS と Prisma を利用した GraphQL や REST API の実装
+- モジュラモノリスの健全性を保つための基盤 (lint ルールやビルド) の整備
 
 ## 業務外活動
 
@@ -139,12 +143,14 @@
 
 ### 個人の制作物
 
+- [Tenbin](https://github.com/nissy-dev/tenbin)
+  - [テストの sharding を効率化するツール](https://zenn.dev/cybozu_frontend/articles/create-tenbin)
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
   - [react-icons](https://github.com/react-icons/react-icons) を参考に作成した [dioxus](https://dioxuslabs.com/) で利用できる icon ライブラリ
   - [現在は dioxus-community へリポジトリを移譲している](https://github.com/dioxus-community/dioxus-free-icons/issues/27)
 - [blog.nissy.dev](https://github.com/nissy-dev/blog)
   - Next.js (App Router) を利用して作成した個人ブログ
-  - [Cloudflare D1 を使った全文検索機能](https://zenn.dev/cybozu_frontend/articles/cloudflare-d1-fts)
+  - [Cloudflare D1 を使った全文検索機能を実装](https://zenn.dev/cybozu_frontend/articles/cloudflare-d1-fts)
   - [dark mode 対応をフルスクラッチで実装](https://github.com/nissy-dev/blog/blob/main/packages/frontend/src/theme/theme.tsx)
 
 ### 執筆活動
