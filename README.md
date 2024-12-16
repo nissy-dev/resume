@@ -4,97 +4,102 @@
 
 ## Contents
 
-- [Basic](#Basic)
-- [Skills](#Skills)
-- [Experience](#Experience)
-- [OSS](#OSS)
-- [Education](#Education)
+- [Basic](#basic)
+- [Summary](#summary)
+- [Experience](#experience)
+- [OSS Contribution](#oss-contribution)
+- [Talks](#talks)
+- [Personal Projects](#personal-projects)
+- [Education](#education)
 
 ## Basic
 
-| key     | value                                       |
-| ------- | ------------------------------------------- |
-| Name    | Daiki Nishikawa                             |
-| Contact | nd.12021218@gmail.com                       |
-| GitHub  | [＠nissy-dev](https://github.com/nissy-dev) |
-| Twitter | [@nissy_dev](https://twitter.com/nissy_dev) |
+| key      | value                                                                     |
+| -------- | ------------------------------------------------------------------------- |
+| Name     | Daiki Nishikawa                                                           |
+| Email    | nd.12021218@gmail.com                                                     |
+| GitHub   | [＠nissy-dev](https://github.com/nissy-dev)                               |
+| Linkedin | [Daiki Nishikawa](https://www.linkedin.com/in/daiki-nishikawa-85abbb1a6/) |
 
-## Skills
+## Summary
 
-### Frontend
+- Full-stack engineer with 3+ years of experience in developing web applications, specializing in frontend development
+- Proficient in designing and implementing frontend solutions with TypeScript, React, and Next.js
+- Strong experience in collaborating with QA teams to design and implement frontend tests
+- Focused on web frontend performance optimization and promoting observability best practices
+- Expertise in improving CI/CD processes and automating development workflows
+- Familiar with deploying applications to kubernetes
+- Active contributor to open-source software
 
-- Lead scrum development as a tech lead with a team of about 5 members
-- Design frontend architecture based on React and TypeScript
-- Implement accessible UI components using React and CSS in JS
-- Design and implement frontend tests in collaborating with QA members
-- Migrate legacy frameworks and libraries
-- Setup CI/CD using GitHub Actions, etc
-- Monitor and improve web performance
-- Contribute to OSS used in the business
+### Skills
 
-### Machine Learning
-
-Although I have little business experience, I have the following skills based on my experience in OSS development and research.
-
-- Implement deep learning models using frameworks like PyTorch or JAX
-- Keep up with and implement the latest methods introduced in papers or Kaggle.
-- Cleanse and analyze various data like tables, natural language and images.
-- Applied machine learning into chemistry and material science
+- Languages: HTML, CSS, JavaScript, TypeScript, Rust, Go, Python, Java
+- Frontend: React, Next.js, React Aria, Storybook
+- Backend: NestJS, gRPC, GraphQL, MySQL
+- Others: ESLint, Vite, Jest, Playwright, Github Actions
 
 ## Experience
 
-### Cybozu (09/2023 - )
+### Cybozu (2021/04 - )
 
-I belong to the project that migrate from the internal framework to Next.js for [Cybozu Office](https://office.cybozu.co.jp/).
+#### Migration project to the new on-premises infrastructure for Cybozu Office, Senior Software Engineer (2024/07 - )
 
-- Replace the legacy framework using Next.js App Router
-- Implemented accessible UI using React Aria and CSS Modules
-- Implemented tests using Playwright
+- Implemented tenant management services required for migration
+  - Developed a gRPC server and job queue using Go and MySQL
 
-### Cybozu (04/2021 - 09/2023)
+#### Cybozu Office frontend re-architecting project, Frontend Engineer (2023/09 - 2024/06)
 
-I belong to the project that migrate from [Closure Tools](https://developers.google.com/closure) to React for [kintone](https://www.kintone.com/en-us/).
+[Cybozu Office](https://office.cybozu.co.jp/) is one of the core products adopted by over 80,000 companies to date.
 
-- Led scrum development technically in a team of about 5 members
-- Designed frontend architecture based on React (Hooks) or React Redux
-- Implemented accessible UI using React and styled components
-- Designed test strategies considering [Testing Trophy](https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications) and QA members
-- Implemented tests using Storybook and Testing Library
-- Replaced legacy frameworks per component using Micro Frontends
-- Improved web frontend performance
+- Modernized the legacy internal framework using Next.js (App Router)
+  - Performed incremental, page-by-page migration to minimize risk
+  - Implemented UI components with React Aria to enhance accessibility
+- Optimized CI/CD processes to improve development productivity
+  - Reduced CI execution time by over 5 minutes (from 12+ minutes to under 7 minutes)
+  - Designed a scalable system to ensure test execution time remains constant as test cases grow
+- Established web frontend monitoring infrastructures to reduce bug-fix costs
+  - Evaluated the adoption of real user monitoring with Grafana Faro
 
-### Google Summer of Code (06/2020 - 08/2020)
+#### kintone frontend re-architecting project, Frontend Engineer (2021/04 - 2023/08)
+
+[kintone](https://www.kintone.com/en-us/) is one of the core products, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
+
+- Led Scrum development as a tech lead for a team of approximately five members
+  - Managed the team's roadmap, daily tasks, and overall technical direction
+- Modernized the application header from Closure Tools to React
+  - Improved accessibility features, including keyboard navigation and screen reader support
+  - Enabled independent deployments using a horizontal micro-frontend approach, which resulted in delivering the migration ahead of schedule
+- Designed a test strategy aligned with the Testing Trophy and QA member collaboration
+  - Prioritized cost-effective tests, including integration tests and visual regression tests
+  - Developed onboarding processes to enable QA members to contribute to test implementation
+  - Fostered close collaboration with QA members, which resulted in reducing test implementation costs for engineers
+- Improved web frontend performance by optimizing the internal UI library
+  - Resolved a tree-shaking issue, achieving a bundle size reduction of over 50% across multiple projects
+
+### Google Summer of Code (202/060 - 2020/08)
 
 Organization: [DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
 
-- Implemented graph neural networks for chemistry using JAX ([JAXChem](https://github.com/deepchem/jaxchem))
-- Implemented modeling APIs for [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
-- Improve API documentation and tutorials
+- Developed a PoC implementation of graph neural network framework for chemistry using JAX (repository: [JAXChem](https://github.com/deepchem/jaxchem))
+- Enhanced functionality using [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
+- Improved API documentation and tutorials
 - Migration from Travis CI to GitHub Actions
 - Automated releases process to DockerHub, PyPI and conda-forge
 
 Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
 
-### ELYZA (09/2019 - 12/2019)
-
-- Improved accuracy of sales forecasting models
-  - Implemented models using LightGBM or neural networks
-- Cleansed and analyzed over 5 million records of time series data using Pandas
-
-### Preferred Networks (08/2019 - 09/2019, summer internship)
+### Preferred Networks (2019/08 - 2019/09, summer internship)
 
 - Contributed to [Chainer Chemistry](https://github.com/chainer/chainer-chemistry)
-- Implemented graph neural networks for predicting properties of inorganic crystals ([MEGNet](https://github.com/materialsvirtuallab/megnet)) using Chainer
-- Implemented utility functions for benchmark datasets of inorganic crystals
+- Implemented the graph neural network model for predicting properties of inorganic crystals ([MEGNet](https://github.com/materialsvirtuallab/megnet))
+- Enhanced functionalities for benchmark datasets of inorganic crystals
 
-### CureApp (01/2018 - 05/2019)
+### CureApp (2018/01 - 2019/05, internship)
 
-- Developed a mobile app to retrieve and record blood pressure from a blood pressure monitor
-  - Developed a mobile app using React Native
-  - Implemented data communication between devices using BLE
+- Developed a mobile app to retrieve and record blood pressure from blood pressure monitors
+  - Implemented features using React Native and Bluetooth Low Energy
 - Developed a website for doctors to check data stored in a mobile app used by patients
-  - Developed a single page application using React Native Web
-  - Implemented state management using Redux and use cases using Redux Thunk
+  - Built a single page application using React Native for Web and Redux
 - Migrated internal libraries from Flow to TypeScript
 
 ## OSS Contribution
@@ -106,10 +111,10 @@ OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-d
 - Contributions as a core contributor to [Biome](https://github.com/biomejs/biome)
   - Implementation of parsers and formatters for new syntax in JavaScript and TypeScript
   - Adding new rules and fixing false positives in linters
+  - Led the project to translate the website into Japanese
 - Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
   - Please refer to Experience section for more details
-- Contributions focusing on Good First Issues in React Native
-  - The migration from React's createReactClass function to class syntax, etc: [PRs](https://github.com/facebook/react-native/pulls/nissy-dev)
+- In addition to the above, I also have experience contributing to Node.js, ESLint, React Native, SWC, etc.
 
 ## Talks
 
@@ -117,15 +122,11 @@ OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-d
 
 ## Personal Projects
 
-- [swc-plugin-react-native-web](https://github.com/nissy-dev/swc-plugin-react-native-web)
-  - SWC plugin that alias react-native to react-native-web (same as [babel-plugin-react-native-web](https://github.com/necolas/react-native-web/tree/master/packages/babel-plugin-react-native-web))
-  - Created as an exercise to implement a SWC plugin
+- [Tenbin](https://github.com/nissy-dev/tenbin)
+  - Tools to minimize the differences in test execution times across shards
 - [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
   - Free icon library for [dioxus](https://dioxuslabs.com/)
   - Created for [personal profile site](https://nissy.dev), taking inspiration from [react-icons](https://github.com/react-icons/react-icons)
-- [blog.nissy.dev](https://github.com/nissy-dev/blog)
-  - Personal blog made by Next.js and deployed on Vercel
-  - Implemented blog search using Algolia, dark mode support, automatic OGP generation, etc
 - [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
   - Babel plugin that converts object Literal to JSON parse syntax
   - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
