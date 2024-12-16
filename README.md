@@ -28,26 +28,25 @@
 - Strong experience in collaborating with QA teams to design and implement frontend tests
 - Focused on web frontend performance optimization and promoting observability best practices
 - Expertise in improving CI/CD processes and automating development workflows
-- Familiar with deploying applications to kubernetes
 - Active contributor to open-source software
 
 ### Skills
 
-- Languages: HTML, CSS, JavaScript, TypeScript, Rust, Go, Python, Java
+- Languages: HTML, CSS, JavaScript, TypeScript, Rust, Go, Python
 - Frontend: React, Next.js, React Aria, Storybook
 - Backend: NestJS, gRPC, GraphQL, MySQL
-- Others: ESLint, Vite, Jest, Playwright, Github Actions
+- Others: ESLint, Vite, Jest, Playwright, Github Actions, Docker, Kubernetes
 
 ## Experience
 
 ### Cybozu (2021/04 - )
 
-#### Migration project to the new on-premises infrastructure for Cybozu Office, Senior Software Engineer (2024/07 - )
+#### Migration project to the new on-premises infrastructure for Cybozu Office, Senior software engineer (2024/07 - )
 
 - Implemented tenant management services required for migration
   - Developed a gRPC server and job queue using Go and MySQL
 
-#### Cybozu Office frontend re-architecting project, Frontend Engineer (2023/09 - 2024/06)
+#### Cybozu Office frontend re-architecting project, Frontend engineer (2023/09 - 2024/06)
 
 [Cybozu Office](https://office.cybozu.co.jp/) is one of the core products adopted by over 80,000 companies to date.
 
@@ -60,7 +59,7 @@
 - Established web frontend monitoring infrastructures to reduce bug-fix costs
   - Evaluated the adoption of real user monitoring with Grafana Faro
 
-#### kintone frontend re-architecting project, Frontend Engineer (2021/04 - 2023/08)
+#### kintone frontend re-architecting project, Frontend engineer (2021/04 - 2023/08)
 
 [kintone](https://www.kintone.com/en-us/) is one of the core products, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
 
