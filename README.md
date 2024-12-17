@@ -39,13 +39,13 @@
 
 ## Experience
 
-### [Ubie, inc](https://ubiehealth.com/company), Backend engineer (1 day per week, 2024/01 - , second job)
+### [Ubie, inc](https://ubiehealth.com/company), Backend engineer (2024/01 - current, 1 day per week, second job)
 
 - Migrated BFF server from Kotlin to Node.js
 - Implemented GraphQL and REST APIs using NestJS and Prisma
 - Built foundational tools (lint rules and build tools) to maintain module independence in a modular monolith architecture
 
-### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/07 - , 4 day per week)
+### [Cybozu, Inc](https://cybozu-global.com/), Senior software engineer (2024/07 - current, 4 day per week)
 
 #### Cybozu Office and Mailwise migration project to the new on-premises infrastructure
 
@@ -54,7 +54,7 @@
 - Implemented tenant management services essential for the migration
   - Developed a gRPC server and job queue using Go and MySQL
 
-### [Cybozu, Inc](https://cybozu-global.com/) Frontend engineer (2021/04 - 2024/06)
+### [Cybozu, Inc](https://cybozu-global.com/), Frontend engineer (2021/04 - 2024/06)
 
 #### Cybozu Office frontend re-architecting project
 
