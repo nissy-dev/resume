@@ -34,46 +34,57 @@
 
 - Languages: HTML, CSS, JavaScript, TypeScript, Rust, Go, Python
 - Frontend: React, Next.js, React Aria, Storybook
-- Backend: NestJS, gRPC, GraphQL, MySQL
+- Backend: NestJS, Prisma, gRPC, GraphQL, MySQL
 - Others: ESLint, Vite, Jest, Playwright, Github Actions, Docker, Kubernetes
 
 ## Experience
 
-### Cybozu (2021/04 - )
+### [Ubie, inc](https://ubiehealth.com/company) (2024/01 - )
 
-#### Migration project to the new on-premises infrastructure for Cybozu Office, Senior software engineer (2024/07 - )
+#### Backend engineer (1 day per week, second job)
 
-- Implemented tenant management services required for migration
+- Migrated BFF server from Kotlin to Node.js
+- Implemented GraphQL and REST APIs using NestJS and Prisma
+- Built foundational tools (lint rules and build tools) to maintain module independence in a modular monolith architecture
+
+### [Cybozu](https://cybozu-global.com/) (2021/04 - )
+
+#### Senior software engineer (2024/07 - , 4 day per week)
+
+##### Cybozu Office and Mailwise migration project to the new on-premises infrastructure
+
+[Cybozu Office](https://office.cybozu.co.jp/) and [Mailwise](https://mailwise.cybozu.co.jp/) are multi tenant BtoB SaaS products, adopted by over tens of thousands companies in Japan to date.
+
+- Implemented tenant management services essential for the migration
   - Developed a gRPC server and job queue using Go and MySQL
 
-#### Cybozu Office frontend re-architecting project, Frontend engineer (2023/09 - 2024/06)
+#### Frontend engineer (2021/04 - 2024/06)
 
-[Cybozu Office](https://office.cybozu.co.jp/) is one of the core products adopted by over 80,000 companies to date.
+##### Cybozu Office frontend re-architecting project
 
-- Modernized the legacy internal framework using Next.js (App Router)
-  - Performed incremental, page-by-page migration to minimize risk
-  - Implemented UI components with React Aria to enhance accessibility
+- Modernized the legacy internal framework with Next.js (App Router)
+  - Conducted incremental, page-by-page migration to minimize risk and stability
+  - Improved accessibility by implementing UI components using React Aria.
 - Optimized CI/CD processes to improve development productivity
   - Reduced CI execution time by over 5 minutes (from 12+ minutes to under 7 minutes)
   - Designed a scalable system to ensure test execution time remains constant as test cases grow
 - Established web frontend monitoring infrastructures to reduce bug-fix costs
   - Evaluated the adoption of real user monitoring with Grafana Faro
 
-#### kintone frontend re-architecting project, Frontend engineer (2021/04 - 2023/08)
+##### kintone frontend re-architecting project
 
-[kintone](https://www.kintone.com/en-us/) is one of the core products, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
+[kintone](https://www.kintone.com/en-us/) is a core product, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
 
 - Led Scrum development as a tech lead for a team of approximately five members
   - Managed the team's roadmap, daily tasks, and overall technical direction
-- Modernized the application header from Closure Tools to React
-  - Improved accessibility features, including keyboard navigation and screen reader support
-  - Enabled independent deployments using a horizontal micro-frontend approach, which resulted in delivering the migration ahead of schedule
+- Modernized the application header from Google Closure Library to React
+  - Enhanced accessibility with keyboard navigation and screen reader support
+  - Delivered ahead of schedule by adopting a horizontal micro-frontend deployment approach.
 - Designed a test strategy aligned with the Testing Trophy and QA member collaboration
   - Prioritized cost-effective tests, including integration tests and visual regression tests
-  - Developed onboarding processes to enable QA members to contribute to test implementation
-  - Fostered close collaboration with QA members, which resulted in reducing test implementation costs for engineers
+  - Onboarded QA members to contribute to test implementation, reducing testing costs for engineers.
 - Improved web frontend performance by optimizing the internal UI library
-  - Resolved a tree-shaking issue, achieving a bundle size reduction of over 50% across multiple projects
+  - Resolved a tree-shaking issue, achieving a bundle size reduction of over 50% across projects
 
 ### Google Summer of Code (202/060 - 2020/08)
 
