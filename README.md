@@ -47,11 +47,11 @@
 - Implemented GraphQL and REST APIs using NestJS and Prisma
 - Built foundational tools (lint rules and build tools) to maintain module independence in a modular monolith architecture
 
-### [Cybozu](https://cybozu-global.com/) (2021/04 - )
+### [Cybozu, Inc](https://cybozu-global.com/) (2021/04 - )
 
 #### Senior software engineer (2024/07 - , 4 day per week)
 
-##### Cybozu Office and Mailwise migration project to the new on-premises infrastructure
+#### Cybozu Office and Mailwise migration project to the new on-premises infrastructure
 
 [Cybozu Office](https://office.cybozu.co.jp/) and [Mailwise](https://mailwise.cybozu.co.jp/) are multi tenant BtoB SaaS products, adopted by over tens of thousands companies in Japan to date.
 
@@ -60,18 +60,18 @@
 
 #### Frontend engineer (2021/04 - 2024/06)
 
-##### Cybozu Office frontend re-architecting project
+#### Cybozu Office frontend re-architecting project
 
 - Modernized the legacy internal framework with Next.js (App Router)
   - Conducted incremental, page-by-page migration to minimize risk and stability
-  - Improved accessibility by implementing UI components using React Aria.
+  - Improved accessibility by implementing UI components using React Aria
 - Optimized CI/CD processes to improve development productivity
   - Reduced CI execution time by over 5 minutes (from 12+ minutes to under 7 minutes)
   - Designed a scalable system to ensure test execution time remains constant as test cases grow
 - Established web frontend monitoring infrastructures to reduce bug-fix costs
   - Evaluated the adoption of real user monitoring with Grafana Faro
 
-##### kintone frontend re-architecting project
+#### kintone frontend re-architecting project
 
 [kintone](https://www.kintone.com/en-us/) is a core product, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
 
@@ -80,7 +80,7 @@
 - Modernized the application header from Google Closure Library to React
   - Enhanced accessibility with keyboard navigation and screen reader support
   - Delivered ahead of schedule by adopting a horizontal micro-frontend deployment approach.
-- Designed a test strategy aligned with the Testing Trophy and QA member collaboration
+- Designed a test strategy aligned with the testing trophy and QA member collaboration
   - Prioritized cost-effective tests, including integration tests and visual regression tests
   - Onboarded QA members to contribute to test implementation, reducing testing costs for engineers.
 - Improved web frontend performance by optimizing the internal UI library
