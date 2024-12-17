@@ -28,7 +28,7 @@
 - Strong experience in collaborating with QA teams to design and implement frontend tests
 - Focused on web frontend performance optimization and promoting observability best practices
 - Expertise in improving CI/CD processes and automating development workflows
-- Active contributor to open-source software
+- Active contributor to open-source software with a passion for improving software ecosystems
 
 ### Skills
 
@@ -39,35 +39,38 @@
 
 ## Experience
 
-### [Ubie, inc](https://ubiehealth.com/company), Backend engineer (2024/01 - current, 1 day per week, second job)
+### [Ubie, inc](https://ubiehealth.com/company) Backend engineer (2024/01 - current, 1 day per week, second job)
 
 - Migrated BFF server from Kotlin to Node.js
 - Implemented GraphQL and REST APIs using NestJS and Prisma
 - Built foundational tools (lint rules and build tools) to maintain module independence in a modular monolith architecture
 
-### [Cybozu, Inc](https://cybozu-global.com/), Senior software engineer (2024/07 - current, 4 day per week)
+### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/01 - current, 4 day per week)
 
-#### Cybozu Office and Mailwise migration project to the new on-premises infrastructure
+#### Cybozu Office and Mailwise migration project to the new on-premises infrastructure (2024/07 - current)
 
 [Cybozu Office](https://office.cybozu.co.jp/) and [Mailwise](https://mailwise.cybozu.co.jp/) are multi tenant BtoB SaaS products, adopted by over tens of thousands companies in Japan to date.
 
 - Implemented tenant management services essential for the migration
   - Developed a gRPC server and job queue using Go and MySQL
 
-### [Cybozu, Inc](https://cybozu-global.com/), Frontend engineer (2021/04 - 2024/06)
+#### Cybozu Office frontend re-architecting project (2024/01 - 2023/06)
 
-#### Cybozu Office frontend re-architecting project
-
-- Modernized the legacy internal framework with Next.js (App Router)
-  - Conducted incremental, page-by-page migration to minimize risk and stability
-  - Improved accessibility by implementing UI components using React Aria
 - Optimized CI/CD processes to improve development productivity
   - Reduced CI execution time by over 5 minutes (from 12+ minutes to under 7 minutes)
   - Designed a scalable system to ensure test execution time remains constant as test cases grow
 - Established web frontend monitoring infrastructures to reduce bug-fix costs
   - Evaluated the adoption of real user monitoring with Grafana Faro
 
-#### kintone frontend re-architecting project
+### [Cybozu, Inc](https://cybozu-global.com/) Frontend engineer (2021/04 - 2023/12)
+
+#### Cybozu Office frontend re-architecting project (2023/09 - 2023/12)
+
+- Modernized the legacy internal framework with Next.js (App Router)
+  - Conducted incremental, page-by-page migration to minimize risk and stability
+  - Improved accessibility by implementing UI components using React Aria
+
+#### kintone frontend re-architecting project (2021/04 - 2023/08)
 
 [kintone](https://www.kintone.com/en-us/) is a core product, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
 
@@ -75,10 +78,10 @@
   - Managed the team's roadmap, daily tasks, and overall technical direction
 - Modernized the application header from Google Closure Library to React
   - Enhanced accessibility with keyboard navigation and screen reader support
-  - Delivered ahead of schedule by adopting a horizontal micro-frontend deployment approach.
+  - Delivered ahead of schedule by adopting a horizontal micro-frontend approach
 - Designed a test strategy aligned with the testing trophy and QA member collaboration
   - Prioritized cost-effective tests, including integration tests and visual regression tests
-  - Onboarded QA members to contribute to test implementation, reducing testing costs for engineers.
+  - Onboarded QA members to contribute to test implementation, reducing testing costs for engineers
 - Improved web frontend performance by optimizing the internal UI library
   - Resolved a tree-shaking issue, achieving a bundle size reduction of over 50% across projects
 
