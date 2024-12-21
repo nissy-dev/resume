@@ -85,7 +85,7 @@
 - Improved web frontend performance by optimizing the internal UI library
   - Resolved a tree-shaking issue, achieving a bundle size reduction of over 50% across projects
 
-### Google Summer of Code (202/060 - 2020/08)
+### Google Summer of Code (2020/06 - 2020/08)
 
 Organization: [DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
 
