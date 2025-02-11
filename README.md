@@ -47,18 +47,11 @@
 
 ### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/01 - current, 4 day per week)
 
-#### Cybozu Office and Mailwise migration project to the new on-premises infrastructure (2024/07 - current)
-
-[Cybozu Office](https://office.cybozu.co.jp/) and [Mailwise](https://mailwise.cybozu.co.jp/) are multi tenant BtoB SaaS products, adopted by over tens of thousands companies in Japan to date.
-
-- Implemented tenant management services essential for the migration
-  - Developed a gRPC server and job queue using Go and MySQL
-
-#### Cybozu Office frontend re-architecting project (2024/01 - 2023/06)
-
-- Optimized CI/CD processes to improve development productivity
+- Optimized frontend CI/CD processes to improve development productivity
   - Reduced CI execution time by over 5 minutes (from 12+ minutes to under 7 minutes)
   - Designed a scalable system to ensure test execution time remains constant as test cases grow
+- Implemented tenant management services for the migration to the new on-premises infrastructure
+  - Developed a gRPC server and job queue using Go and MySQL
 - Established web frontend monitoring infrastructures to reduce bug-fix costs
   - Evaluated the adoption of real user monitoring with Grafana Faro
 
