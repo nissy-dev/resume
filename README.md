@@ -23,11 +23,12 @@
 
 ## Summary
 
-- Full-stack engineer with 3+ years of experience in developing web applications, specializing in frontend development
+- Full-stack engineer with 4+ years of experience in developing web applications
+- Experienced tech lead for a small cross-functional team
 - Proficient in designing and implementing frontend solutions with TypeScript, React, and Next.js
-- Focused on web frontend performance optimization and promoting observability best practices
 - Expertise in improving CI/CD processes and automating development workflows
-- Active contributor to open-source software with a passion for improving software ecosystems
+- Passionate about promoting and establishing observability best practices
+- Active contributor to open-source software, driven by a passion for improving software ecosystems
 
 ### Skills
 
@@ -57,7 +58,7 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 - Implemented new tenant management services for the new infrastructure
   - Engineered a high-performance job queue using Go and MySQL to handle tens of thousands of jobs
   - Implemented robust error handling and retry mechanisms to ensure data integrity during tenant operations
-- Established observability infrastructure using Grafana and Prometheus
+- Established observability infrastructure using Grafana and VictoriaMetrics
   - Designed custom dashboards and alerting workflows to enable proactive incident detection and management
 
 #### Cybozu Office frontend re-architecting project (2023/09 - 2024/06)
@@ -73,7 +74,7 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 
 [kintone](https://www.kintone.com/en-us/) is one of the core products, adopted by one-third of publicly listed companies in Japan and used by tens of thousands of users.
 
-- Served as a tech lead for a cross-functional Scrum team of five engineers
+- Served as a tech lead for a cross-functional Scrum team of four members
   - Orchestrated strategic roadmap development, daily task prioritization, and technical decision-making
 - Migrated the application header from Google Closure Library to React
   - Enhanced accessibility through comprehensive keyboard navigation and screen reader compatibility
