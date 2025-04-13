@@ -35,8 +35,8 @@
 - Languages: HTML, CSS, JavaScript, TypeScript, Rust, Go, Python
 - Frontend: React, Next.js, React Aria, Storybook
 - Backend: NestJS, Prisma, gRPC, GraphQL, MySQL
-- Infra: Kubernetes, Grafana, VictoriaMetrics, OpenTelemetry
-- Others: ESLint, Vite, Jest, Playwright, Github Actions, Docker
+- Infra: Kubernetes, ArgoCD, Grafana, VictoriaMetrics, OpenTelemetry
+- Others: ESLint, Vite, Jest, Playwright, Github Actions, Docker, Jsonnet
 
 ## Experience
 
