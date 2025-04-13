@@ -59,7 +59,7 @@
   - 一度のリリースで数万件のジョブを処理するジョブキューを Go と MySQL を利用して実装した
 - 各種サービスのデプロイと運用
   - Jsonnet と ArgoCD を利用した GitOps の導入と実践
-  - VictoriaMetrics と Grafana による監視基盤の整備
+  - VictoriaMetrics と Grafana による監視基盤やアラートの整備
 
 #### [サイボウズ Office のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000) (2023/09 - 2024/06)
 
