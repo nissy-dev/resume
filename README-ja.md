@@ -48,7 +48,7 @@
 - 社外発信
   - [モジュラモノリスにおける Prisma を利用した DB アクセスの秩序を保つ](https://zenn.dev/ubie_dev/articles/nestjs-prisma-db-access-management)
 
-### Cybozu (2024/06 - ) シニアソフトウェアエンジニア
+### Cybozu (2024/07 - ) シニアソフトウェアエンジニア
 
 #### サイボウズ Office のインフラ移行プロジェクト (2024/07 - )
 
