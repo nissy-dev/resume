@@ -77,7 +77,7 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 - Served as a tech lead for a cross-functional Scrum team of four members
   - Orchestrated strategic roadmap development, daily task prioritization, and technical decision-making
 - Migrated the application header from Google Closure Library to React
-  - Enhanced accessibility through comprehensive keyboard navigation and screen reader compatibility
+  - Enhanced accessibility through keyboard navigation and screen reader compatibility
   - Accelerated delivery timeline by adopting a horizontal micro-frontend architecture
 - Developed and implemented a comprehensive test strategy based on the Testing Trophy framework
   - Optimized testing ROI by focusing on integration tests and visual regression testing
