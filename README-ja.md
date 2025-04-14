@@ -39,7 +39,7 @@
 
 ## 職務経歴
 
-### Ubie, inc (2024/01 - , 副業, 週 10h) バックエンドエンジニア
+### Ubie, inc (2024/01 - , 副業) バックエンドエンジニア
 
 - BFF サーバーの Kotlin から Node.js への刷新
 - NestJS と Prisma を利用した GraphQL や REST API の実装
@@ -48,7 +48,7 @@
 - 社外発信
   - [モジュラモノリスにおける Prisma を利用した DB アクセスの秩序を保つ](https://zenn.dev/ubie_dev/articles/nestjs-prisma-db-access-management)
 
-### Cybozu (2024/06 - , 週 4 日) シニアソフトウェアエンジニア
+### Cybozu (2024/06 - ) シニアソフトウェアエンジニア
 
 #### サイボウズ Office のインフラ移行プロジェクト (2024/07 - )
 
