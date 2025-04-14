@@ -53,13 +53,15 @@
 - シニアソフトウェアエンジニア (2024/01 - , 週 4 日)
 - フロントエンドエンジニア (2021/04 - 2023/12)
 
-#### サイボウズ Office のインフラ移行プロジェクト (2023/09 - 2024/06)
+#### サイボウズ Office のインフラ移行プロジェクト (2024/07 - )
 
 - 新しいインフラ基盤でのテナント管理サービスを実装
   - 一度のリリースで数万件のジョブを処理するジョブキューを Go と MySQL を利用して実装した
 - 各種サービスのデプロイと運用
   - Jsonnet と ArgoCD を利用した GitOps の導入と実践
   - VictoriaMetrics と Grafana による監視基盤やアラートの整備
+- 社外発信
+  - [Go で新しいサービスを実装する際に意識したポイント](https://blog.cybozu.io/entry/2025/04/14/100000)
 
 #### [サイボウズ Office のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000) (2023/09 - 2024/06)
 
@@ -85,10 +87,10 @@
   - 社内の UI ライブラリが正しく tree shaking されるように修正した
   - あるプロジェクトでは 50% 以上のバンドルサイズの削減に貢献した
 - 社外発信
-  - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
-  - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
-  - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
   - [React 化した共通ヘッダーを kintone の全ページに適用しました！](https://blog.cybozu.io/entry/2023/08/29/101907)
+  - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
+  - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
+  - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
 
 ### Google Summer of Code (2020/06 - 2020/08)
 
