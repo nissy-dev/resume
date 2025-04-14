@@ -48,7 +48,7 @@
 
 ### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/07 - current) 
 
-#### Cybozu Office infrastructure migration project
+#### Cybozu Office infrastructure migration project (2024/07 - current)
 
 Cybozu Office is one of the core products, serving as a multi-tenant SaaS platform with tens of thousands of active tenants. This project involves migrating these multi-tenant services to a new Kubernetes-based on-premises infrastructure.
 
