@@ -35,7 +35,7 @@
 - Languages: HTML, CSS, JavaScript, TypeScript, Rust, Go, Python
 - Frontend: React, Next.js, React Aria, Storybook
 - Backend: NestJS, Prisma, gRPC, GraphQL, MySQL
-- Infra: Kubernetes, ArgoCD, Grafana, VictoriaMetrics, OpenTelemetry
+- Infra: Kubernetes, ArgoCD, Grafana, VictoriaMetrics (Prometheus), OpenTelemetry
 - Others: ESLint, Vite, Jest, Playwright, Github Actions, Docker, Jsonnet
 
 ## Experience
@@ -46,7 +46,7 @@
 - Established foundational tooling infrastructure (custom lint rules and build systems) to enforce module independence in a modular monolith architecture
 - Implemented distributed tracing across microservices using OpenTelemetry, improving observability and reducing debugging time
 
-### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/07 - current) 
+### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/07 - current)
 
 #### Cybozu Office infrastructure migration project (2024/07 - current)
 
@@ -57,8 +57,8 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
   - Implemented robust error handling and retry mechanisms to ensure data integrity during tenant operations
 - Established observability infrastructure using Grafana and VictoriaMetrics
   - Designed custom dashboards and alerting workflows to enable proactive incident detection and management
- 
-### [Cybozu, Inc](https://cybozu-global.com/) Frontend engineer (2021/04 - 2024/06) 
+
+### [Cybozu, Inc](https://cybozu-global.com/) Frontend engineer (2021/04 - 2024/06)
 
 #### Cybozu Office frontend re-architecting project (2023/09 - 2024/06)
 

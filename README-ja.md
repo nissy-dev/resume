@@ -27,7 +27,7 @@
 - レガシープロダクトのフレームワークやライブラリの移行
 - GitHub Actions などを利用した CI/CD の整備・改善、開発プロセスの自動化
 - 業務で利用している OSS へのコントリビュート
-- kubernetes 基盤へのアプリケーションのデプロイ
+- kubernetes 基盤へのアプリケーションのデプロイと運用
 - パフォーマンス改善やオブザーバビリティ啓蒙
 - フロントエンド
   - TypeScript と React (Next.js) を利用したフロントエンドの設計および実装
@@ -46,6 +46,7 @@
 - モジュラモノリスのモジュールの独立性を保つための基盤 (カスタムリントルールやビルドツール) の整備
 - OpenTelemetry を使用した分散トレーシングのための実装
 - 社外発信
+  - [NestJS で絡みあったモジュールの循環参照を整理する](https://zenn.dev/ubie_dev/articles/bye-circular-deps)
   - [モジュラモノリスにおける Prisma を利用した DB アクセスの秩序を保つ](https://zenn.dev/ubie_dev/articles/nestjs-prisma-db-access-management)
 
 ### Cybozu (2024/07 - ) シニアソフトウェアエンジニア
@@ -55,11 +56,11 @@
 - 新しいインフラ基盤でのテナント管理サービスを実装
   - 一度のリリースで数万件のジョブを処理するジョブキューを Go と MySQL を利用して実装した
 - 各種サービスのデプロイと運用
-  - Jsonnet と ArgoCD を利用した GitOps の導入と実践
+  - Jsonnet と ArgoCD を利用した GitOps の導入と運用
   - VictoriaMetrics と Grafana による監視基盤やアラートの整備
 - 社外発信
   - [Go で新しいサービスを実装する際に意識したポイント](https://blog.cybozu.io/entry/2025/04/14/100000)
- 
+
 ### Cybozu (2021/04 - 2024/06) フロントエンドエンジニア
 
 #### [サイボウズ Office のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2023/09/25/080000) (2023/09 - 2024/06)
