@@ -96,6 +96,23 @@ I have been passionate about contributing to OSS since I started my career as an
 <details>
 <summary>PRs and issues in the past two years</summary>
 <!-- oss activity -->
+
+- [pnpm/pnpm: fix: omit the major version matching restriction when filtering latest dist-tags in pkg metadata](https://github.com/pnpm/pnpm/pull/10130)
+- [pnpm/pnpm: minimumReleaseAge fails to fallback when a new major version is released](https://github.com/pnpm/pnpm/issues/10100)
+- [cybozu/license-manager: fix: update version handling in getDependenciesForPnpm](https://github.com/cybozu/license-manager/pull/14)
+- [webpro-nl/knip: feat: add prisma plugin](https://github.com/webpro-nl/knip/pull/1073)
+- [Quramy/prisma-fabbrica: feat: support new prisma client generator](https://github.com/Quramy/prisma-fabbrica/pull/462)
+- [prisma/prisma: fix(config): use jiti to load prisma.config.ts](https://github.com/prisma/prisma/pull/27075)
+- [prisma/language-tools: Support disabling Prisma LSP diagnostics](https://github.com/prisma/language-tools/issues/1827)
+- [prisma/language-tools: Support custom path for prisma.config.ts](https://github.com/prisma/language-tools/issues/1826)
+- [prisma/prisma: Support glob patterns in schema option for prismaSchemaFolder](https://github.com/prisma/prisma/issues/26989)
+- [tinymce/tinymce: The resize handle icon of status bar is displayed on the left end](https://github.com/tinymce/tinymce/issues/9627)
+- [graphql-hive/graphql-yoga: feat: support shouldPersistHeaders option in GraphiQL plugin](https://github.com/graphql-hive/graphql-yoga/pull/3255)
+- [biomejs/biome: 📎 Translate README.md to Japanese](https://github.com/biomejs/biome/issues/1125)
+- [biomejs/biome: docs(website): update CODEOWNERS and broken links](https://github.com/biomejs/biome/pull/1078)
+- [biomejs/biome: fix: update the crate publishing order in scripts/publish-crates.sh](https://github.com/biomejs/biome/pull/891)
+- [biomejs/biome: fix: cargo build for publishing](https://github.com/biomejs/biome/pull/886)
+
 <!-- oss activity -->
 </details>
 
