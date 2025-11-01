@@ -13,13 +13,14 @@ jobs:
           ./scripts/oss-activity.sh > oss-activity.tmp
           node ./scripts/update-readme.mjs README-ja.md oss-activity.tmp
           node ./scripts/update-readme.mjs README.md oss-activity.tmp
+          rm oss-activity.tmp
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git diff --quiet || {
-            git add README-ja.md
+            git add README-ja.md README.md
             git commit -m 'Update OSS activity' || echo "No changes to commit"
             git push origin HEAD:main
           }
