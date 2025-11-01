@@ -27,7 +27,6 @@
 - レガシープロダクトのフレームワークやライブラリの移行
 - GitHub Actions などを利用した CI/CD の整備・改善、開発プロセスの自動化
 - 業務で利用している OSS へのコントリビュート
-- kubernetes 基盤へのアプリケーションのデプロイと運用
 - パフォーマンス改善やオブザーバビリティ啓蒙
 - フロントエンド
   - TypeScript と React (Next.js) を利用したフロントエンドの設計および実装
@@ -36,28 +35,26 @@
   - NestJS を利用した GraphQL サーバーの実装
   - Go を利用した gRPC サーバーの実装
   - Node.js ベースのモジュラモノリスの実践
+- インフラ
+  - kubernetes 基盤へのアプリケーションのデプロイ
+  - 基本的なダッシュボードやアラートの整備
 
 ## 職務経歴
-
-### Ubie, inc (2024/01 - , 副業) バックエンドエンジニア
-
-- BFF サーバーの Kotlin から Node.js への刷新
-- NestJS と Prisma を利用した GraphQL や REST API の実装
-- モジュラモノリスのモジュールの独立性を保つための基盤 (カスタムリントルールやビルドツール) の整備
-- OpenTelemetry を使用した分散トレーシングのための実装
-- 社外発信
-  - [NestJS で絡みあったモジュールの循環参照を整理する](https://zenn.dev/ubie_dev/articles/bye-circular-deps)
-  - [モジュラモノリスにおける Prisma を利用した DB アクセスの秩序を保つ](https://zenn.dev/ubie_dev/articles/nestjs-prisma-db-access-management)
 
 ### Cybozu (2024/07 - ) シニアソフトウェアエンジニア
 
 #### サイボウズ Office のインフラ移行プロジェクト (2024/07 - )
 
-- 新しいインフラ基盤でのテナント管理サービスを実装
-  - 一度のリリースで数万件のジョブを処理するジョブキューを Go と MySQL を利用して実装した
-- 各種サービスのデプロイと運用
-  - Jsonnet と ArgoCD を利用した GitOps の導入と運用
-  - VictoriaMetrics と Grafana による監視基盤やアラートの整備
+- 新しいインフラ向けのテナント管理 (作成、更新、削除) サービスの実装
+  - Go と MySQL を使用し、冪等性やリトライを考慮したジョブキューを実装
+  - 数万件規模のジョブも約 5 分程度で処理を達成し、リリース時間の短縮に貢献
+- GitOps (ArgoCD) ベースの Kubernetes リソース自動適用サービスの実装
+  - GitHub Actions を起動する Go の gRPC サーバーを実装し、リポジトリへの編集コミットを自動化
+  - Jsonnet を活用したブランチ一本のリソース管理を実現し、複数ブランチ運用の手間を削減
+- Kubernetes 上での数百台のステートフルな Pod を運用
+  - USE/RED 指標を意識した Grafana ダッシュボードを整備
+  - VictoriaMetrics を利用したメトリクスの収集、MetricsQL を利用したアラート整備
+  - BtoB SaaS の日中アクセスの重要度を考慮した SLO の改善を実施
 - 社外発信
   - [Go で新しいサービスを実装する際に意識したポイント](https://blog.cybozu.io/entry/2025/04/14/100000)
 
@@ -92,33 +89,15 @@
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
 
-### Google Summer of Code (2020/06 - 2020/08)
+### Ubie, inc (2024/01 - 2025/09, 副業) ソフトウェアエンジニア
 
-参加プロジェクト：[DeepChem](https://github.com/deepchem/deepchem)
-
-- JAX を利用した化学分野向けの Graph Neural Network フレームワークの PoC 実装 (成果物: [JAXChem](https://github.com/deepchem/jaxchem))
-- [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) を利用した機能強化
-- Type Hints の追加や API ドキュメント・チュートリアルの改善
-- Travis CI から GitHub Actions への移行
-- DockerHub、PyPI、conda-forge でのリリース自動化
-
-最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
-
-### Preferred Networks (2019/08 - 2019/09) サマーインターン
-
-[Chainer Chemistry](https://github.com/chainer/chainer-chemistry) へのコントリビューションを主に行いました。
-
-- 無機結晶系を対象とした Graph Neural Network のモデル ([MEGNet](https://github.com/materialsvirtuallab/megnet)) の追加
-- 無機結晶系を対象としたベンチマークデータセットに関する機能の追加
-
-### CureApp (2018/01 - 2019/05) アルバイト
-
-- 血圧計から血圧値を取得・記録するアプリの開発
-  - React Native と Bluetooth を利用した機能開発
-- 患者が利用するアプリで蓄積されたデータを医療従事者が確認するための Web サイトの開発
-  - React Native for Web を利用した SPA の開発
-- 社内ライブラリの Flow から TypeScript への移行
-  - 既存の babel plugin を拡張したツールを実装し、自動変換での移行を行った
+- BFF サーバーの Kotlin から Node.js への刷新
+- NestJS と Prisma を利用した GraphQL や REST API の実装
+- モジュラモノリスのモジュールの独立性を保つための基盤 (カスタムリントルールやビルドツール) の整備
+- OpenTelemetry を利用した分散トレーシングの実装
+- 社外発信
+  - [NestJS で絡みあったモジュールの循環参照を整理する](https://zenn.dev/ubie_dev/articles/bye-circular-deps)
+  - [モジュラモノリスにおける Prisma を利用した DB アクセスの秩序を保つ](https://zenn.dev/ubie_dev/articles/nestjs-prisma-db-access-management)
 
 ## 業務外活動
 
@@ -127,14 +106,24 @@
 フロントエンドを中心に様々な OSS にコントリビュートしています。
 
 - [作成した PR の一覧](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
-- [Biome](https://github.com/biomejs/biome) の core contributor としての活動
+- [Biome](https://github.com/biomejs/biome) の core contributor としての約半年間の活動
   - JavaScript / TypeScript の新しい構文に関するパーサーやフォーマッターの実装
   - 新しい lint ルールの実装や既存の lint ルールの false positive の修正
-- [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上のコントリビュート
-  - 詳細は職務経歴を参考のこと
-- [Javascript Primer](https://jsprimer.net/) の PWA 対応
-  - [コントリビュートがブログでも紹介されました](https://efcl.info/2018/05/25/js-primer-offline/)
+  - 公式ドキュメントの日本語翻訳のリード
+- Google Summer of Code での [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上のコントリビュート
+  - 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
+  - JAX を利用した化学分野向けの Graph Neural Network フレームワークの PoC 実装 (成果物: [JAXChem](https://github.com/deepchem/jaxchem))
+  - [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) を利用した機能強化
+  - Type Hints の追加や API ドキュメント・チュートリアルの改善
+  - Travis CI から GitHub Actions への移行
+  - DockerHub、PyPI、conda-forge でのリリース自動化
 - 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験があります
+
+<details>
+<summary>直近 2 年の活動</summary>
+<!-- oss activity -->
+<!-- oss activity -->
+</details>
 
 ### 登壇
 
