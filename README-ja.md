@@ -120,7 +120,7 @@
 - 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験があります
 
 <details>
-<summary>直近 2 年の活動</summary>
+<summary>直近 2 年の PR と Issue</summary>
 
 <!-- oss activity -->
 

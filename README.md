@@ -95,6 +95,12 @@ I have been passionate about contributing to OSS since I started my career as an
 
 OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 
+<details>
+<summary>PRs and issues in the past two years</summary>
+<!-- oss activity -->
+<!-- oss activity -->
+</details>
+
 - Served as a core contributor to [Biome](https://github.com/biomejs/biome)
   - Enhanced parser and formatter logic to support new JavaScript/TypeScript language syntax
   - Developed new linting rules and resolved false positive issues for linters
@@ -105,12 +111,6 @@ OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-d
   - Modernized CI infrastructure by migrating from Travis CI to GitHub Actions
   - Automated the release process by setting up deployment pipelines for DockerHub, PyPI, and conda-forge
 - Various contributions to JavaScript-related open source projects like Node.js, ESLint, React Native, SWC, etc.
-
-<details>
-<summary>Activities in the past two years</summary>
-<!-- oss activity -->
-<!-- oss activity -->
-</details>
 
 ## Talks
 
