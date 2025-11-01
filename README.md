@@ -40,23 +40,22 @@
 
 ## Experience
 
-### [Ubie, inc](https://ubiehealth.com/company) Backend engineer (2024/01 - current, second job)
-
-- Migrated BFF server from Kotlin to Node.js by implementing GraphQL and REST APIs using NestJS and Prisma, reducing context switching between frontend (TypeScript) and backend development
-- Established foundational tooling infrastructure (custom lint rules and build systems) to enforce module independence in a modular monolith architecture
-- Implemented distributed tracing across microservices using OpenTelemetry, improving observability and reducing debugging time
-
 ### [Cybozu, Inc](https://cybozu-global.com/) Senior software engineer (2024/07 - current)
 
 #### Cybozu Office infrastructure migration project (2024/07 - current)
 
 Cybozu Office is one of the core products, serving as a multi-tenant SaaS platform with tens of thousands of active tenants. This project involves migrating these multi-tenant services to a new Kubernetes-based on-premises infrastructure.
 
-- Implemented new tenant management services for the new infrastructure
-  - Engineered a high-performance job queue using Go and MySQL to handle tens of thousands of jobs
-  - Implemented robust error handling and retry mechanisms to ensure data integrity during tenant operations
-- Established observability infrastructure using Grafana and VictoriaMetrics
-  - Designed custom dashboards and alerting workflows to enable proactive incident detection and management
+- Implemented tenant management services (create, update, delete) for a new infrastructure platform
+  - Built a job queue in Go and MySQL with idempotency and retry mechanisms
+  - Achieved processing of tens of thousands of jobs in about five minutes, significantly reducing release time
+- Developed a GitOps (ArgoCD)-based service for automatic Kubernetes resource updates
+  - Implemented a Go-based gRPC server to trigger GitHub Actions which commit resource changes to repositories
+  - Enabled single-branch resource management using Jsonnet, reducing operational overhead from multi-branch workflows
+- Operated hundreds of stateful Pods on Kubernetes
+  - Created Grafana dashboards based on USE/RED metrics for observability
+  - Collected metrics using VictoriaMetrics and built alerting rules with MetricsQL
+  - Improved SLOs considering business-hour access importance for a B2B SaaS product
 
 ### [Cybozu, Inc](https://cybozu-global.com/) Frontend engineer (2021/04 - 2024/06)
 
@@ -84,22 +83,11 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 - Improved frontend performance through UI library optimization
   - Resolved critical tree-shaking issues that reduced bundle size by over 50% across multiple projects
 
-### Google Summer of Code (2020/06 - 2020/08)
+### [Ubie, inc](https://ubiehealth.com/company) Backend engineer (2024/01 - 2025/09, second job)
 
-Organization: [DeepChem](https://github.com/deepchem/deepchem) (Open Chemistry)
-
-- Architected and implemented a pioneering proof-of-concept graph neural network framework for chemistry using JAX (repository: [JAXChem](https://github.com/deepchem/jaxchem))
-- Extended functionalities by integrating [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
-- Modernized CI infrastructure by migrating from Travis CI to GitHub Actions
-- Automated the release process by setting up deployment pipelines for DockerHub, PyPI, and conda-forge
-
-Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
-
-### Preferred Networks (2019/08 - 2019/09, summer internship)
-
-- Contributed to [Chainer Chemistry](https://github.com/chainer/chainer-chemistry)
-- Implemented the graph neural network model for predicting properties of inorganic crystals ([MEGNet](https://github.com/materialsvirtuallab/megnet))
-- Enhanced functionalities for benchmark datasets of inorganic crystals
+- Migrated BFF server from Kotlin to Node.js by implementing GraphQL and REST APIs using NestJS and Prisma, reducing context switching between frontend (TypeScript) and backend development
+- Established foundational tooling infrastructure (custom lint rules and build systems) to enforce module independence in a modular monolith architecture
+- Implemented distributed tracing across microservices using OpenTelemetry, improving observability and reducing debugging time
 
 ## OSS Contribution
 
@@ -112,8 +100,17 @@ OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-d
   - Developed new linting rules and resolved false positive issues for linters
   - Promoted the project to translate the website into Japanese
 - Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
-  - Please refer to Experience section for more details
+  - Architected and implemented a pioneering proof-of-concept graph neural network framework for chemistry using JAX (repository: [JAXChem](https://github.com/deepchem/jaxchem))
+  - Extended functionalities by integrating [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
+  - Modernized CI infrastructure by migrating from Travis CI to GitHub Actions
+  - Automated the release process by setting up deployment pipelines for DockerHub, PyPI, and conda-forge
 - Various contributions to JavaScript-related open source projects like Node.js, ESLint, React Native, SWC, etc.
+
+<details>
+<summary>Activities in the past two years</summary>
+<!-- oss activity -->
+<!-- oss activity -->
+</details>
 
 ## Talks
 
