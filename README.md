@@ -121,6 +121,7 @@ I have been passionate about contributing to OSS since I started my career as an
   - Developed new linting rules and resolved false positive issues for linters
   - Promoted the project to translate the website into Japanese
 - Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
+  - Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - Architected and implemented a pioneering proof-of-concept graph neural network framework for chemistry using JAX (repository: [JAXChem](https://github.com/deepchem/jaxchem))
   - Extended functionalities by integrating [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
   - Modernized CI infrastructure by migrating from Travis CI to GitHub Actions
