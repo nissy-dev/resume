@@ -93,8 +93,6 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 
 I have been passionate about contributing to OSS since I started my career as an engineer. I mainly contributed to tools related to JavaScript linters and transpilers.
 
-OSS activities: [PRs](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
-
 <details>
 <summary>PRs and issues in the past two years</summary>
 <!-- oss activity -->

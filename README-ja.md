@@ -105,7 +105,6 @@
 
 フロントエンドを中心に様々な OSS にコントリビュートしています。
 
-- [作成した PR の一覧](https://github.com/pulls?page=1&q=is%3Apr+author%3Anissy-dev+archived%3Afalse+-org%3Anissy-dev)
 - [Biome](https://github.com/biomejs/biome) の core contributor としての約半年間の活動
   - JavaScript / TypeScript の新しい構文に関するパーサーやフォーマッターの実装
   - 新しい lint ルールの実装や既存の lint ルールの false positive の修正
