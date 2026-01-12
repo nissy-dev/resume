@@ -56,7 +56,9 @@
   - VictoriaMetrics を利用したメトリクスの収集、MetricsQL を利用したアラート整備
   - BtoB SaaS の日中アクセスの重要度を考慮した SLO の改善を実施
 - 社外発信
+  - [Jsonnet mixins で実現する環境別ブランチ運用からの脱却](https://blog.cybozu.io/entry/2025/12/19/170000)
   - [Go で新しいサービスを実装する際に意識したポイント](https://blog.cybozu.io/entry/2025/04/14/100000)
+  - [Go で Kubernetes のカスタムリソースを扱う方法を整理する](https://zenn.dev/nissy_dev/articles/go-crd-operation)
 
 ### Cybozu (2021/04 - 2024/06) フロントエンドエンジニア
 
@@ -68,8 +70,8 @@
   - 12 分以上かかっていた CI の実行時間を 5 分以上削減した
   - テストケースが増えても実行時間が増加しないような仕組みを整備した
 - 社外発信
-  - [アクセシビリティの改善のために React Aria を活用しています](https://blog.cybozu.io/entry/2024/05/22/090000)
   - [Next.js 製アプリケーションの CI の実行時間削減や安定性向上のために取り組んだこと](https://blog.cybozu.io/entry/2024/04/08/100000)
+  - [アクセシビリティの改善のために React Aria を活用しています](https://blog.cybozu.io/entry/2024/05/22/090000)
 
 #### [kintone のフロントエンド刷新プロジェクト](https://blog.cybozu.io/entry/2022/02/04/171154) (2021/04 - 2023/08)
 
@@ -85,8 +87,8 @@
   - あるプロジェクトでは 50% 以上のバンドルサイズの削減に貢献した
 - 社外発信
   - [React 化した共通ヘッダーを kintone の全ページに適用しました！](https://blog.cybozu.io/entry/2023/08/29/101907)
-  - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
+  - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
 
 ### Ubie, inc (2024/01 - 2025/09, 副業) ソフトウェアエンジニア
