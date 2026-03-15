@@ -51,14 +51,13 @@
 - GitOps (ArgoCD) ベースの Kubernetes リソース自動適用サービスの実装
   - GitHub Actions を起動する Go の gRPC サーバーを実装し、リポジトリへの編集コミットを自動化
   - Jsonnet を活用したブランチ一本のリソース管理を実現し、複数ブランチ運用の手間を削減
-- Kubernetes 上での数百台のステートフルな Pod を運用
+- Kubernetes 上でのステートフルな Pod を運用
   - USE/RED 指標を意識した Grafana ダッシュボードを整備
   - VictoriaMetrics を利用したメトリクスの収集、MetricsQL を利用したアラート整備
   - BtoB SaaS の日中アクセスの重要度を考慮した SLO の改善を実施
 - 社外発信
   - [Jsonnet mixins で実現する環境別ブランチ運用からの脱却](https://blog.cybozu.io/entry/2025/12/19/170000)
   - [Go で新しいサービスを実装する際に意識したポイント](https://blog.cybozu.io/entry/2025/04/14/100000)
-  - [Go で Kubernetes のカスタムリソースを扱う方法を整理する](https://zenn.dev/nissy_dev/articles/go-crd-operation)
 
 ### Cybozu (2021/04 - 2024/06) フロントエンドエンジニア
 
@@ -88,7 +87,6 @@
 - 社外発信
   - [React 化した共通ヘッダーを kintone の全ページに適用しました！](https://blog.cybozu.io/entry/2023/08/29/101907)
   - [新卒で飛び込んだフロントエンド刷新プロジェクトが学びだらけだった話](https://blog.cybozu.io/entry/2022/08/31/110000)
-  - [kintone の共通ヘッダー部分の React 化に責任を持つチームの紹介！](https://blog.cybozu.io/entry/2022/11/18/120000)
   - [typescript-generator を利用して、HTML に埋め込んだ JSON データをフロントエンドで型安全に扱う](https://blog.cybozu.io/entry/2022/03/30/174250)
 
 ### Ubie, inc (2024/01 - 2025/09, 副業) ソフトウェアエンジニア

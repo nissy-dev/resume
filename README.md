@@ -52,7 +52,7 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 - Developed a GitOps (ArgoCD)-based service for automatic Kubernetes resource updates
   - Implemented a Go-based gRPC server to trigger GitHub Actions which commit resource changes to repositories
   - Enabled single-branch resource management using Jsonnet, reducing operational overhead from multi-branch workflows
-- Operated hundreds of stateful Pods on Kubernetes
+- Operated stateful Pods on Kubernetes
   - Created Grafana dashboards based on USE/RED metrics for observability
   - Collected metrics using VictoriaMetrics and built alerting rules with MetricsQL
   - Improved SLOs considering business-hour access importance for a B2B SaaS product
@@ -71,9 +71,8 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
   - Reduced CI execution time by 42% (from 12+ minutes to under 7 minutes), accelerating the feedback cycle and deployment speed
   - Designed a scalable test execution framework that maintains performance regardless of test suite size
 - Articles
-  - [We use React Aria for improved accessibility](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2024/05/22/090000)
   - [What we did to reduce CI execution time and improve stability for Next.js applications](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2024/04/08/100000)
-  
+  - [We use React Aria for improved accessibility](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2024/05/22/090000)
 
 #### kintone frontend re-architecting project (2021/04 - 2023/08)
 
@@ -91,7 +90,6 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
   - Resolved critical tree-shaking issues that reduced bundle size by over 50% across multiple projects
 - Articles
   - [We've applied a common header created using React to all pages of kintone!](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2023/08/29/101907)
-  - [Introducing the team responsible for converting kintone's common header section to React!](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/11/18/120000)
   - [The story of how I jumped into a front-end renewal project as a new graduate and learned a lot](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/08/31/110000)
   - [Use typescript-generator to handle JSON data embedded in HTML in a type-safe manner on the front end](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/03/30/174250)
 
@@ -100,6 +98,9 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 - Migrated BFF server from Kotlin to Node.js by implementing GraphQL and REST APIs using NestJS and Prisma, reducing context switching between frontend (TypeScript) and backend development
 - Established foundational tooling infrastructure (custom lint rules and build systems) to enforce module independence in a modular monolith architecture
 - Implemented distributed tracing across microservices using OpenTelemetry, improving observability and reducing debugging time
+- Articles
+  - [Organizing circular references in NestJS modules](https://translate.google.com/translate?&tl=en&u=https://zenn.dev/ubie_dev/articles/bye-circular-deps)
+  - [Maintaining order in database access using Prisma in a modular monolith](https://translate.google.com/translate?&tl=en&u=https://zenn.dev/ubie_dev/articles/nestjs-prisma-db-access-management)
 
 ## OSS Contribution
 
