@@ -112,7 +112,7 @@ I have been passionate about contributing to OSS since I started my career as an
 - Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
   - Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - Architected and implemented a pioneering proof-of-concept graph neural network framework for chemistry using JAX (repository: [JAXChem](https://github.com/deepchem/jaxchem))
-  - Extended functionalities by integrating [Deep Graph Library](https://www.dgl.ai/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
+  - Extended functionalities by integrating Deep Graph Library and PyTorch Geometric
   - Modernized CI infrastructure by migrating from Travis CI to GitHub Actions
   - Automated the release process by setting up deployment pipelines for DockerHub, PyPI, and conda-forge
 - Various contributions to JavaScript-related open source projects like Node.js, ESLint, React Native, SWC, etc.
