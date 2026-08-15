@@ -118,29 +118,7 @@
   - DockerHub、PyPI、conda-forge でのリリース自動化
 - 上記以外にも、ESLint、SWC、React Native、Node.js などへのコントリビューション経験があります
 
-<details>
-<summary>直近 2 年の PR と Issue</summary>
-
-<!-- oss activity -->
-
-- [pnpm/pnpm: fix: omit the major version matching restriction when filtering latest dist-tags in pkg metadata](https://github.com/pnpm/pnpm/pull/10130)
-- [pnpm/pnpm: minimumReleaseAge fails to fallback when a new major version is released](https://github.com/pnpm/pnpm/issues/10100)
-- [cybozu/license-manager: fix: update version handling in getDependenciesForPnpm](https://github.com/cybozu/license-manager/pull/14)
-- [webpro-nl/knip: feat: add prisma plugin](https://github.com/webpro-nl/knip/pull/1073)
-- [Quramy/prisma-fabbrica: feat: support new prisma client generator](https://github.com/Quramy/prisma-fabbrica/pull/462)
-- [prisma/prisma: fix(config): use jiti to load prisma.config.ts](https://github.com/prisma/prisma/pull/27075)
-- [prisma/language-tools: Support disabling Prisma LSP diagnostics](https://github.com/prisma/language-tools/issues/1827)
-- [prisma/language-tools: Support custom path for prisma.config.ts](https://github.com/prisma/language-tools/issues/1826)
-- [prisma/prisma: Support glob patterns in schema option for prismaSchemaFolder](https://github.com/prisma/prisma/issues/26989)
-- [tinymce/tinymce: The resize handle icon of status bar is displayed on the left end](https://github.com/tinymce/tinymce/issues/9627)
-- [graphql-hive/graphql-yoga: feat: support shouldPersistHeaders option in GraphiQL plugin](https://github.com/graphql-hive/graphql-yoga/pull/3255)
-- [biomejs/biome: 📎 Translate README.md to Japanese](https://github.com/biomejs/biome/issues/1125)
-- [biomejs/biome: docs(website): update CODEOWNERS and broken links](https://github.com/biomejs/biome/pull/1078)
-- [biomejs/biome: fix: update the crate publishing order in scripts/publish-crates.sh](https://github.com/biomejs/biome/pull/891)
-- [biomejs/biome: fix: cargo build for publishing](https://github.com/biomejs/biome/pull/886)
-
-<!-- oss activity -->
-</details>
+直近 2 年の PR と Issue: https://nissy.dev/oss.html
 
 ### 登壇
 
@@ -151,18 +129,6 @@
   - [Nihonbashi.js #7](https://nihonbashi-js.connpass.com/event/293774/) での発表資料
 - [フロントエンド刷新活動の紹介](https://speakerdeck.com/cybozuinsideout/jsconf-sponsor-lt)
   - [JSConf JP 2022](https://jsconf.jp/2022/talk/cybozu-js-conf-jp-2022-sponsor-lt/) でのスポンサー LT での発表資料
-
-### 個人の制作物
-
-- [Tenbin](https://github.com/nissy-dev/tenbin)
-  - [テストの sharding を効率化するツール](https://zenn.dev/cybozu_frontend/articles/create-tenbin)
-- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - [react-icons](https://github.com/react-icons/react-icons) を参考に作成した [dioxus](https://dioxuslabs.com/) で利用できる icon ライブラリ
-  - [現在は dioxus-community へリポジトリを移譲している](https://github.com/dioxus-community/dioxus-free-icons/issues/27)
-- [blog.nissy.dev](https://github.com/nissy-dev/blog)
-  - Next.js (App Router) を利用して作成した個人ブログ
-  - [Cloudflare D1 を使った全文検索機能を実装](https://zenn.dev/cybozu_frontend/articles/cloudflare-d1-fts)
-  - [dark mode 対応をフルスクラッチで実装](https://github.com/nissy-dev/blog/blob/main/packages/frontend/src/theme/theme.tsx)
 
 ### 執筆活動
 

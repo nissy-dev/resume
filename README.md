@@ -8,8 +8,6 @@
 - [Summary](#summary)
 - [Experience](#experience)
 - [OSS Contribution](#oss-contribution)
-- [Talks](#talks)
-- [Personal Projects](#personal-projects)
 - [Education](#education)
 
 ## Basic
@@ -23,7 +21,7 @@
 
 ## Summary
 
-- Full-stack engineer with 4+ years of experience in developing web applications
+- Full-stack engineer with 5+ years of experience in developing web applications
 - Experienced tech lead for a small cross-functional team
 - Proficient in designing and implementing frontend solutions with TypeScript, React, and Next.js
 - Expertise in improving CI/CD processes and automating development workflows
@@ -106,33 +104,11 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
 
 I have been passionate about contributing to OSS since I started my career as an engineer. I mainly contributed to tools related to JavaScript linters and transpilers.
 
-<details>
-<summary>PRs and issues in the past two years</summary>
-<!-- oss activity -->
-
-- [pnpm/pnpm: fix: omit the major version matching restriction when filtering latest dist-tags in pkg metadata](https://github.com/pnpm/pnpm/pull/10130)
-- [pnpm/pnpm: minimumReleaseAge fails to fallback when a new major version is released](https://github.com/pnpm/pnpm/issues/10100)
-- [cybozu/license-manager: fix: update version handling in getDependenciesForPnpm](https://github.com/cybozu/license-manager/pull/14)
-- [webpro-nl/knip: feat: add prisma plugin](https://github.com/webpro-nl/knip/pull/1073)
-- [Quramy/prisma-fabbrica: feat: support new prisma client generator](https://github.com/Quramy/prisma-fabbrica/pull/462)
-- [prisma/prisma: fix(config): use jiti to load prisma.config.ts](https://github.com/prisma/prisma/pull/27075)
-- [prisma/language-tools: Support disabling Prisma LSP diagnostics](https://github.com/prisma/language-tools/issues/1827)
-- [prisma/language-tools: Support custom path for prisma.config.ts](https://github.com/prisma/language-tools/issues/1826)
-- [prisma/prisma: Support glob patterns in schema option for prismaSchemaFolder](https://github.com/prisma/prisma/issues/26989)
-- [tinymce/tinymce: The resize handle icon of status bar is displayed on the left end](https://github.com/tinymce/tinymce/issues/9627)
-- [graphql-hive/graphql-yoga: feat: support shouldPersistHeaders option in GraphiQL plugin](https://github.com/graphql-hive/graphql-yoga/pull/3255)
-- [biomejs/biome: 📎 Translate README.md to Japanese](https://github.com/biomejs/biome/issues/1125)
-- [biomejs/biome: docs(website): update CODEOWNERS and broken links](https://github.com/biomejs/biome/pull/1078)
-- [biomejs/biome: fix: update the crate publishing order in scripts/publish-crates.sh](https://github.com/biomejs/biome/pull/891)
-- [biomejs/biome: fix: cargo build for publishing](https://github.com/biomejs/biome/pull/886)
-
-<!-- oss activity -->
-</details>
-
 - Served as a core contributor to [Biome](https://github.com/biomejs/biome)
   - Enhanced parser and formatter logic to support new JavaScript/TypeScript language syntax
   - Developed new linting rules and resolved false positive issues for linters
   - Promoted the project to translate the website into Japanese
+  - Presented [Deep dive into Biome](https://speakerdeck.com/nissydev/deep-dive-into-biome-in-jsconf-2023) at [JSConf JP 2023](https://jsconf.jp/2023/talk/daiki-nishikawa-1/)
 - Contributions to [DeepChem](https://github.com/deepchem/deepchem) for 3+ months
   - Final report: https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - Architected and implemented a pioneering proof-of-concept graph neural network framework for chemistry using JAX (repository: [JAXChem](https://github.com/deepchem/jaxchem))
@@ -141,20 +117,7 @@ I have been passionate about contributing to OSS since I started my career as an
   - Automated the release process by setting up deployment pipelines for DockerHub, PyPI, and conda-forge
 - Various contributions to JavaScript-related open source projects like Node.js, ESLint, React Native, SWC, etc.
 
-## Talks
-
-- [Deep dive into Biome](https://speakerdeck.com/nissydev/deep-dive-into-biome-in-jsconf-2023) at [JSConf JP 2023](https://jsconf.jp/2023/talk/daiki-nishikawa-1/)
-
-## Personal Projects
-
-- [Tenbin](https://github.com/nissy-dev/tenbin)
-  - Tools to minimize the differences in test execution times across shards
-- [dioxus-free-icons](https://github.com/nissy-dev/dioxus-free-icons)
-  - Free icon library for [dioxus](https://dioxuslabs.com/)
-  - Created for [personal profile site](https://nissy.dev), taking inspiration from [react-icons](https://github.com/react-icons/react-icons)
-- [babel-plugin-object-to-json-parse](https://github.com/nissy-dev/babel-plugin-object-to-json-parse)
-  - Babel plugin that converts object Literal to JSON parse syntax
-  - This plugin was featured at ChromeDevSummit 2019 ([Tweet](https://twitter.com/mathias/status/1198266203413897216?s=20) and [Movie](https://www.youtube.com/watch?v=ff4fgQxPaO0))
+PRs and issues in the past two years: https://nissy.dev/oss.html
 
 ## Education
 
