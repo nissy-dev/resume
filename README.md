@@ -55,7 +55,7 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
   - Collected metrics using VictoriaMetrics and built alerting rules with MetricsQL
   - Improved SLOs considering business-hour access importance for a B2B SaaS product
 - Articles
-  - [Using Jsonnet mixins to move away from branching for different environments](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2025/12/19/170000)
+  - [Moving away from environment-specific branches with jsonnet mixins](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2025/12/19/170000)
   - [Points to keep in mind when implementing a new service in Go](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2025/04/14/100000)
 
 ### [Cybozu, Inc](https://cybozu-global.com/) Frontend engineer (2021/04 - 2024/06)
@@ -70,7 +70,7 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
   - Designed a scalable test execution framework that maintains performance regardless of test suite size
 - Articles
   - [What we did to reduce CI execution time and improve stability for Next.js applications](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2024/04/08/100000)
-  - [We use React Aria for improved accessibility](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2024/05/22/090000)
+  - [We use React Aria to improve accessibility](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2024/05/22/090000)
 
 #### kintone frontend re-architecting project (2021/04 - 2023/08)
 
@@ -88,8 +88,8 @@ Cybozu Office is one of the core products, serving as a multi-tenant SaaS platfo
   - Resolved critical tree-shaking issues that reduced bundle size by over 50% across multiple projects
 - Articles
   - [We've applied a common header created using React to all pages of kintone!](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2023/08/29/101907)
-  - [The story of how I jumped into a front-end renewal project as a new graduate and learned a lot](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/08/31/110000)
-  - [Use typescript-generator to handle JSON data embedded in HTML in a type-safe manner on the front end](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/03/30/174250)
+  - [How I joined a front-end modernization project as a new graduate and learned a lot](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/08/31/110000)
+  - [Using typescript-generator to handle JSON data embedded in HTML in a type-safe manner](https://translate.google.com/translate?&tl=en&u=https://blog.cybozu.io/entry/2022/03/30/174250)
 
 ### [Ubie, inc](https://ubiehealth.com/company) Backend engineer (2024/01 - 2025/09, second job)
 
