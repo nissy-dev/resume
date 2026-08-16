@@ -112,7 +112,7 @@
 - Google Summer of Code での [DeepChem](https://github.com/deepchem/deepchem) への 3 ヶ月以上のコントリビュート
   - 最終レポート：https://forum.deepchem.io/t/summary-of-2020-gsoc/249
   - JAX を利用した化学分野向けの Graph Neural Network フレームワークの PoC 実装 (成果物: [JAXChem](https://github.com/deepchem/jaxchem))
-  - [Deep Graph Library](https://www.dgl.ai/) や [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/) を利用した機能強化
+  - Deep Graph Library や PyTorch Geometric を利用した機能強化
   - Type Hints の追加や API ドキュメント・チュートリアルの改善
   - Travis CI から GitHub Actions への移行
   - DockerHub、PyPI、conda-forge でのリリース自動化
